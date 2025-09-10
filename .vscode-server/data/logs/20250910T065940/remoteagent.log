@@ -1,0 +1,11 @@
+2025-09-10 06:59:41.021 [info] 
+
+
+
+
+2025-09-10 06:59:41.021 [info] Extension host agent started.
+2025-09-10 06:59:41.201 [info] [<unknown>][8f3420be][ExtensionHostConnection] New connection established.
+2025-09-10 06:59:41.202 [info] [<unknown>][bf445ff2][ManagementConnection] New connection established.
+2025-09-10 06:59:41.256 [info] [<unknown>][8f3420be][ExtensionHostConnection] <2907188> Launched Extension Host Process.
+2025-09-10 06:59:55.233 [error] [File Watcher ('parcel')] Inotify limit reached (ENOSPC) (path: /home/b/b92314sp/b24mybeget.ru/public_html)
+2025-09-10 07:04:41.017 [info] New EH opened, aborting shutdown

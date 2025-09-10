@@ -1,0 +1,19 @@
+2025-09-10 06:56:20.204 [info] 
+
+
+
+
+2025-09-10 06:56:20.213 [info] Extension host agent started.
+2025-09-10 06:56:20.238 [info] Started initializing default profile extensions in extensions installation folder. file:///home/b/b92314sp/b24mybeget.ru/public_html/.vscode-server/extensions
+2025-09-10 06:56:20.263 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/b/b92314sp/b24mybeget.ru/public_html/.vscode-server/extensions
+2025-09-10 06:56:20.395 [info] [<unknown>][79e6d86d][ExtensionHostConnection] New connection established.
+2025-09-10 06:56:20.440 [info] [<unknown>][e409c1ad][ManagementConnection] New connection established.
+2025-09-10 06:56:20.450 [info] [<unknown>][79e6d86d][ExtensionHostConnection] <2883580> Launched Extension Host Process.
+2025-09-10 06:56:39.726 [info] [<unknown>][e409c1ad][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-10 06:56:39.753 [info] [<unknown>][79e6d86d][ExtensionHostConnection] <2883580> Extension Host Process exited with code: 0, signal: null.
+2025-09-10 06:56:39.753 [info] Cancelling previous shutdown timeout
+2025-09-10 06:56:39.753 [info] Last EH closed, waiting before shutting down
+2025-09-10 06:56:45.072 [info] [<unknown>][31a32e74][ManagementConnection] New connection established.
+2025-09-10 06:56:45.072 [info] [<unknown>][0e89a74f][ExtensionHostConnection] New connection established.
+2025-09-10 06:56:45.075 [info] [<unknown>][0e89a74f][ExtensionHostConnection] <2886278> Launched Extension Host Process.
+2025-09-10 06:56:59.059 [error] [File Watcher ('parcel')] Inotify limit reached (ENOSPC) (path: /home/b/b92314sp/b24mybeget.ru/public_html)

@@ -1,0 +1,13 @@
+2025-09-10 06:56:45.992 [info] Extension host with pid 2886278 started
+2025-09-10 06:56:46.003 [info] Lock '/home/b/b92314sp/b24mybeget.ru/public_html/.vscode-server/data/User/workspaceStorage/2f5852ef810b980d647485eb53b83446/vscode.lock': Lock acquired.
+2025-09-10 06:56:46.295 [info] Eager extensions activated
+2025-09-10 06:56:49.247 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-10 06:56:49.248 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-10 06:56:49.249 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-09-10 06:56:49.249 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-10 06:56:49.384 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-09-10 06:56:49.385 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-09-10 06:58:14.510 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2025-09-10 06:58:31.010 [info] Extension host terminating: parent process 2883515 does not exist anymore: kill ESRCH (code: ESRCH) (errno: -3)
+2025-09-10 06:58:31.010 [info] Lock '/home/b/b92314sp/b24mybeget.ru/public_html/.vscode-server/data/User/workspaceStorage/2f5852ef810b980d647485eb53b83446/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-09-10 06:58:31.022 [info] Extension host with pid 2886278 exiting with code 0

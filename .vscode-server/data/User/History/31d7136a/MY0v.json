@@ -1,0 +1,7 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+    "remote.SSH.remotePlatform": {
+        "185.23.34.62": "linux",
+        "b92314sp.beget.tech": "linux"
+    }
+}
