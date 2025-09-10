@@ -1,5 +1,8 @@
 <?php
 
+$ar = [];
 for ($i=0; $i < 10; $i++) { 
-    echo $i . "<br>";
+    $ar[] = $i;
 }
+
+dump($ar);
