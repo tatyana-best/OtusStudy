@@ -20,3 +20,25 @@ Extension host agent listening on /tmp/code-65785469-f618-4ebe-a725-e60036d2c3b6
 [06:59:55] [File Watcher ('parcel')] Inotify limit reached (ENOSPC) (path: /home/b/b92314sp/b24mybeget.ru/public_html)
 New EH opened, aborting shutdown
 [07:04:41] New EH opened, aborting shutdown
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:53753
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:53753
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[10:45:29] Error: connect ECONNREFUSED 127.0.0.1:53753
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 53753
+}
+rejected promise not handled within 1 second: Error: connect ECONNREFUSED 127.0.0.1:53753
+stack trace: Error: connect ECONNREFUSED 127.0.0.1:53753
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[10:45:29] Error: connect ECONNREFUSED 127.0.0.1:53753
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 53753
+}

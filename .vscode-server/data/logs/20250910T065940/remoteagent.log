@@ -9,3 +9,7 @@
 2025-09-10 06:59:41.256 [info] [<unknown>][8f3420be][ExtensionHostConnection] <2907188> Launched Extension Host Process.
 2025-09-10 06:59:55.233 [error] [File Watcher ('parcel')] Inotify limit reached (ENOSPC) (path: /home/b/b92314sp/b24mybeget.ru/public_html)
 2025-09-10 07:04:41.017 [info] New EH opened, aborting shutdown
+2025-09-10 10:45:29.546 [error] Error: connect ECONNREFUSED 127.0.0.1:53753
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+2025-09-10 10:45:29.547 [error] Error: connect ECONNREFUSED 127.0.0.1:53753
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
