@@ -1,8 +1,10 @@
-/.gitignore
 /bitrix/
 /upload/
 /local/vendor/
 /.vscode-server/
 /.vscode-server/cli/servers/
 /.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/node
-/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/node
+/.bash_history
+/.cache/
+/.config/
+/.local/
