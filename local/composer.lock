@@ -4,8 +4,70 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1e3e1764a6310d867d38aa080819648",
+    "content-hash": "eb58000efbf53533b33597c3684112e3",
     "packages": [
+        {
+            "name": "php-sage/sage",
+            "version": "v1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-sage/sage.git",
+                "reference": "f124942f122b08aac3295b1699e6d448ba2c9d08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-sage/sage/zipball/f124942f122b08aac3295b1699e6d448ba2c9d08",
+                "reference": "f124942f122b08aac3295b1699e6d448ba2c9d08",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.0"
+            },
+            "require-dev": {
+                "pestphp/pest": "^1.0",
+                "seld/phar-utils": "^1.0",
+                "spatie/pest-plugin-snapshots": "^1.0",
+                "symfony/finder": "^3.0 || ^4.0 || ^5.0",
+                "symfony/var-dumper": "^6.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "Sage.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rokas Šleinius",
+                    "homepage": "https://github.com/raveren"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/php-sage/sage/contributors"
+                }
+            ],
+            "description": "☯ Insightful PHP debugging assistant.",
+            "homepage": "https://github.com/php-sage/sage",
+            "keywords": [
+                "debug",
+                "debug_backtrace",
+                "dump",
+                "dumper",
+                "json_decode",
+                "php",
+                "sage",
+                "var_dump"
+            ],
+            "support": {
+                "issues": "https://github.com/php-sage/sage/issues",
+                "source": "https://github.com/php-sage/sage/tree/v1.7.0"
+            },
+            "time": "2024-03-07T14:55:01+00:00"
+        },
         {
             "name": "symfony/deprecation-contracts",
             "version": "v3.6.0",
