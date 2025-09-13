@@ -11,3 +11,6 @@
 /.config/
 /.local/
 /logs/
+/.ssh/
+/.access.php
+
