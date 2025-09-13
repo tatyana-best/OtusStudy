@@ -3,6 +3,8 @@
 require_once $_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php";
 $APPLICATION->SetTitle('Примеры');
 
+use Bitrix\Main\Diag\Debug;
+
 $ar = [];
 for ($i=0; $i < 10; $i++) { 
     $ar[] = $i;
