@@ -11,4 +11,7 @@ for ($i=0; $i < 10; $i++) {
 dump($ar);
 sage($ar);
 
+Debug::writeToFile($_SERVER);
+Debug::dump($_SERVER);
+
 require_once $_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php";
