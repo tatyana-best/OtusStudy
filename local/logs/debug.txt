@@ -1,0 +1,15 @@
+OTUS: 2025-09-15 15:23:52 - Host: 192.168.0.119:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method Bitrix\Main\Diag\Debug::writeToLog() (0)
+/home/bitrix/www/local/Otus/Debug.php:10
+----------
+
+OTUS: 2025-09-15 16:14:06 - Host: 192.168.0.119:80 - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+Division by zero (0)
+/home/bitrix/www/local/test.php:29
+----------
+
+OTUS: 2025-09-15 16:57:38 - Host: 192.168.0.119:80 - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+Division by zero (0)
+/home/bitrix/www/local/examples.php:29
+----------
+

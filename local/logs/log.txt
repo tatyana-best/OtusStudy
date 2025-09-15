@@ -1,0 +1,5 @@
+OTUS: 2025-09-15 16:12:37 - Host: 192.168.0.119:80 - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+Division by zero (0)
+/home/bitrix/www/local/test.php:29
+----------
+

@@ -1,0 +1,20 @@
+Текущая дата и время:
+15.09.2025 16:30:30
+
+Host: 192.168.0.119:80
+Date: 2025-09-15 16:30:30
+Module: main
+15.09.2025 16:30:30
+#0: AddMessage2Log
+	/home/bitrix/www/local/Otus/Debug.php:15
+----------
+Текущая дата и время:
+15.09.2025 16:56:34
+
+Host: 192.168.0.119:80
+Date: 2025-09-15 16:56:34
+Module: main
+15.09.2025 16:56:34
+#0: AddMessage2Log
+	/home/bitrix/www/local/Otus/Debug.php:15
+----------
