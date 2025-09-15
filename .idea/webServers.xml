@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="029babb1-8581-4356-89d7-1723247212f5" name="OtusMain">
+        <fileTransfer rootFolder="/home/b/b92314sp" accessType="SFTP" host="b92314sp.beget.tech" port="22" sshConfigId="9098ff32-eabf-4782-bebe-c64df7fed30f" sshConfig="b92314sp@b92314sp.beget.tech:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
