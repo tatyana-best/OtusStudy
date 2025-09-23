@@ -10,6 +10,10 @@ if (file_exists(__DIR__ . '/events.php')) {
     require_once __DIR__ . '/events.php';
 }
 
+if (file_exists(__DIR__ . '/functions.php')) {
+    require_once __DIR__ . '/functions.php';
+}
+
 
 spl_autoload_register(function($sClassName)
 {

@@ -13,3 +13,1131 @@ Division by zero (0)
 /home/bitrix/www/local/examples.php:29
 ----------
 
+OTUS: 2025-09-15 19:27:44 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+Division by zero (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/examples.php:29
+----------
+
+OTUS: 2025-09-15 20:05:20 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+Division by zero (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/examples.php:29
+----------
+
+OTUS: 2025-09-17 07:02:39 - Host: www.b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#16: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-09-17 07:02:39 - Host: www.b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#16: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-09-17 07:02:40 - Host: www.b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#16: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-09-17 07:02:41 - Host: www.b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#16: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-09-17 07:02:41 - Host: www.b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#16: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-09-17 07:02:42 - Host: www.b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#16: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-09-17 09:10:30 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#16: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-09-17 09:10:30 - Host: www.b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#16: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-09-20 10:47:05 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected token "function" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/functions.php:3
+#0: include_once
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#1: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#2: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/public/session.php:8
+#3: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/tools/public_session.php:1
+----------
+
+OTUS: 2025-09-20 10:47:06 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected token "function" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/functions.php:3
+#0: include_once
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#1: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#2: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#3: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#4: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:3
+----------
+
+OTUS: 2025-09-20 10:47:29 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#16: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:3
+----------
+
+OTUS: 2025-09-21 15:02:21 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Declaration of Otus\Model\Lists\DoctorsList::getTableList() must be compatible with Otus\Model\AbstractIblocksModel::getTableList(): array (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:12
+----------
+
+OTUS: 2025-09-21 15:12:33 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Declaration of Otus\Model\Lists\DoctorsList::getTableList() must be compatible with Otus\Model\AbstractIblocksModel::getTableList(): array (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:14
+----------
+
+OTUS: 2025-09-21 15:26:57 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Declaration of Otus\Model\Lists\DoctorsList::getTableList() must be compatible with Otus\Model\AbstractIblocksModel::getTableList(): array (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:14
+----------
+
+OTUS: 2025-09-21 15:28:27 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Declaration of Otus\Model\Lists\DoctorsList::getTableList() must be compatible with Otus\Model\AbstractIblocksModel::getTableList(): array (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:14
+----------
+
+OTUS: 2025-09-21 15:31:50 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Declaration of Otus\Model\Lists\DoctorsList::getTableList() must be compatible with Otus\Model\AbstractIblocksModel::getTableList(): array (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:14
+----------
+
+OTUS: 2025-09-21 15:31:53 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Declaration of Otus\Model\Lists\DoctorsList::getTableList() must be compatible with Otus\Model\AbstractIblocksModel::getTableList(): array (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:14
+----------
+
+OTUS: 2025-09-21 15:36:16 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Declaration of Otus\Model\Lists\DoctorsList::getTableList() must be compatible with Otus\Model\AbstractIblocksModel::getTableList(): array (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:14
+----------
+
+OTUS: 2025-09-22 07:17:27 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\Table" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:59
+#0: Otus\Model\AbstractIblocksModel::getElementsList(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:15
+----------
+
+OTUS: 2025-09-22 07:18:37 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected token "{" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:59
+#0: {closure}(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:10
+#1: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/init.php:24
+#2: {closure}(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:14
+----------
+
+OTUS: 2025-09-22 07:29:55 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Otus\Model\AbstractIblocksModel::getElementsList(): Argument #1 ($fields) must be of type array, string given, called in /home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php on line 15 (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:57
+#0: Otus\Model\AbstractIblocksModel::getElementsList(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:15
+----------
+
+OTUS: 2025-09-22 07:38:11 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class name must be a valid object or a string (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:72
+#0: Otus\Model\AbstractIblocksModel::getElementsList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:15
+----------
+
+OTUS: 2025-09-22 07:39:23 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class name must be a valid object or a string (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:72
+#0: Otus\Model\AbstractIblocksModel::getElementsList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:15
+----------
+
+OTUS: 2025-09-22 07:40:23 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function GetFields() on array (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:72
+#0: Otus\Model\AbstractIblocksModel::getElementsList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:15
+----------
+
+OTUS: 2025-09-22 07:42:01 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function GetFields() on array (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:72
+#0: Otus\Model\AbstractIblocksModel::getElementsList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:15
+----------
+
+OTUS: 2025-09-22 08:49:07 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROFILE` (PROFILE) for \Bitrix\Iblock\Element Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
+#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#3: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#4: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:37
+#6: Otus\Model\AbstractIblocksModel::getTableElementList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:11
+----------
+
+OTUS: 2025-09-22 08:55:40 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Declaration of Otus\Model\Lists\DoctorsList::getTableElementList(array $properties) must be compatible with Otus\Model\AbstractIblocksModel::getTableElementList(array $fields = []): array (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:14
+----------
+
+OTUS: 2025-09-22 08:57:28 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Declaration of Otus\Model\Lists\DoctorsList::getTableElementList(array $properties) must be compatible with Otus\Model\AbstractIblocksModel::getTableElementList(array $fields = []): array (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:14
+----------
+
+OTUS: 2025-09-22 08:58:43 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Declaration of Otus\Model\Lists\DoctorsList::getTableElementList(array $properties) must be compatible with Otus\Model\AbstractIblocksModel::getTableElementList(array $fields = []): array (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:14
+----------
+
+OTUS: 2025-09-22 09:02:23 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Declaration of Otus\Model\Lists\DoctorsList::getTableElementList(array $properties) must be compatible with Otus\Model\AbstractIblocksModel::getTableElementList(array $fields = []): array (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:14
+----------
+
+OTUS: 2025-09-22 09:04:09 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method Otus\Model\AbstractIblocksModel::getTableList() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:16
+#0: Otus\Model\Lists\DoctorsList::getTableElementList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:11
+----------
+
+OTUS: 2025-09-22 09:07:50 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROFILE` (PROFILE) for \Bitrix\Iblock\Element Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
+#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#3: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#4: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:37
+#6: Otus\Model\AbstractIblocksModel::getTableElementList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:11
+----------
+
+OTUS: 2025-09-22 09:16:41 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROFILE` (PROFILE) for \Bitrix\Iblock\Element Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
+#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#3: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#4: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:37
+#6: Otus\Model\AbstractIblocksModel::getTableElementList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:16
+#7: Otus\Model\Lists\DoctorsList::getTableElementList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:11
+----------
+
+OTUS: 2025-09-22 09:28:05 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Access to undeclared static property Otus\Model\Lists\DoctorsList::$arFields (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:18
+#0: Otus\Model\Lists\DoctorsList::getTableElementList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:11
+----------
+
+OTUS: 2025-09-22 10:33:26 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\ElementDoctorsTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:64
+#0: Otus\Model\AbstractIblocksModel::getPropertyValues(integer, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:13
+----------
+
+OTUS: 2025-09-22 10:35:43 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Elements\ElementDoctorsTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:64
+#0: Otus\Model\AbstractIblocksModel::getPropertyValues(integer, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:13
+----------
+
+OTUS: 2025-09-22 10:36:37 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:64
+#0: Otus\Model\AbstractIblocksModel::getPropertyValues(integer, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:13
+----------
+
+OTUS: 2025-09-22 10:38:26 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `DESCRIPTION` (PROCEDURE.ELEMENT.DESCRIPTION) for \Bitrix\Iblock\Elements\ElementProcedures Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
+#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#3: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#4: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:64
+#6: Otus\Model\AbstractIblocksModel::getPropertyValues(integer, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:13
+----------
+
+OTUS: 2025-09-22 10:38:55 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "ElementDoctorsTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:64
+#0: Otus\Model\AbstractIblocksModel::getPropertyValues(integer, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:13
+----------
+
+OTUS: 2025-09-22 10:39:22 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `DESCRIPTION` (PROCEDURE.ELEMENT.DESCRIPTION) for \Bitrix\Iblock\Elements\ElementProcedures Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
+#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#3: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#4: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:64
+#6: Otus\Model\AbstractIblocksModel::getPropertyValues(integer, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:13
+----------
+
+OTUS: 2025-09-22 10:40:54 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown method `getProcIdsMulti` for object `Bitrix\Iblock\Elements\EO_ElementDoctors` (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1366
+#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:77
+#1: Otus\Model\AbstractIblocksModel::getPropertyValues(integer, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:13
+----------
+
+OTUS: 2025-09-22 11:01:55 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown property `get` for object `Bitrix\Iblock\Elements\EO_ElementDoctors` (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:895
+#0: Bitrix\Main\ORM\Objectify\EntityObject->__get(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:77
+#1: Otus\Model\AbstractIblocksModel::getMultyPropertyValues(integer, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:13
+----------
+
+OTUS: 2025-09-22 11:12:11 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected token "}" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:84
+#0: {closure}(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:10
+#1: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/init.php:24
+#2: {closure}(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:11
+----------
+
+OTUS: 2025-09-22 11:46:57 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getValue() on string (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:94
+#0: Otus\Model\AbstractIblocksModel::getMultyPropertyValues(integer, string, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:13
+----------
+
+OTUS: 2025-09-22 11:59:17 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ArgumentCountError] 
+Too few arguments to function Otus\Model\Lists\DoctorsList::getMultyPropertyValues(), 1 passed in /home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php on line 13 and at least 2 expected (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:25
+#0: Otus\Model\Lists\DoctorsList::getMultyPropertyValues(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:13
+----------
+
+OTUS: 2025-09-22 12:02:12 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ArgumentCountError] 
+Too few arguments to function Otus\Model\Lists\DoctorsList::getMultyPropertyValues(), 1 passed in /home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php on line 13 and at least 2 expected (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:25
+#0: Otus\Model\Lists\DoctorsList::getMultyPropertyValues(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:13
+----------
+
+OTUS: 2025-09-22 12:03:56 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PRODEDURE` (PRODEDURE.ELEMENT.*) for \Bitrix\Iblock\Elements\ElementDoctors Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:70
+#5: Otus\Model\AbstractIblocksModel::getMultyPropertyValues(integer, string, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:26
+#6: Otus\Model\Lists\DoctorsList::getMultyPropertyValues(integer, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:13
+----------
+
+OTUS: 2025-09-22 12:11:04 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\CFile" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:42
+#0: Otus\Model\AbstractIblocksModel::getTableElementList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:19
+#1: Otus\Model\Lists\DoctorsList::getTableElementList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:11
+----------
+
+OTUS: 2025-09-22 12:13:22 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\CFile" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:43
+#0: Otus\Model\AbstractIblocksModel::getTableElementList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:19
+#1: Otus\Model\Lists\DoctorsList::getTableElementList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:11
+----------
+
+OTUS: 2025-09-22 12:51:45 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+Unclosed '[' does not match ')' (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:104
+#0: {closure}(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:10
+#1: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/init.php:24
+#2: {closure}(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:16
+----------
+
+OTUS: 2025-09-22 13:00:20 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method Otus\Model\Lists\DoctorsList::getDoctorsCod() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:21
+----------
+
+OTUS: 2025-09-22 13:00:57 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function GetCurPage() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:33
+#0: Otus\Model\Lists\DoctorsList::getDoctorsCode()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:21
+----------
+
+OTUS: 2025-09-22 13:03:31 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function GetCurPage() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:33
+#0: Otus\Model\Lists\DoctorsList::getDoctorsCode()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:21
+----------
+
+OTUS: 2025-09-22 13:03:57 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function GetCurPage() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:35
+#0: Otus\Model\Lists\DoctorsList::getDoctorsCode()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:21
+----------
+
+OTUS: 2025-09-22 13:13:36 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Otus\Model\AbstractIblocksModel::getElementIdByCode(): Return value must be of type int, null returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:106
+#0: Otus\Model\AbstractIblocksModel::getElementIdByCode(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:17
+----------
+
+OTUS: 2025-09-22 13:14:52 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Otus\Model\AbstractIblocksModel::getElementIdByCode(): Return value must be of type int, null returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:106
+#0: Otus\Model\AbstractIblocksModel::getElementIdByCode(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:17
+----------
+
+OTUS: 2025-09-22 14:05:42 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Loc" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:11
+----------
+
+OTUS: 2025-09-22 15:04:24 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected identifier "Table" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:144
+#0: {closure}(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:11
+#1: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/init.php:24
+#2: {closure}(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:18
+----------
+
+OTUS: 2025-09-22 15:07:21 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected identifier "Table" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:144
+#0: {closure}(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/DoctorsList.php:11
+#1: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/init.php:24
+#2: {closure}(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:18
+----------
+
+OTUS: 2025-09-22 15:24:14 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Cannot declare class Otus\Model\Lists\DoctorsList, because the name is already in use (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/ProceduresList.php:11
+----------
+
+OTUS: 2025-09-22 15:24:44 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Cannot declare class Otus\Model\Lists\DoctorsList, because the name is already in use (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/ProceduresList.php:11
+----------
+
+OTUS: 2025-09-22 15:27:51 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Otus\Model\AbstractIblocksModel::getElementNameByCode(): Return value must be of type string, null returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:139
+#0: Otus\Model\AbstractIblocksModel::getElementNameByCode(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:23
+----------
+
+OTUS: 2025-09-22 15:28:45 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Otus\Model\AbstractIblocksModel::getElementNameByCode(): Return value must be of type string, null returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:139
+#0: Otus\Model\AbstractIblocksModel::getElementNameByCode(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:23
+----------
+
+OTUS: 2025-09-22 16:08:59 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\Lists\CIBlockElement" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/ProceduresList.php:25
+#0: Otus\Model\Lists\ProceduresList::getTableElementList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:23
+----------
+
+OTUS: 2025-09-22 16:10:01 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\Lists\CIBlockElement" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Lists/ProceduresList.php:29
+#0: Otus\Model\Lists\ProceduresList::getTableElementList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:23
+----------
+
+OTUS: 2025-09-22 16:10:40 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:51
+----------
+
+OTUS: 2025-09-22 16:13:28 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:51
+----------
+
+OTUS: 2025-09-22 16:31:27 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Otus\Model\AbstractIblocksModel::getElementNameByCode(): Return value must be of type string, null returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:139
+#0: Otus\Model\AbstractIblocksModel::getElementNameByCode(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:62
+----------
+
+OTUS: 2025-09-22 16:33:10 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\Updates\ElementproceduresTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:19
+#0: Otus\Model\Updates\Doctors::deleteProcedure(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:60
+----------
+
+OTUS: 2025-09-22 16:35:22 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "ElementproceduresTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:19
+#0: Otus\Model\Updates\Doctors::deleteProcedure(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:60
+----------
+
+OTUS: 2025-09-22 16:37:43 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\Updates\ElementProceduresTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:19
+#0: Otus\Model\Updates\Doctors::deleteProcedure(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:60
+----------
+
+OTUS: 2025-09-22 17:25:25 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\Updates\ElementProceduresTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:19
+#0: Otus\Model\Updates\Doctors::deleteProcedure(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:60
+----------
+
+OTUS: 2025-09-22 17:27:36 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "ElementProceduresTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:20
+#0: Otus\Model\Updates\Doctors::deleteProcedure(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:60
+----------
+
+OTUS: 2025-09-22 17:28:09 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "ElementproceduresTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:20
+#0: Otus\Model\Updates\Doctors::deleteProcedure(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:60
+----------
+
+OTUS: 2025-09-22 17:32:55 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "ElementproceduresTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:20
+#0: Otus\Model\Updates\Doctors::deleteProcedure(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:60
+----------
+
+OTUS: 2025-09-22 17:35:06 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "ElementProceduresTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:20
+#0: Otus\Model\Updates\Doctors::deleteProcedure(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:60
+----------
+
+OTUS: 2025-09-22 17:46:17 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method Otus\Model\Updates\Doctors::deleteProcedure() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:60
+----------
+
+OTUS: 2025-09-22 17:47:38 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\Updates\CIBlock" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:24
+#0: Otus\Model\Updates\Doctors::deleteProcedure(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:60
+----------
+
+OTUS: 2025-09-22 19:19:32 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ArgumentCountError] 
+Too few arguments to function Otus\Model\Updates\Doctors::deleteProcedureFromDoctor(), 1 passed in /home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php on line 77 and exactly 2 expected (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:20
+#0: Otus\Model\Updates\Doctors::deleteProcedureFromDoctor(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:77
+----------
+
+OTUS: 2025-09-22 19:23:37 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ArgumentCountError] 
+Too few arguments to function Otus\Model\Updates\Doctors::deleteProcedureFromDoctor(), 1 passed in /home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php on line 77 and exactly 2 expected (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:20
+#0: Otus\Model\Updates\Doctors::deleteProcedureFromDoctor(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:77
+----------
+
+OTUS: 2025-09-22 19:25:28 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\Updates\CIBlockElement" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:32
+#0: Otus\Model\Updates\Doctors::deleteProcedureFromDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:77
+----------
+
+OTUS: 2025-09-23 07:59:53 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+Unclosed '{' on line 38 does not match ')' (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:46
+#0: {closure}(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:83
+----------
+
+OTUS: 2025-09-23 08:09:16 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROCEDURE` (PROCEDURE) for \Bitrix\Iblock\Elements\ElementProcedures Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
+#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#3: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#4: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:350
+#6: Bitrix\Main\ORM\Data\DataManager::getByPrimary(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:49
+#7: Otus\Model\Updates\Doctors::deleteProcedureFromDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:83
+----------
+
+OTUS: 2025-09-23 08:11:23 - Host: b24mybeget.ru - FATAL - [ErrorException] E_ERROR
+ob_start(): Cannot use output buffering in output buffering display handlers (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.toolbar/class.php:53
+----------
+
+OTUS: 2025-09-23 08:11:37 - Host: b24mybeget.ru - FATAL - [ErrorException] E_ERROR
+ob_start(): Cannot use output buffering in output buffering display handlers (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.toolbar/class.php:53
+----------
+
+OTUS: 2025-09-23 09:44:13 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Iblock\Elements\ElementcarTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:62
+#0: Otus\Model\Updates\Doctors::deleteProcedureFromDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:83
+----------
+
+OTUS: 2025-09-23 09:44:49 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field type `Bitrix\Iblock\ORM\Fields\PropertyOneToMany` in system setter of `Bitrix\Iblock\Elements\EO_ElementDoctors` (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1688
+#0: Bitrix\Main\ORM\Objectify\EntityObject->sysSetValue(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/lib/orm/commonelement.php:115
+#1: Bitrix\Iblock\ORM\CommonElement->sysSetValue(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:796
+#2: Bitrix\Main\ORM\Data\DataManager::convertArrayToObject(array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:1246
+#3: Bitrix\Main\ORM\Data\DataManager::update(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:62
+#4: Otus\Model\Updates\Doctors::deleteProcedureFromDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:83
+----------
+
+OTUS: 2025-09-23 09:49:14 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field type `Bitrix\Iblock\ORM\Fields\PropertyOneToMany` in system setter of `Bitrix\Iblock\Elements\EO_ElementDoctors` (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1688
+#0: Bitrix\Main\ORM\Objectify\EntityObject->sysSetValue(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/lib/orm/commonelement.php:115
+#1: Bitrix\Iblock\ORM\CommonElement->sysSetValue(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:796
+#2: Bitrix\Main\ORM\Data\DataManager::convertArrayToObject(array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:1246
+#3: Bitrix\Main\ORM\Data\DataManager::update(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:62
+#4: Otus\Model\Updates\Doctors::deleteProcedureFromDoctor(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:83
+----------
+
+OTUS: 2025-09-23 10:36:37 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+count(): Argument #1 ($value) must be of type Countable|array, null given (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/updateresult.php:53
+#0: count(NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/updateresult.php:53
+#1: Bitrix\Main\ORM\Data\UpdateResult->getId()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:76
+#2: Otus\Model\Updates\Doctors::deleteProcedureFromDoctor(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:83
+----------
+
+OTUS: 2025-09-23 10:52:52 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isSuccess() on bool (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:67
+#0: Otus\Model\Updates\Doctors::deleteProcedureFromDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:83
+----------
+
+OTUS: 2025-09-23 13:46:15 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Otus\Model\AbstractIblocksModel::getElementNameByCode(): Return value must be of type string, null returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:140
+#0: Otus\Model\AbstractIblocksModel::getElementNameByCode(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:126
+----------
+
+OTUS: 2025-09-23 13:49:44 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Otus\Model\AbstractIblocksModel::getElementNameByCode(): Return value must be of type string, null returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:140
+#0: Otus\Model\AbstractIblocksModel::getElementNameByCode(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:126
+----------
+
+OTUS: 2025-09-23 13:54:25 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Otus\Model\AbstractIblocksModel::getElementNameByCode(): Return value must be of type string, null returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:140
+#0: Otus\Model\AbstractIblocksModel::getElementNameByCode(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:126
+----------
+
+OTUS: 2025-09-23 13:59:49 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ArgumentCountError] 
+Too few arguments to function Otus\Model\Updates\Doctors::addProcedureToDoctor(), 1 passed in /home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php on line 104 and exactly 2 expected (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/Updates/Doctors.php:75
+#0: Otus\Model\Updates\Doctors::addProcedureToDoctor(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:104
+----------
+
+OTUS: 2025-09-23 14:11:22 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#16: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:3
+----------
+
+OTUS: 2025-09-23 14:54:52 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Otus\Model\AbstractIblocksModel::getElementNameByCode(): Return value must be of type string, null returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Model/AbstractIblocksModel.php:140
+#0: Otus\Model\AbstractIblocksModel::getElementNameByCode(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:160
+----------
+
