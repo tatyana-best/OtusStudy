@@ -135,3 +135,12 @@ git pull
 mc
 mc
 exit
+git status
+git pull
+ды
+ls
+cd local
+composer install
+php8.1 ~/.local/bin/composer --version
+su b92314sp_otus
+su b92314sp

@@ -1141,3 +1141,33 @@ Otus\Model\AbstractIblocksModel::getElementNameByCode(): Return value must be of
 	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:160
 ----------
 
+OTUS: 2025-09-29 09:49:43 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\Lists\DoctorsList" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:20
+----------
+
+OTUS: 2025-09-29 10:34:04 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\Lists\DoctorsList" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:20
+----------
+
+OTUS: 2025-09-29 10:37:07 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\Lists\DoctorsList" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:20
+----------
+
+OTUS: 2025-09-29 10:38:05 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\Lists\DoctorsList" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:20
+----------
+
+OTUS: 2025-09-29 10:59:26 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\Lists\DoctorsList" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:20
+----------
+
+OTUS: 2025-09-29 11:31:57 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Model\Lists\DoctorsList" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/Doctors/index.php:20
+----------
+

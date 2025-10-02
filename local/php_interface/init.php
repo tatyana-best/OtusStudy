@@ -15,7 +15,7 @@ if (file_exists(__DIR__ . '/functions.php')) {
 }
 
 
-spl_autoload_register(function($sClassName)
+/*spl_autoload_register(function($sClassName)
 {
     $sClassFile = __DIR__ . '/classes';
 
@@ -36,4 +36,4 @@ spl_autoload_register(function($sClassName)
     {
         require_once($sClassFile);
     }
-});
+});*/
