@@ -1,0 +1,13 @@
+ .weather-item {
+    padding: 0 !important;
+ }
+
+ .weather-text {
+    font-size: 10px !important;
+ }
+
+ .weather-task {
+    height: 39px  !important;
+    line-height: 39px !important;
+ }
+ 
