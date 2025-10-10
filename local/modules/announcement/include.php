@@ -3,6 +3,6 @@
 /*Bitrix\Main\Loader::registerAutoloadClasses(
     'announcement',
     array(
-        'Announcement\\Main' => 'lib/main.php',
+        'Announcement\\Main' => 'lib/Main.php',
     )
 );*/
