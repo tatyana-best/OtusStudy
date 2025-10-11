@@ -37,7 +37,7 @@ class SubjectsTable extends DataManager
 
             'NAME' => (new StringField('FULL_NAME',
                 ['validation' => [__CLASS__, 'validateName']]
-            ))->configureTitle('ФИО пациента'),
+            ))->configureTitle('Название предмета'),
 
             "APPSUB" => (new ManyToMany('APPSUB', Applicants::class))
                 ->configureTableName('appsub')
