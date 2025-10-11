@@ -229,4 +229,17 @@ class CustomTablesList
 
         return $arResult;
     }
+
+    public static function applicantsListByFetchAll(): array
+    {
+        $app = Applicants::getList([
+            'select' => [
+                'ID'=>'IBLOCK_ELEMENT_ID',
+                'NAME'=>'ELEMENT.NAME',
+                'APPSUB'
+            ]
+        ])->fetchAll();
+
+        return $app;
+    }
 }

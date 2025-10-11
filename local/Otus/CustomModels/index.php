@@ -61,9 +61,15 @@ pr(CustomTablesList::doctorsProceduresList());
 pr(CustomTablesList::applicantsByIDList(91));
 ?>
 
-<h3>Все абитуриенты и их предметы</h3>
+<h3>Все абитуриенты и их предметы с помощью fetchCollection()</h3>
 
 <?php
 pr(CustomTablesList::applicantsList());
+?>
+
+<h3>Все абитуриенты и их предметы с помощью fetchAll()</h3>
+
+<?php
+pr(CustomTablesList::applicantsListByFetchAll());
 
 require_once $_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php";
