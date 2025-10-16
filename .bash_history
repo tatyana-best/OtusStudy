@@ -144,3 +144,20 @@ composer install
 php8.1 ~/.local/bin/composer --version
 su b92314sp_otus
 su b92314sp
+git status
+git status
+git restore .bash_history
+git status
+git add .
+git status
+git commit -m "Add one more query"
+git push origin main
+git ыефегы
+git status
+git add .
+git commit -m "Question to teater"
+git push origin main
+git status
+git add .
+git commit -m "Correct field name"
+git push origin main

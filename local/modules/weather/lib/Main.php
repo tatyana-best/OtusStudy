@@ -61,6 +61,19 @@ class Main {
             }
         }
 
+        // заглушка
+        $arGeo['country'] = 'Россия';
+        $arGeo['province'] = 'Новосибирск';
+        $arrWeather['fact'] = [
+            'temp' => 12,
+            'feels_like' => 11,
+            'wind_speed' => 23,
+            'wind_dir' => 'n',
+            'pressure_mm' => 56,
+            'humidity' => 76,
+        ];
+        // заглушка end
+
         $arrResult = array_merge($arrWeather['fact'], $arGeo, $options);
         $options = json_encode($arrResult);
 

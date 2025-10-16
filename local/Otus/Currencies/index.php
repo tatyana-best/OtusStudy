@@ -13,12 +13,14 @@ use \Bitrix\Main\Localization\Loc;
 Loc::loadLanguageFile(__FILE__);
 
 ?><?$APPLICATION->IncludeComponent(
-	"Otus:currency.list",
-	"",
-	Array(
+	"Otus:currency.list", 
+	".default", 
+	array(
 		"CACHE_TIME" => "36000",
 		"CACHE_TYPE" => "A",
-		"CURRENCY_LIMIT" => "3",
-		"CURRENCY_LIST" => "RUB"
-	)
+		"CURRENCY_LIMIT" => "4",
+		"CURRENCY_LIST" => "UAH",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
 );?><?php require_once $_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php";?>

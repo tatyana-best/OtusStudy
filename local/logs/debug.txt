@@ -1,0 +1,164 @@
+OTUS: 2025-10-15 17:47:44 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+array_merge(): Argument #1 must be of type array, null given (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/modules/weather/lib/Main.php:64
+#0: array_merge(NULL, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/modules/weather/lib/Main.php:64
+#1: Weather\Main->getJsonDataWeather()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/modules/weather/lib/Main.php:103
+#2: Weather\Main::appendJavaScriptAndCSS()
+	
+#3: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5254
+#4: ExecuteModuleEventEx(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:3363
+#5: CAllMain->EndBufferContent(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:3340
+#6: CAllMain->EndBufferContentMan()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog_after.php:46
+#7: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog.php:3
+#8: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/footer.php:4
+#9: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/stream/index.php:252
+----------
+
+OTUS: 2025-10-15 17:59:01 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Orm\BookTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/components/Otus/book.grid/class.php:201
+#0: BookGrid->prepareGridData()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/components/Otus/book.grid/class.php:162
+#1: BookGrid->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:25
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#5: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#6: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#7: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#8: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:192
+#9: UIPageSliderWrapperComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#10: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#11: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/ExcelLoad/index.php:9
+----------
+
+OTUS: 2025-10-15 18:09:05 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Orm\BookTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/components/Otus/book.grid/class.php:201
+#0: BookGrid->prepareGridData()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/components/Otus/book.grid/class.php:162
+#1: BookGrid->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:25
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#5: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#6: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#7: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#8: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:192
+#9: UIPageSliderWrapperComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#10: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#11: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/ExcelLoad/index.php:9
+----------
+
+OTUS: 2025-10-15 18:09:34 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Orm\BookTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/components/Otus/book.grid/class.php:201
+#0: BookGrid->prepareGridData()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/components/Otus/book.grid/class.php:162
+#1: BookGrid->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:25
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#5: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#6: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#7: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#8: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:192
+#9: UIPageSliderWrapperComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#10: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#11: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/ExcelLoad/index.php:9
+----------
+
+OTUS: 2025-10-15 18:14:13 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Orm\AuthorTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/Console/install-custom-orm.php:34
+----------
+
+OTUS: 2025-10-15 18:17:09 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Could not start session because headers have already been sent. "/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/Console/install-custom-orm.php":17. (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/session/session.php:143
+#0: Bitrix\Main\Session\Session->start()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/session/kernelsessionproxy.php:47
+#1: Bitrix\Main\Session\KernelSessionProxy->start()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#2: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#3: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/Console/install-custom-orm.php:18
+----------
+
+OTUS: 2025-10-15 18:21:13 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Orm\AuthorTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/Console/install-custom-orm.php:35
+----------
+
+OTUS: 2025-10-15 18:21:58 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Orm\BookTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/components/Otus/book.grid/class.php:201
+#0: BookGrid->prepareGridData()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/components/Otus/book.grid/class.php:162
+#1: BookGrid->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#2: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:25
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#5: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#6: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#7: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#8: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:192
+#9: UIPageSliderWrapperComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#10: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#11: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/ExcelLoad/index.php:9
+----------
+
