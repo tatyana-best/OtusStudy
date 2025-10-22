@@ -17,4 +17,9 @@ class Product extends Model
     protected $primaryKey = 'id';
     public $incrementing = true;
     protected $fillable = ['id', 'name', 'art', 'price', 'qantity'];
+    protected $casts = [
+        'price' => 'integer',
+        'qantity' => 'integer',
+    ];
+    public $timestamps = false;
 }

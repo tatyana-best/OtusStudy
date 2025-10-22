@@ -29,18 +29,16 @@ class ProductController extends Controller
 
     public function store(Request $request)
     {
-        return response()->json($request);
-
         $prod = new Product;
 
         $prod->name = $request->name;
         $prod->art  = $request->art;
-        $prod->price  = (int)$request->price;
-        $prod->qantity  = (int)$request->quantity;
+        $prod->price  = intval($request->price);
+        $prod->qantity  = intval($request->quantity);
 
         $prod->save();
 
-        return response()->json(['Продукт добавлен']);
+        return response()->json('Продукт добавлен');
     }
 
     public function update($id, Request $request)
@@ -49,12 +47,12 @@ class ProductController extends Controller
 
         $prod->name = $request->name;
         $prod->art  = $request->art;
-        $prod->price  = (int)$request->price;
-        $prod->qantity  = (int)$request->quantity;
+        $prod->price  = intval($request->price);
+        $prod->qantity  = intval($request->quantity);
 
         $prod->save();
 
-        return response()->json(['Продукт добавлен']);
+        return response()->json('Продукт изменен');
     }
 
     public function destroy($id)
@@ -63,6 +61,6 @@ class ProductController extends Controller
 
         $prod->delete();
 
-        return response()->json(['Продукт удален']);
+        return response()->json('Продукт удален');
     }
 }
