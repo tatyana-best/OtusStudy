@@ -161,3 +161,13 @@ git status
 git add .
 git commit -m "Correct field name"
 git push origin main
+ls
+git status
+git push origin main
+ls
+git status
+php8.2 ~/.local/bin/composer --version
+cd local
+php8.2 ~/.local/bin/composer --version
+su b92314
+su b92314sp

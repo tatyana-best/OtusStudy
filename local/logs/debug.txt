@@ -1,0 +1,191 @@
+OTUS: 2025-10-20 06:24:51 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "UDTTest\TaskOne\ReadJson" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:13
+----------
+
+OTUS: 2025-10-20 06:26:55 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "UDTTest\TaskOne\ReadJson" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:13
+----------
+
+OTUS: 2025-10-20 06:29:12 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "UDTTest\TaskOne\ReadJson" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:13
+----------
+
+OTUS: 2025-10-20 06:33:57 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "UDTTest\TaskOne\ReadJson" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:13
+----------
+
+OTUS: 2025-10-20 06:34:02 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "UDTTest\TaskOne\ReadJson" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:13
+----------
+
+OTUS: 2025-10-20 06:34:49 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "ReadJson" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:13
+----------
+
+OTUS: 2025-10-20 06:35:11 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "UDTTest\TaskOne\ReadJson" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:13
+----------
+
+OTUS: 2025-10-20 06:37:59 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "UDTTest\TaskOne\ReadJson" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:13
+----------
+
+OTUS: 2025-10-20 06:43:58 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "UDTTest\TaskOne\ReadJson" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:13
+----------
+
+OTUS: 2025-10-20 06:44:50 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Undefined constant "UDTTest\TaskOne\PATH_TO_JSON" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskOne/ReadJson.php:15
+#0: UDTTest\TaskOne\ReadJson::readFromJson()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:13
+----------
+
+OTUS: 2025-10-20 07:01:07 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Constant expression contains invalid operations (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskOne/ReadJson.php:11
+----------
+
+OTUS: 2025-10-20 07:02:08 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected token ";", expecting "=" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskOne/ReadJson.php:11
+#0: Composer\Autoload\includeFile(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/vendor/composer/ClassLoader.php:428
+#1: Composer\Autoload\ClassLoader->loadClass(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:13
+----------
+
+OTUS: 2025-10-20 07:03:27 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Using $this when not in object context (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskOne/ReadJson.php:21
+#0: UDTTest\TaskOne\ReadJson::readFromJson()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:13
+----------
+
+OTUS: 2025-10-20 07:03:55 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Access to undeclared static property UDTTest\TaskOne\ReadJson::$udtLogFile (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskOne/ReadJson.php:21
+#0: UDTTest\TaskOne\ReadJson::readFromJson()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:13
+----------
+
+OTUS: 2025-10-20 07:04:18 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+UDTTest\TaskOne\ReadJson::readFromJson(): Return value must be of type array, string returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskOne/ReadJson.php:21
+#0: UDTTest\TaskOne\ReadJson::readFromJson()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:13
+----------
+
+OTUS: 2025-10-20 07:05:58 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Constant expression contains invalid operations (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskOne/ReadJson.php:11
+----------
+
+OTUS: 2025-10-20 07:15:55 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Non-static method UDTTest\TaskOne\ReadJson::readFromJson() cannot be called statically (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:13
+----------
+
+OTUS: 2025-10-21 11:53:32 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/dbConnection.php/Connection.php' (include_path='.:/usr/share/php') (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskTwo/Db.php:5
+#0: include
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/vendor/composer/ClassLoader.php:571
+#1: Composer\Autoload\includeFile(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/vendor/composer/ClassLoader.php:428
+#2: Composer\Autoload\ClassLoader->loadClass(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskTwo/ReadCsv.php:7
+#3: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/vendor/composer/ClassLoader.php:571
+#4: Composer\Autoload\includeFile(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/vendor/composer/ClassLoader.php:428
+#5: Composer\Autoload\ClassLoader->loadClass(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:76
+----------
+
+OTUS: 2025-10-21 11:58:09 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Undefined constant "UDTTest\TaskTwo\DB_HOST" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskTwo/Db.php:14
+#0: UDTTest\TaskTwo\Db->__construct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskTwo/ReadCsv.php:13
+#1: UDTTest\TaskTwo\ReadCsv->__construct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:76
+----------
+
+OTUS: 2025-10-21 12:02:04 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+explode(): Argument #2 ($string) must be of type string, array given (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskTwo/ReadCsv.php:25
+#0: explode(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskTwo/ReadCsv.php:25
+#1: UDTTest\TaskTwo\ReadCsv->readCSV()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:77
+----------
+
+OTUS: 2025-10-21 12:44:18 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ArgumentCountError] 
+Too few arguments to function UDTTest\TaskTwo\Db::createTable(), 0 passed in /home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php on line 78 and exactly 2 expected (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskTwo/Db.php:135
+#0: UDTTest\TaskTwo\Db->createTable()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:78
+----------
+
+OTUS: 2025-10-21 13:51:45 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ArgumentCountError] 
+Too few arguments to function UDTTest\TaskTwo\Db::findBy(), 2 passed in /home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskTwo/ReadCsv.php on line 54 and exactly 3 expected (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskTwo/Db.php:32
+#0: UDTTest\TaskTwo\Db->findBy(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskTwo/ReadCsv.php:54
+#1: UDTTest\TaskTwo\ReadCsv->isRecordExists(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskTwo/ReadCsv.php:69
+#2: UDTTest\TaskTwo\ReadCsv->fullProductsWithDataFromCsv()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:79
+----------
+
+OTUS: 2025-10-21 13:53:42 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+UDTTest\TaskTwo\Db::insertOne(): Argument #2 ($fields) must be of type array, null given, called in /home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskTwo/ReadCsv.php on line 70 (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskTwo/Db.php:66
+#0: UDTTest\TaskTwo\Db->insertOne(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskTwo/ReadCsv.php:70
+#1: UDTTest\TaskTwo\ReadCsv->fullProductsWithDataFromCsv()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:79
+----------
+
+OTUS: 2025-10-21 14:03:11 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method UDTTest\TaskTwo\ReadCsv::insertIntoProducts() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:85
+----------
+
+OTUS: 2025-10-21 14:53:45 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "UDTTest\TaskTwo\Example" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:114
+----------
+
+OTUS: 2025-10-21 14:54:12 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to protected method UDTTest\TaskThree\Example::findAll() from global scope (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:115
+----------
+
+OTUS: 2025-10-22 03:33:14 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "UDTTest\TaskFour\ReadAndFilterJson" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:119
+----------
+
+OTUS: 2025-10-22 03:34:01 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "UDTTest\TaskFour\ReadAndFilterJson" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:119
+----------
+
+OTUS: 2025-10-22 05:37:33 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Illegal offset type (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskFour/ReadAndFilterJson.php:43
+#0: UDTTest\TaskFour\ReadAndFilterJson->getStatuses()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/UDTTest/index.php:124
+----------
+

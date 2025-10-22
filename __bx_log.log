@@ -1,11 +1,18 @@
-Array
-(
-    [foo] => Array
-        (
-            [start] => 1757951518.8147
-            [time] => 20.000735044479
-        )
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/log.txt:
+Файл не существует: /home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/TaskOne/mock_data1.json
 
-)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/log.txt:
+Файл не существует: 
 
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/log.txt:
+Файл не существует: 
+
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/log.txt:
+Файл не существует*: 
+
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/UDTTest/log.txt:
+TEST MESSAGE 2025-10-20 08:41:15
+
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/UDTTest/log.txt:
+TEST MESSAGE 2025-10-20 08:42:28
 

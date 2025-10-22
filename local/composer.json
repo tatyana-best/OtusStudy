@@ -6,7 +6,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Otus\\": "php_interface/classes/Otus/"
+            "Otus\\": "php_interface/classes/Otus/",
+            "UDTTest\\": "php_interface/classes/UDTTest/"
         }
     }
 }

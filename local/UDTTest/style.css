@@ -1,0 +1,17 @@
+h2 {
+    color: maroon;
+}
+
+h3 {
+    color: green;
+}
+
+thead {
+    font-weight: bold;
+    color: navy;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid gray;
+}

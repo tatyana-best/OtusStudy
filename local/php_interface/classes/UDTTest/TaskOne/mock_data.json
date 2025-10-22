@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "ID": 1,
+      "NAME": "Иван Иванов",
+      "EMAIL": "ivan@example.com"
+    },
+    {
+      "ID": 2,
+      "NAME": "Петр Петров",
+      "EMAIL": "petr@example.com"
+    },
+    {
+      "ID": 3,
+      "NAME": "Светлана Смирнова",
+      "EMAIL": "svetlana@example.com"
+    }
+  ],
+  "deals": [
+    {
+      "ID": 101,
+      "TITLE": "Сделка 1",
+      "STATUS": "WON",
+      "AMOUNT": 10000
+    },
+    {
+      "ID": 102,
+      "TITLE": "Сделка 2",
+      "STATUS": "LOSE",
+      "AMOUNT": 5000
+    },
+    {
+      "ID": 103,
+      "TITLE": "Сделка 3",
+      "STATUS": "IN_PROGRESS",
+      "AMOUNT": 8000
+    }
+  ]
+}

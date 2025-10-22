@@ -1,0 +1,5 @@
+[
+  {"id": 101, "title": "Сделка 1", "status": "WON", "amount": 10000},
+  {"id": 102, "title": "Сделка 2", "status": "LOSE", "amount": 5000},
+  {"id": 103, "title": "Сделка 3", "status": "IN_PROGRESS", "amount": 8000}
+]
