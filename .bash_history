@@ -171,3 +171,16 @@ cd local
 php8.2 ~/.local/bin/composer --version
 su b92314
 su b92314sp
+ls
+git status
+git add .
+git status
+git commit -m "UDTTest"
+git push origin main
+git status
+git add .
+git status
+git commit -m "Correct UDTTest"
+git push origin main
+ls
+exit
