@@ -1,0 +1,12 @@
+<?php
+
+$MESS['BOOK_GRID_BOOK_TITLE_LABEL'] = 'Название книги';
+$MESS['BOOK_GRID_BOOK_PUBLISHING_YEAR_LABEL'] = 'Год издания';
+$MESS['BOOK_GRID_BOOK_PAGES_LABEL'] = 'Количество страниц';
+$MESS['BOOK_GRID_BOOK_AUTHORS_LABEL'] = 'Авторы';
+$MESS['BOOK_GRID_BOOK_PUBLISHING_DATE_LABEL'] = 'Дата публикации';
+$MESS['QUESTIONS_GRID_QUESTION'] = 'Вопрос';
+$MESS['QUESTIONS_GRID_ANSWER'] = 'Ответ';
+$MESS['QUESTIONS_NOT_PERMISSION'] = 'Нет доступа';
+$MESS['QUESTION_QUESTION_LABEL'] = 'Вопрос';
+$MESS['QUESTION_ANSWER_LABEL'] = 'Ответ';

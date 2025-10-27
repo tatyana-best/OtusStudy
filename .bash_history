@@ -189,3 +189,8 @@ git add .
 git status
 git commit -m "BestRank modules"
 git push origin main
+ls
+git status
+git add .
+git commit -m "Add js library of hiding statuses"
+git push origin main
