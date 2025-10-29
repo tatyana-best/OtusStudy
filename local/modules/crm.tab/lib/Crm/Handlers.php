@@ -13,14 +13,14 @@ Loc::loadMessages(__FILE__);
 
 class Handlers
 {
-    public static function updateTabs(Event $event): EventResult
+    public static function updateTabs(Event $event): bool //EventResult
     {
 		$availableEntityIds = Option::get('crm.tab', 'TAB_ENTITIES_TO_DISPLAY_TAB');
         $availableEntityIds = explode(',', $availableEntityIds);
         $entityTypeId = $event->getParameter('entityTypeID');
         $entityId = $event->getParameter('entityID');
         $tabs = $event->getParameter('tabs');
-        if (in_array($entityTypeId, $availableEntityIds)) {
+        /*if (in_array($entityTypeId, $availableEntityIds)) {
             $tabs[] = [
                 'id' => 'book_tab_' . $entityTypeId . '_' . $entityId,
                 'name' => Loc::getMessage('TAB_TAB_TITLE'),
@@ -63,6 +63,7 @@ class Handlers
             }
         }
 
-        return new EventResult(EventResult::SUCCESS, ['tabs' => $tabs,]);
+        return new EventResult(EventResult::SUCCESS, ['tabs' => $tabs,]);*/
+        return false;
     }
 }

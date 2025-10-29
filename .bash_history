@@ -194,3 +194,9 @@ git status
 git add .
 git commit -m "Add js library of hiding statuses"
 git push origin main
+git status
+git restore local/logs/debug.txt
+git add .
+git status
+git commit -m "Add module crm.tab"
+git push origin main

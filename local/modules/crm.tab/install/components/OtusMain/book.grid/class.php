@@ -340,6 +340,9 @@ class BookGrid extends \CBitrixComponent implements Controllerable
         if (!empty($filterData['QUESTION'])) {
             $filter['%NAME'] = $filterData['QUESTION'];
         }
+        if (!empty($filterData['ANSWER'])) {
+            $filter['%ANSWER.VALUE'] = $filterData['ANSWER'];
+        }
 
         return $filter;
     }
@@ -419,6 +422,12 @@ class BookGrid extends \CBitrixComponent implements Controllerable
             [
                 'id' => 'QUESTION',
                 'name' => Loc::getMessage('QUESTION_QUESTION_LABEL'),
+                'type' => 'string',
+                'default' => true,
+            ],
+            [
+                'id' => 'ANSWER',
+                'name' => Loc::getMessage('QUESTION_ANSWER_LABEL'),
                 'type' => 'string',
                 'default' => true,
             ],
