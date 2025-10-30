@@ -121,44 +121,38 @@ class MyDeal
             $tabs[] = [
                 'id' => 'newMyTab',
                 'name' => 'Моя сделка',
-                'html' =>
-                "<script>
-                    let newButton = BX.create('button', {
-                        props: {
-                            className: 'ui-btn ui-btn-primary ui-btn-md send-deal'
-                        },
-                        style: {
-                            margin: '13px',
-                        },
-                        text: 'Отправить уведомление',
-                        events: {
-                            click: function() {
-                                const dealId = $('#selectDeal').val();
-                                getDealData(" . $entityID . ")
-                                    .then(dealData => {
-                                        let dealInfo = BX.create('div', {
-                                            props: {
-                                                id: 'info',
-                                            },
-                                            style: {
-                                                width: '300px',
-                                                padding: '15px',
-                                                margin: '0px 15px',
-                                                backgroundColor: '#f5f5f5',
-                                                border: '1px solid #ddd',
-                                                borderRadius: '5px'
-                                            },
-                                        });                                       
-                                        $('#info').remove();
-                                        BX.append(dealInfo, document.body);
-                                        $('#info').html('Сделка:<br>ID = ' + dealData[0].ID + '<br> Название = ' + dealData[0].TITLE + '<br>Ответственный: ' + dealData[0].ASSIGNED_BY_ID);
-                                        showConfirm();
-                                    });
-                            }
-                        }
-                    });
-        
-                    BX.append(newButton, document.body);              
+                'html' => "
+                <style>
+                    .wrap {
+                        width: 95%;
+                        height: 100%;
+                        background: white;
+                        padding: 20px;
+                    }
+                    .info {
+                        width: 300px;
+                        padding: 15px;
+                        margin: 0px 15px;
+                        background-color: #f6f7f8;
+                        border: 1px solid #ddd;                                      
+                        border-radius: 5px;
+                    }
+                    .send-deal {
+                        margin: 13px;
+                    }
+                </style>
+                <div class='wrap'>
+                <div class='info'></div>
+                <button class='ui-btn ui-btn-primary ui-btn-md send-deal'>Отправить уведомление</button>
+                </div>
+                <script>
+                    $('.send-deal').click(function() {                        
+                        getDealData(" . $entityID . ")
+                            .then(dealData => {                                
+                                $('.info').html('Сделка:<br>ID = ' + dealData[0].ID + '<br> Название = ' + dealData[0].TITLE + '<br>Ответственный: ' + dealData[0].ASSIGNED_BY_ID);
+                                showConfirm();
+                            });
+                    });                            
 
                     async function getDealData(dealId) {
                         try {
@@ -208,10 +202,20 @@ class MyDeal
                     }
                 </script>"
             ];
-        }
 
-        return new EventResult(EventResult::SUCCESS, [
-            'tabs' => $tabs,
-        ]);
+            $reflection = new \ReflectionClass($event);
+            $property = $reflection->getProperty('parameters');
+            $property->setAccessible(true);
+
+            $eventParameters = $property->getValue($event);
+
+            $eventParameters['tabs'] = $tabs;
+            $property->setValue($event, $eventParameters);
+
+            return new EventResult(EventResult::SUCCESS, [
+                'tabs' => $tabs,
+            ]);
+        }
+        return false;
     }
 }

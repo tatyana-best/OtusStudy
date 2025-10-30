@@ -11,6 +11,7 @@ $APPLICATION->IncludeComponent('bitrix:ui.sidepanel.wrapper', '', [
     'POPUP_COMPONENT_TEMPLATE_NAME' => '',
     'POPUP_COMPONENT_PARAMS' => [
         'BOOK_PREFIX' => 'TEST ',
+        'ORM_CLASS' => \Otus\ORM\BookTable::class,
     ],
 ]);
 

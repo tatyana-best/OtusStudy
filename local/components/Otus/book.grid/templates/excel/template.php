@@ -24,7 +24,7 @@ $activeSheet = $spreadSheet->getActiveSheet(); // Получение актив�
 
 $arCol = [];
 foreach ($arResult['USED_HEADERS'] as $value) {
-    $arCol[] = $value['id'];
+    $arCol[] = $value;
 }
 
 $column = 'A'; // Инициализация переменной $column со значением 'A'

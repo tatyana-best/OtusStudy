@@ -1,0 +1,402 @@
+OTUS: 2025-10-29 06:44:41 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/components/Otus/book.grid/templates/excel/template.php:27
+#0: include
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#1: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#2: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#3: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#4: CBitrixComponent->includeComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/components/Otus/book.grid/class.php:164
+#5: BookGrid->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:25
+#8: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#11: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#12: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:192
+#13: UIPageSliderWrapperComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#14: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#15: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/ExcelLoad/index.php:9
+----------
+
+OTUS: 2025-10-29 10:02:37 - Host: b24mybeget.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+Could not build component instance 'otus:book.grid' (2210202)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/router.php:187
+#0: Bitrix\Main\Engine\Router->getComponentControllerAndAction()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/router.php:163
+#1: Bitrix\Main\Engine\Router->getControllerAndAction()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:102
+#2: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#3: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-10-29 10:33:15 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Otus\Orm\BookTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/components/Otus/book.grid/ajax.php:51
+#0: BookGridAjaxController->deleteElementAction(integer)
+	
+#1: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#2: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#3: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#4: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#5: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#6: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#7: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-10-29 11:29:25 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function format() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/components/Otus/book.grid/class.php:333
+#0: BookGrid->prepareGridList(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/components/Otus/book.grid/class.php:257
+#1: BookGrid->prepareGridData()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/components/Otus/book.grid/class.php:185
+#2: BookGrid->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#3: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#4: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:25
+#5: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#6: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#7: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#8: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#9: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:192
+#10: UIPageSliderWrapperComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#11: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#12: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/Otus/ExcelLoad/index.php:9
+----------
+
+OTUS: 2025-10-29 18:12:32 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Rest\Example\CrmCustomTabManager" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/Example/MyDeal.php:218
+#0: Otus\Rest\Example\MyDeal::updateTabs(object)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details/class.php:324
+#4: CCrmEntityPopupComponent->updateTabsByEvent(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details/class.php:117
+#5: CCrmEntityPopupComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/templates/.default/template.php:165
+#8: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#11: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#12: CBitrixComponent->includeComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/class.php:1113
+#13: CCrmDealDetailsComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#14: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#15: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details.frame/templates/.default/template.php:194
+#16: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#17: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#18: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#19: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#20: CBitrixComponent->includeComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details.frame/class.php:24
+#21: CCrmEntityDetailsFrameComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#22: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#23: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal/templates/.default/details.php:13
+#24: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#25: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#26: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#27: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#28: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal/component.php:453
+#29: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#30: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#31: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#32: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/crm/deal/index.php:8
+#33: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#34: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-10-29 18:13:14 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "CrmCustomTabManager" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/Example/MyDeal.php:218
+#0: Otus\Rest\Example\MyDeal::updateTabs(object)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details/class.php:324
+#4: CCrmEntityPopupComponent->updateTabsByEvent(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details/class.php:117
+#5: CCrmEntityPopupComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/templates/.default/template.php:165
+#8: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#11: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#12: CBitrixComponent->includeComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/class.php:1113
+#13: CCrmDealDetailsComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#14: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#15: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details.frame/templates/.default/template.php:194
+#16: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#17: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#18: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#19: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#20: CBitrixComponent->includeComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details.frame/class.php:24
+#21: CCrmEntityDetailsFrameComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#22: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#23: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal/templates/.default/details.php:13
+#24: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#25: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#26: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#27: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#28: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal/component.php:453
+#29: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#30: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#31: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#32: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/crm/deal/index.php:8
+#33: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#34: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-10-29 18:15:30 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Crm\Tab\Crm\Handlers::updateTabs(): Return value must be of type bool, Bitrix\Main\EventResult returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/modules/crm.tab/lib/Crm/Handlers.php:66
+#0: Crm\Tab\Crm\Handlers::updateTabs(object)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details/class.php:324
+#4: CCrmEntityPopupComponent->updateTabsByEvent(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details/class.php:117
+#5: CCrmEntityPopupComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/templates/.default/template.php:165
+#8: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#11: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#12: CBitrixComponent->includeComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/class.php:1113
+#13: CCrmDealDetailsComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#14: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#15: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details.frame/templates/.default/template.php:194
+#16: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#17: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#18: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#19: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#20: CBitrixComponent->includeComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details.frame/class.php:24
+#21: CCrmEntityDetailsFrameComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#22: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#23: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal/templates/.default/details.php:13
+#24: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#25: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#26: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#27: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#28: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal/component.php:453
+#29: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#30: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#31: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#32: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/crm/deal/index.php:8
+#33: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#34: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-10-29 18:29:57 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Unsupported operand types: string + string (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/Example/MyDeal.php:125
+#0: Otus\Rest\Example\MyDeal::updateTabs(object)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details/class.php:324
+#4: CCrmEntityPopupComponent->updateTabsByEvent(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details/class.php:117
+#5: CCrmEntityPopupComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/templates/.default/template.php:165
+#8: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#11: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#12: CBitrixComponent->includeComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/class.php:1113
+#13: CCrmDealDetailsComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#14: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#15: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details.frame/templates/.default/template.php:194
+#16: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#17: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#18: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#19: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#20: CBitrixComponent->includeComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.entity.details.frame/class.php:24
+#21: CCrmEntityDetailsFrameComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#22: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#23: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal/templates/.default/details.php:13
+#24: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#25: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#26: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#27: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#28: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal/component.php:453
+#29: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#30: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#31: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#32: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/crm/deal/index.php:8
+#33: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#34: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+

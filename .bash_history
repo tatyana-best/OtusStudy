@@ -200,3 +200,8 @@ git add .
 git status
 git commit -m "Add module crm.tab"
 git push origin main
+git status
+git status
+git add .
+git commit -m "Test task"
+git push origin main
