@@ -5,6 +5,7 @@ $APPLICATION->SetTitle('Примеры');
 require_once __DIR__ . "/php_interface/functions.php";
 use Bitrix\Main\Diag\Debug;
 use Bitrix24\SDK\Services\ServiceBuilderFactory;
+use Otus\UserTypes\Booking;
 //Debug::startTimeLabel("foo");
 $ar = [];
 for ($i=0; $i < 10; $i++) { 
@@ -21,7 +22,7 @@ pr($ar);
 //Debug::writeToFile(Debug::getTimeLabels());
 //Debug::dump(Debug::getTimeLabels());
 
-$data = array(
+/*$data = array(
     'id' => 1,
     'fields' => [
         'TITLE'              => "Новое сделки имямямя ***!",
@@ -45,6 +46,9 @@ $res = curl_exec($ch);
 curl_close($ch);
 
 $res = json_encode($res, JSON_UNESCAPED_UNICODE);
-print_r($res);
+print_r($res);*/
+
+pr(Booking::getProceduresOfDoctor(16, 36));
+
 
 require_once $_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php";

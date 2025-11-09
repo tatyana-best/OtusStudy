@@ -59,6 +59,24 @@ $eventManager->addEventHandlerCompatible(
     }
 );
 
+$eventManager->AddEventHandler(
+    'iblock',
+    'OnIBlockPropertyBuildList',
+    [
+        'Otus\UserTypes\IBLink', // класс обработчик пользовательского типа свойства
+        'GetUserTypeDescription'
+    ]
+);
+
+$eventManager->AddEventHandler(
+    'iblock',
+    'OnIBlockPropertyBuildList',
+    [
+        'Otus\UserTypes\Booking', // класс обработчик пользовательского типа свойства
+        'GetUserTypeDescription'
+    ]
+);
+
 //if (CSite::InDir('/local/Otus/MyDeal/')) {
  /*   AddEventHandler("main", "OnEpilog", array("MyDeal", "OnEpilogHandler"));
 

@@ -400,3 +400,642 @@ Unsupported operand types: string + string (0)
 	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
 ----------
 
+OTUS: 2025-11-08 13:52:06 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ArgumentCountError] 
+Too few arguments to function Otus\UserTypes\Booking::GetPropertyFieldHtml(), 2 passed in /home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php on line 46 and exactly 3 expected (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:91
+#0: Otus\UserTypes\Booking::GetPropertyFieldHtml(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:46
+#1: Otus\UserTypes\Booking::GetPublicViewHTML(array, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/lists/lib/field.php:91
+#3: Bitrix\Lists\Field::renderField(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.list/component.php:946
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#6: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list.php:2
+#8: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#11: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#12: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#13: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#14: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#15: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#18: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-11-08 14:01:54 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `ELEMENT_ID` (ELEMENT_ID) for \Bitrix\Iblock\Element Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
+#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:53
+#5: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 14:08:03 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ArgumentCountError] 
+Too few arguments to function Bitrix\Main\ORM\Query\Query::addFilter(), 1 passed in /home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php on line 57 and exactly 2 expected (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:394
+#0: Bitrix\Main\ORM\Query\Query->addFilter(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:57
+#1: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 14:10:36 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown method `getValue` for object `Bitrix\Iblock\Elements\EO_IblockProperty88_Collection` (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
+#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:61
+#1: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 14:17:40 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown method `getName` for object `Bitrix\Iblock\Elements\EO_IblockProperty88` (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1366
+#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:63
+#1: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 14:18:42 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getName() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:63
+#0: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 14:19:21 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getId() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:63
+#0: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 14:19:35 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getID() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:63
+#0: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 14:20:34 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getId() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:63
+#0: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 14:22:03 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown method `getItem` for object `Bitrix\Iblock\Elements\EO_IblockProperty88` (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1366
+#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:63
+#1: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 14:23:47 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getValue() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:63
+#0: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 14:38:17 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getName() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:61
+#0: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 14:40:49 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getName() on int (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:61
+#0: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 14:42:45 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getName() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:61
+#0: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 14:46:48 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function get() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:60
+#0: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 14:47:14 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+IblockProperty88 Entity has no `NAME` field. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:573
+#0: Bitrix\Main\ORM\Entity->getField(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:968
+#1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:716
+#2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:60
+#3: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 14:47:55 - Host: b24mybeget.ru - FATAL - [ErrorException] E_ERROR
+ob_start(): Cannot use output buffering in output buffering display handlers (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.toolbar/class.php:53
+----------
+
+OTUS: 2025-11-08 14:50:28 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getId() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:60
+#0: Otus\UserTypes\Booking::getProceduresOfDoctor(integer, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:51
+----------
+
+OTUS: 2025-11-08 15:00:50 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ArgumentCountError] 
+Too few arguments to function Otus\UserTypes\Booking::GetPropertyFieldHtml(), 2 passed in /home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php on line 46 and exactly 3 expected (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:96
+#0: Otus\UserTypes\Booking::GetPropertyFieldHtml(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:46
+#1: Otus\UserTypes\Booking::GetPublicViewHTML(array, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/lists/lib/field.php:91
+#3: Bitrix\Lists\Field::renderField(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.list/component.php:946
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#6: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list.php:2
+#8: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#9: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#10: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#11: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#12: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#13: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#14: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#15: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#18: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-11-08 15:20:56 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\UserTypes\CUtil" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:54
+#0: Otus\UserTypes\Booking::GetPublicViewHTML(array, array, array)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/lists/lib/field.php:91
+#2: Bitrix\Lists\Field::renderField(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.list/component.php:946
+#3: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#4: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#5: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list.php:2
+#7: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#8: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#9: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#10: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#11: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#12: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#13: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#14: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#15: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#16: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-11-09 14:40:29 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Undefined constant "Otus\UserTypes\BOOKING_IBLOCK_ID" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:128
+#0: Otus\UserTypes\Booking::GetPublicViewHTML(array, array, array)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/lists/lib/field.php:91
+#2: Bitrix\Lists\Field::renderField(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.list/component.php:946
+#3: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#4: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#5: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list.php:2
+#7: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#8: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#9: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#10: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#11: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#12: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#13: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#14: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#15: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#16: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-11-09 14:53:56 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+There is no SQL definition for Entity `BOOKING_TIME`, please use a scalar field (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chainelement.php:215
+#0: Bitrix\Main\ORM\Query\ChainElement->getSqlDefinition()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:499
+#1: Bitrix\Main\ORM\Query\Chain->getSqlDefinition()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2664
+#2: Bitrix\Main\ORM\Query\Query->getFilterCswFields(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2267
+#3: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#4: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#5: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#6: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/booking.php:36
+----------
+
+OTUS: 2025-11-09 15:02:13 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROPERTY_BOOKING_TIME` (PROPERTY_BOOKING_TIME) for \Bitrix\Iblock\Elements\ElementBooking Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
+#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/booking.php:36
+----------
+
+OTUS: 2025-11-09 15:06:02 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROPERTY_DOCTOR` (PROPERTY_DOCTOR.VALUE) for \Bitrix\Iblock\Elements\ElementBooking Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
+#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/booking.php:36
+----------
+
+OTUS: 2025-11-09 15:17:54 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getValue() on int (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/booking.php:36
+----------
+
+OTUS: 2025-11-09 15:24:15 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ObjectException] 
+Incorrect date/time: 27.11.2025 12:35:00 (500)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/type/datetime.php:42
+#0: Bitrix\Main\Type\DateTime->__construct(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/booking.php:24
+----------
+
+OTUS: 2025-11-09 15:27:20 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+date(): Argument #2 ($timestamp) must be of type ?int, string given (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/booking.php:24
+#0: date(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/booking.php:24
+----------
+
+OTUS: 2025-11-09 15:45:50 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method DateTime::compile() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:977
+#0: CAllSQLWhere->addStringFilter(array, boolean, string, string, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#1: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#2: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#3: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#4: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#5: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#6: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/booking.php:27
+----------
+
+OTUS: 2025-11-09 15:48:22 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method DateTime::compile() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:977
+#0: CAllSQLWhere->addStringFilter(array, boolean, string, string, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#1: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#2: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#3: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#4: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#5: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#6: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/booking.php:28
+----------
+
+OTUS: 2025-11-09 15:51:23 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method DateTime::compile() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:977
+#0: CAllSQLWhere->addStringFilter(array, boolean, string, string, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#1: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#2: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#3: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#4: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#5: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#6: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/booking.php:30
+----------
+
+OTUS: 2025-11-09 15:56:19 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method DateTime::compile() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:977
+#0: CAllSQLWhere->addStringFilter(array, boolean, string, string, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#1: CAllSQLWhere->GetQueryEx(array, array, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:312
+#2: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#3: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#4: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#5: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#6: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#7: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/booking.php:30
+----------
+
+OTUS: 2025-11-09 15:58:34 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method DateTime::compile() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:977
+#0: CAllSQLWhere->addStringFilter(array, boolean, string, string, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#1: CAllSQLWhere->GetQueryEx(array, array, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:312
+#2: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#3: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#4: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#5: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#6: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#7: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/booking.php:31
+----------
+
+OTUS: 2025-11-09 16:00:11 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method DateTime::compile() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:977
+#0: CAllSQLWhere->addStringFilter(array, boolean, string, string, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#1: CAllSQLWhere->GetQueryEx(array, array, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:312
+#2: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#3: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#4: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#5: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#6: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#7: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/booking.php:31
+----------
+
+OTUS: 2025-11-09 17:09:08 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\UserTypes\ElementBookingTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:249
+#0: Otus\UserTypes\Booking::GetPropertyFieldHtml(array, array, array)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin_tools.php:590
+#2: _ShowUserPropertyField(string, array, array, boolean, boolean, integer, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin_tools.php:641
+#3: _ShowPropertyField(string, array, array, boolean, boolean, integer, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin/iblock_element_edit.php:2566
+#4: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/admin/iblock_element_edit.php:1
+----------
+
+OTUS: 2025-11-09 17:09:45 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `ELEMENT` (ELEMENT.*) for \Bitrix\Iblock\Elements\ElementBooking Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:250
+#5: Otus\UserTypes\Booking::GetPropertyFieldHtml(array, array, array)
+	
+#6: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin_tools.php:590
+#7: _ShowUserPropertyField(string, array, array, boolean, boolean, integer, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin_tools.php:641
+#8: _ShowPropertyField(string, array, array, boolean, boolean, integer, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin/iblock_element_edit.php:2566
+#9: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/admin/iblock_element_edit.php:1
+----------
+
+OTUS: 2025-11-09 17:10:34 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `ELEMENT` (BOOKING_TIME.ELEMENT) for \Bitrix\Iblock\Elements\IblockProperty83 Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
+#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#3: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#4: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:499
+#5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:250
+#6: Otus\UserTypes\Booking::GetPropertyFieldHtml(array, array, array)
+	
+#7: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin_tools.php:590
+#8: _ShowUserPropertyField(string, array, array, boolean, boolean, integer, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin_tools.php:641
+#9: _ShowPropertyField(string, array, array, boolean, boolean, integer, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin/iblock_element_edit.php:2566
+#10: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/admin/iblock_element_edit.php:1
+----------
+
+OTUS: 2025-11-09 17:22:36 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getName() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:264
+#0: Otus\UserTypes\Booking::GetPropertyFieldHtml(array, array, array)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin_tools.php:590
+#2: _ShowUserPropertyField(string, array, array, boolean, boolean, integer, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin_tools.php:641
+#3: _ShowPropertyField(string, array, array, boolean, boolean, integer, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin/iblock_element_edit.php:2566
+#4: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/admin/iblock_element_edit.php:1
+----------
+
+OTUS: 2025-11-09 17:42:21 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown method `getCount` for object `Bitrix\Iblock\Elements\EO_ElementBooking_Collection` (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
+#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:260
+#1: Otus\UserTypes\Booking::GetPropertyFieldHtml(array, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin_tools.php:590
+#3: _ShowUserPropertyField(string, array, array, boolean, boolean, integer, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin_tools.php:641
+#4: _ShowPropertyField(string, array, array, boolean, boolean, integer, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin/iblock_element_edit.php:2566
+#5: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/admin/iblock_element_edit.php:1
+----------
+
+OTUS: 2025-11-09 17:47:30 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown method `getCount` for object `Bitrix\Iblock\Elements\EO_ElementBooking_Collection` (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
+#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:261
+#1: Otus\UserTypes\Booking::GetPropertyFieldHtml(array, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin_tools.php:590
+#3: _ShowUserPropertyField(string, array, array, boolean, boolean, integer, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin_tools.php:641
+#4: _ShowPropertyField(string, array, array, boolean, boolean, integer, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin/iblock_element_edit.php:2566
+#5: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/admin/iblock_element_edit.php:1
+----------
+
+OTUS: 2025-11-09 18:03:20 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Cannot access offset of type string on string (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:277
+#0: Otus\UserTypes\Booking::GetPropertyFieldHtml(array, array, array)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin_tools.php:590
+#2: _ShowUserPropertyField(string, array, array, boolean, boolean, integer, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin_tools.php:641
+#3: _ShowPropertyField(string, array, array, boolean, boolean, integer, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin/iblock_element_edit.php:2566
+#4: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/admin/iblock_element_edit.php:1
+----------
+
+OTUS: 2025-11-09 18:34:11 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function Otus\UserTypes\getStrProperty() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/UserTypes/Booking.php:223
+#0: Otus\UserTypes\Booking::GetAdminListViewHTML(array, array, array)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin/iblock_list_admin.php:3651
+#2: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/admin/iblock_list_admin.php:1
+----------
+

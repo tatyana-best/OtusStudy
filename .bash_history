@@ -205,3 +205,8 @@ git status
 git add .
 git commit -m "Test task"
 git push origin main
+git status
+git restore .bash_history
+git status
+git branch create-prop-type
+git checkout create-prop-type
