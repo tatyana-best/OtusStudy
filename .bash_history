@@ -210,3 +210,13 @@ git restore .bash_history
 git status
 git branch create-prop-type
 git checkout create-prop-type
+git status
+git add .
+git status
+git commit -m "My one property type"
+git status
+git push origin main
+git checkout main
+git merge create-prop-type
+git status
+git push

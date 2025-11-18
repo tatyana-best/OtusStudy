@@ -1039,3 +1039,1956 @@ Call to undefined function Otus\UserTypes\getStrProperty() (0)
 	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/admin/iblock_list_admin.php:1
 ----------
 
+OTUS: 2025-11-09 23:38:56 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqlisqlhelper.php:409
+#2: Bitrix\Main\DB\MysqliSqlHelper->forSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/config/option.php:210
+#3: Bitrix\Main\Config\Option::load(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/config/option.php:83
+#4: Bitrix\Main\Config\Option::getRealValue(string, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/config/option.php:32
+#5: Bitrix\Main\Config\Option::get(string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httprequest.php:422
+#6: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httprequest.php:70
+#7: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:39
+#8: Bitrix\Main\HttpApplication->initializeContext(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:130
+#9: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#10: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#11: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/index.php:8
+----------
+
+OTUS: 2025-11-10 07:00:21 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Loader" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:9
+----------
+
+OTUS: 2025-11-10 07:01:10 - Host: b24mybeget.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 803213312 bytes) (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/functions.php:5
+----------
+
+OTUS: 2025-11-10 07:01:14 - Host: b24mybeget.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 803213312 bytes) (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/functions.php:5
+----------
+
+OTUS: 2025-11-10 07:09:47 - Host: b24mybeget.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 803213312 bytes) (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/functions.php:5
+----------
+
+OTUS: 2025-11-10 08:05:18 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function addFile() on bool (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:32
+----------
+
+OTUS: 2025-11-10 08:05:55 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function addFile() on bool (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:32
+----------
+
+OTUS: 2025-11-10 08:08:35 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function addFile() on bool (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:32
+----------
+
+OTUS: 2025-11-10 08:10:39 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function addFile() on bool (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:32
+----------
+
+OTUS: 2025-11-10 08:16:22 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function addFile() on bool (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:32
+----------
+
+OTUS: 2025-11-10 08:17:38 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function close() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:52
+----------
+
+OTUS: 2025-11-10 08:17:39 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function close() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:52
+----------
+
+OTUS: 2025-11-10 08:17:44 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function close() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:52
+----------
+
+OTUS: 2025-11-10 08:18:15 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function close() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:52
+----------
+
+OTUS: 2025-11-10 08:18:33 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function close() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:52
+----------
+
+OTUS: 2025-11-10 08:23:48 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function addFile() on bool (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:35
+----------
+
+OTUS: 2025-11-10 08:26:22 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function addFile() on bool (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:35
+----------
+
+OTUS: 2025-11-10 08:27:20 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function close() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:61
+----------
+
+OTUS: 2025-11-10 08:29:46 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function close() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:61
+----------
+
+OTUS: 2025-11-10 08:40:07 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function open() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:29
+----------
+
+OTUS: 2025-11-10 08:44:04 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function close() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:54
+----------
+
+OTUS: 2025-11-10 08:44:05 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function close() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:54
+----------
+
+OTUS: 2025-11-10 08:44:12 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function close() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:54
+----------
+
+OTUS: 2025-11-10 08:44:44 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function close() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:54
+----------
+
+OTUS: 2025-11-10 08:45:45 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function close() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:54
+----------
+
+OTUS: 2025-11-10 08:47:39 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function close() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:43
+----------
+
+OTUS: 2025-11-10 08:48:59 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function close() on bool (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:43
+----------
+
+OTUS: 2025-11-10 08:58:28 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function close() on bool (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:43
+----------
+
+OTUS: 2025-11-10 09:52:51 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function close() on string (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:51
+----------
+
+OTUS: 2025-11-10 09:54:21 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function close() on bool (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:51
+----------
+
+OTUS: 2025-11-10 09:59:58 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+fclose(): Argument #1 ($stream) must be of type resource, string given (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:51
+#0: fclose(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:51
+----------
+
+OTUS: 2025-11-10 10:01:04 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+fclose(): Argument #1 ($stream) must be of type resource, string given (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:52
+#0: fclose(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:52
+----------
+
+OTUS: 2025-11-10 10:03:51 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Context" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:13
+----------
+
+OTUS: 2025-11-10 10:04:11 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Context" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:13
+----------
+
+OTUS: 2025-11-10 11:14:53 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+error_log(): Argument #2 ($message_type) must be of type int, string given (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:59
+#0: error_log(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/ajax/downloadArchive.php:59
+----------
+
+OTUS: 2025-11-11 06:19:21 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getName() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:62
+----------
+
+OTUS: 2025-11-11 06:20:00 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getFile() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:63
+----------
+
+OTUS: 2025-11-11 06:20:31 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Bitrix\Disk\UrlManager::getUrlForShowFile(): Argument #1 ($file) must be of type Bitrix\Disk\File, null given, called in /home/b/b92314sp/b24mybeget.ru/public_html/local/test.php on line 66 (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/urlmanager.php:671
+#0: Bitrix\Disk\UrlManager->getUrlForShowFile(NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:66
+----------
+
+OTUS: 2025-11-11 06:21:03 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Bitrix\Disk\UrlManager::getUrlForShowFile(): Argument #1 ($file) must be of type Bitrix\Disk\File, null given, called in /home/b/b92314sp/b24mybeget.ru/public_html/local/test.php on line 66 (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/urlmanager.php:671
+#0: Bitrix\Disk\UrlManager->getUrlForShowFile(NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:66
+----------
+
+OTUS: 2025-11-11 06:21:56 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Bitrix\Disk\UrlManager::getUrlForShowFile(): Argument #1 ($file) must be of type Bitrix\Disk\File, null given, called in /home/b/b92314sp/b24mybeget.ru/public_html/local/test.php on line 66 (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/urlmanager.php:671
+#0: Bitrix\Disk\UrlManager->getUrlForShowFile(NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:66
+----------
+
+OTUS: 2025-11-11 12:34:48 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+explode(): Argument #2 ($string) must be of type string, array given (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:16
+#0: explode(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:16
+#1: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#4: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#5: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#6: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2250
+#7: CTaskItem->proceedActionEdit(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2434
+#8: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1683
+#9: CTaskItem->update(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/manager/task.php:421
+#10: Bitrix\Tasks\Manager\Task::doUpdate(integer, integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/manager/task.php:355
+#11: Bitrix\Tasks\Manager\Task::update(integer, integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/dispatcher/publicaction/task.php:260
+#12: Bitrix\Tasks\Dispatcher\PublicAction\Task->update(integer, array, array)
+	
+#13: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/dispatcher/operation.php:91
+#14: Bitrix\Tasks\Dispatcher\Operation->call()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/dispatcher.php:309
+#15: Bitrix\Tasks\Dispatcher->wrapOpCall(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/dispatcher.php:199
+#16: Bitrix\Tasks\Dispatcher->run(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.base/class.php:517
+#17: TasksBaseComponent::dispatch(object, object, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.base/class.php:107
+#18: TasksBaseComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#19: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#20: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.iframe.popup/templates/wrap/template.php:230
+#21: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#22: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#23: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#24: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#25: CBitrixComponent->includeComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.iframe.popup/component.php:97
+#26: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#27: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#28: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#29: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/socialnetwork_user/templates/.default/user_tasks_task.php:55
+#30: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#31: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#32: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#33: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#34: CBitrixComponent->includeComponentTemplate(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/socialnetwork_user/component.php:1489
+#35: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#36: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#37: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#38: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/company/personal.php:13
+#39: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#40: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-11-11 12:35:44 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Tasks\CCrmOwnerType" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:19
+#0: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#2: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#3: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#4: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#5: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2250
+#6: CTaskItem->proceedActionEdit(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2434
+#7: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1683
+#8: CTaskItem->update(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/manager/task.php:421
+#9: Bitrix\Tasks\Manager\Task::doUpdate(integer, integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/manager/task.php:355
+#10: Bitrix\Tasks\Manager\Task::update(integer, integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/dispatcher/publicaction/task.php:260
+#11: Bitrix\Tasks\Dispatcher\PublicAction\Task->update(integer, array, array)
+	
+#12: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/dispatcher/operation.php:91
+#13: Bitrix\Tasks\Dispatcher\Operation->call()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/dispatcher.php:309
+#14: Bitrix\Tasks\Dispatcher->wrapOpCall(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/dispatcher.php:199
+#15: Bitrix\Tasks\Dispatcher->run(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.base/class.php:517
+#16: TasksBaseComponent::dispatch(object, object, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.base/class.php:107
+#17: TasksBaseComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#18: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#19: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.iframe.popup/templates/wrap/template.php:230
+#20: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#21: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#22: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#23: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#24: CBitrixComponent->includeComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.iframe.popup/component.php:97
+#25: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#26: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#27: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#28: CAllMain->IncludeComponent(string, string, array, object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/socialnetwork_user/templates/.default/user_tasks_task.php:55
+#29: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:790
+#30: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:885
+#31: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:784
+#32: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:724
+#33: CBitrixComponent->includeComponentTemplate(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/socialnetwork_user/component.php:1489
+#34: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#35: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:692
+#36: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#37: CAllMain->IncludeComponent(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/company/personal.php:13
+#38: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#39: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-11-11 13:05:24 - Host: b24mybeget.ru - UNKNOWN - [ArgumentCountError] 
+Too few arguments to function Otus\Tasks\MoveResultFilesToDeal::getFiles(), 0 passed in /home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php on line 30 and exactly 1 expected (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:35
+#0: Otus\Tasks\MoveResultFilesToDeal::getFiles()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:30
+#1: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#4: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#5: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#6: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#7: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1670
+#8: CTaskItem->complete()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1751
+#9: TasksTaskComponent->completeAction(integer, array)
+	
+#10: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#11: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#12: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#13: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-11 13:10:31 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Otus\Tasks\File" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:58
+#0: Otus\Tasks\MoveResultFilesToDeal::getFiles(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:30
+#1: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#4: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#5: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#6: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#7: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1670
+#8: CTaskItem->complete()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1751
+#9: TasksTaskComponent->completeAction(integer, array)
+	
+#10: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#11: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#12: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#13: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-11 13:49:06 - Host: b24mybeget.ru - UNKNOWN - [TypeError] 
+Bitrix\Crm\Service\Factory\Deal::getUpdateOperation(): Argument #2 ($context) must be of type ?Bitrix\Crm\Service\Context, array given, called in /home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php on line 85 (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Factory/Deal.php:628
+#0: Bitrix\Crm\Service\Factory\Deal->getUpdateOperation(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:85
+#1: Otus\Tasks\MoveResultFilesToDeal::sendFilesToDeals(array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:35
+#2: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#3: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#4: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#5: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#6: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#7: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#8: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1670
+#9: CTaskItem->complete()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1751
+#10: TasksTaskComponent->completeAction(integer, array)
+	
+#11: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#12: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#13: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#14: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#15: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#16: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#17: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#18: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-11 13:58:07 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Call to a member function getUpdateOperation() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:83
+#0: Otus\Tasks\MoveResultFilesToDeal::sendFilesToDeals(array, string, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:35
+#1: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#4: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#5: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#6: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#7: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1670
+#8: CTaskItem->complete()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1751
+#9: TasksTaskComponent->completeAction(integer, array)
+	
+#10: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#11: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#12: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#13: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-12 05:42:35 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Otus\Tasks\CFile" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:85
+#0: Otus\Tasks\MoveResultFilesToDeal::sendFilesToDeals(array, string, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:35
+#1: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#4: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#5: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#6: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#7: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1670
+#8: CTaskItem->complete()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1751
+#9: TasksTaskComponent->completeAction(integer, array)
+	
+#10: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#11: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#12: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#13: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-12 05:47:10 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Call to a member function getUpdateOperation() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:89
+#0: Otus\Tasks\MoveResultFilesToDeal::sendFilesToDeals(array, string, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:35
+#1: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#4: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#5: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#6: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#7: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1670
+#8: CTaskItem->complete()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1751
+#9: TasksTaskComponent->completeAction(integer, array)
+	
+#10: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#11: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#12: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#13: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-12 09:08:22 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Undefined constant "Otus\Tasks\arFiles" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:102
+#0: Otus\Tasks\MoveResultFilesToDeal::sendFilesToDeals(array, string, object, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:36
+#1: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#4: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#5: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#6: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#7: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1670
+#8: CTaskItem->complete()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1751
+#9: TasksTaskComponent->completeAction(integer, array)
+	
+#10: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#11: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#12: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#13: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-12 09:09:55 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Otus\Tasks\CCrmDeal" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:104
+#0: Otus\Tasks\MoveResultFilesToDeal::sendFilesToDeals(array, string, object, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:36
+#1: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#4: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#5: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#6: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#7: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1670
+#8: CTaskItem->complete()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1751
+#9: TasksTaskComponent->completeAction(integer, array)
+	
+#10: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#11: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#12: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#13: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-12 11:19:18 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Otus\Tasks\CFile" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:111
+#0: Otus\Tasks\MoveResultFilesToDeal::sendFilesToDeals(array, string, object, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:37
+#1: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#4: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#5: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#6: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#7: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1670
+#8: CTaskItem->complete()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1751
+#9: TasksTaskComponent->completeAction(integer, array)
+	
+#10: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#11: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#12: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#13: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-13 05:57:15 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Otus\Tasks\CModule" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:141
+#0: Otus\Tasks\MoveResultFilesToDeal::sendFilesToDeals(array, string, object, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:38
+#1: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#4: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#5: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#6: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#7: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1670
+#8: CTaskItem->complete()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1751
+#9: TasksTaskComponent->completeAction(integer, array)
+	
+#10: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#11: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#12: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#13: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-13 05:58:30 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Otus\Tasks\CTaskFiles" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:143
+#0: Otus\Tasks\MoveResultFilesToDeal::sendFilesToDeals(array, string, object, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:38
+#1: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#4: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#5: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#6: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#7: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1670
+#8: CTaskItem->complete()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1751
+#9: TasksTaskComponent->completeAction(integer, array)
+	
+#10: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#11: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#12: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#13: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-13 06:01:39 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Otus\Tasks\CModule" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:141
+#0: Otus\Tasks\MoveResultFilesToDeal::sendFilesToDeals(array, string, object, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:38
+#1: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#4: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#5: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#6: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#7: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1670
+#8: CTaskItem->complete()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1751
+#9: TasksTaskComponent->completeAction(integer, array)
+	
+#10: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#11: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#12: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#13: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-13 09:16:38 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Loader" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/events.php:136
+#0: {closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/file.php:155
+#5: Bitrix\Disk\File::add(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:331
+#6: Bitrix\Disk\Folder->processAdd(array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:298
+#7: Bitrix\Disk\Folder->addFile(array, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/uf/integration/diskuploadercontroller.php:85
+#8: Bitrix\Disk\Uf\Integration\DiskUploaderController->onUploadComplete(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/FileUploader/Uploader.php:157
+#9: Bitrix\UI\FileUploader\Uploader->upload(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/controller/fileuploader.php:160
+#10: Bitrix\UI\Controller\FileUploader->uploadAction(object, object, string)
+	
+#11: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#12: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#13: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-13 09:16:39 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Loader" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/events.php:136
+#0: {closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/file.php:155
+#5: Bitrix\Disk\File::add(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:331
+#6: Bitrix\Disk\Folder->processAdd(array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:298
+#7: Bitrix\Disk\Folder->addFile(array, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/uf/integration/diskuploadercontroller.php:85
+#8: Bitrix\Disk\Uf\Integration\DiskUploaderController->onUploadComplete(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/FileUploader/Uploader.php:157
+#9: Bitrix\UI\FileUploader\Uploader->upload(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/controller/fileuploader.php:160
+#10: Bitrix\UI\Controller\FileUploader->uploadAction(object, object, string)
+	
+#11: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#12: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#13: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-13 09:17:45 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Loader" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/events.php:136
+#0: {closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/file.php:155
+#5: Bitrix\Disk\File::add(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:331
+#6: Bitrix\Disk\Folder->processAdd(array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:298
+#7: Bitrix\Disk\Folder->addFile(array, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/uf/integration/diskuploadercontroller.php:85
+#8: Bitrix\Disk\Uf\Integration\DiskUploaderController->onUploadComplete(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/FileUploader/Uploader.php:157
+#9: Bitrix\UI\FileUploader\Uploader->upload(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/controller/fileuploader.php:160
+#10: Bitrix\UI\Controller\FileUploader->uploadAction(object, object, string)
+	
+#11: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#12: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#13: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-13 09:17:47 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Loader" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/events.php:136
+#0: {closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/file.php:155
+#5: Bitrix\Disk\File::add(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:331
+#6: Bitrix\Disk\Folder->processAdd(array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:298
+#7: Bitrix\Disk\Folder->addFile(array, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/uf/integration/diskuploadercontroller.php:85
+#8: Bitrix\Disk\Uf\Integration\DiskUploaderController->onUploadComplete(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/FileUploader/Uploader.php:157
+#9: Bitrix\UI\FileUploader\Uploader->upload(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/controller/fileuploader.php:160
+#10: Bitrix\UI\Controller\FileUploader->uploadAction(object, object, string)
+	
+#11: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#12: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#13: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-13 09:17:52 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Loader" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/events.php:136
+#0: {closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/file.php:155
+#5: Bitrix\Disk\File::add(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:331
+#6: Bitrix\Disk\Folder->processAdd(array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:298
+#7: Bitrix\Disk\Folder->addFile(array, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/uf/integration/diskuploadercontroller.php:85
+#8: Bitrix\Disk\Uf\Integration\DiskUploaderController->onUploadComplete(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/FileUploader/Uploader.php:157
+#9: Bitrix\UI\FileUploader\Uploader->upload(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/controller/fileuploader.php:160
+#10: Bitrix\UI\Controller\FileUploader->uploadAction(object, object, string)
+	
+#11: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#12: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#13: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-13 09:18:00 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Loader" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/events.php:136
+#0: {closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/file.php:155
+#5: Bitrix\Disk\File::add(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:331
+#6: Bitrix\Disk\Folder->processAdd(array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:298
+#7: Bitrix\Disk\Folder->addFile(array, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/uf/integration/diskuploadercontroller.php:85
+#8: Bitrix\Disk\Uf\Integration\DiskUploaderController->onUploadComplete(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/FileUploader/Uploader.php:157
+#9: Bitrix\UI\FileUploader\Uploader->upload(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/controller/fileuploader.php:160
+#10: Bitrix\UI\Controller\FileUploader->uploadAction(object, object, string)
+	
+#11: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#12: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#13: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-13 09:18:57 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Loader" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/events.php:136
+#0: {closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/file.php:155
+#5: Bitrix\Disk\File::add(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:331
+#6: Bitrix\Disk\Folder->processAdd(array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:298
+#7: Bitrix\Disk\Folder->addFile(array, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/uf/integration/diskuploadercontroller.php:85
+#8: Bitrix\Disk\Uf\Integration\DiskUploaderController->onUploadComplete(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/FileUploader/Uploader.php:157
+#9: Bitrix\UI\FileUploader\Uploader->upload(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/controller/fileuploader.php:160
+#10: Bitrix\UI\Controller\FileUploader->uploadAction(object, object, string)
+	
+#11: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#12: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#13: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-13 09:18:59 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Loader" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/events.php:136
+#0: {closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/file.php:155
+#5: Bitrix\Disk\File::add(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:331
+#6: Bitrix\Disk\Folder->processAdd(array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:298
+#7: Bitrix\Disk\Folder->addFile(array, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/uf/integration/diskuploadercontroller.php:85
+#8: Bitrix\Disk\Uf\Integration\DiskUploaderController->onUploadComplete(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/FileUploader/Uploader.php:157
+#9: Bitrix\UI\FileUploader\Uploader->upload(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/controller/fileuploader.php:160
+#10: Bitrix\UI\Controller\FileUploader->uploadAction(object, object, string)
+	
+#11: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#12: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#13: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-13 09:19:04 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Loader" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/events.php:136
+#0: {closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/file.php:155
+#5: Bitrix\Disk\File::add(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:331
+#6: Bitrix\Disk\Folder->processAdd(array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:298
+#7: Bitrix\Disk\Folder->addFile(array, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/uf/integration/diskuploadercontroller.php:85
+#8: Bitrix\Disk\Uf\Integration\DiskUploaderController->onUploadComplete(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/FileUploader/Uploader.php:157
+#9: Bitrix\UI\FileUploader\Uploader->upload(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/controller/fileuploader.php:160
+#10: Bitrix\UI\Controller\FileUploader->uploadAction(object, object, string)
+	
+#11: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#12: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#13: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-13 09:19:12 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Loader" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/events.php:136
+#0: {closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/file.php:155
+#5: Bitrix\Disk\File::add(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:331
+#6: Bitrix\Disk\Folder->processAdd(array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:298
+#7: Bitrix\Disk\Folder->addFile(array, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/uf/integration/diskuploadercontroller.php:85
+#8: Bitrix\Disk\Uf\Integration\DiskUploaderController->onUploadComplete(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/FileUploader/Uploader.php:157
+#9: Bitrix\UI\FileUploader\Uploader->upload(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/controller/fileuploader.php:160
+#10: Bitrix\UI\Controller\FileUploader->uploadAction(object, object, string)
+	
+#11: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#12: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#13: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-14 04:52:19 - Host: b24mybeget.ru - UNKNOWN - [ParseError] 
+syntax error, unexpected token "(", expecting variable (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:110
+#0: Composer\Autoload\includeFile(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/vendor/composer/ClassLoader.php:428
+#1: Composer\Autoload\ClassLoader->loadClass(string)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#4: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#5: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#6: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#7: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1803
+#8: CTaskItem->renew()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1629
+#9: TasksTaskComponent->renewAction(integer, array)
+	
+#10: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#11: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#12: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#13: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-14 04:54:20 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Loader" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/events.php:136
+#0: {closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/file.php:155
+#5: Bitrix\Disk\File::add(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:331
+#6: Bitrix\Disk\Folder->processAdd(array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:298
+#7: Bitrix\Disk\Folder->addFile(array, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/uf/integration/diskuploadercontroller.php:85
+#8: Bitrix\Disk\Uf\Integration\DiskUploaderController->onUploadComplete(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/FileUploader/Uploader.php:157
+#9: Bitrix\UI\FileUploader\Uploader->upload(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/controller/fileuploader.php:160
+#10: Bitrix\UI\Controller\FileUploader->uploadAction(object, object, string)
+	
+#11: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#12: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#13: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-14 04:54:21 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Loader" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/events.php:136
+#0: {closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/file.php:155
+#5: Bitrix\Disk\File::add(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:331
+#6: Bitrix\Disk\Folder->processAdd(array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:298
+#7: Bitrix\Disk\Folder->addFile(array, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/uf/integration/diskuploadercontroller.php:85
+#8: Bitrix\Disk\Uf\Integration\DiskUploaderController->onUploadComplete(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/FileUploader/Uploader.php:157
+#9: Bitrix\UI\FileUploader\Uploader->upload(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/controller/fileuploader.php:160
+#10: Bitrix\UI\Controller\FileUploader->uploadAction(object, object, string)
+	
+#11: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#12: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#13: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-14 04:54:24 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Class "Loader" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/events.php:136
+#0: {closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/file.php:155
+#5: Bitrix\Disk\File::add(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:331
+#6: Bitrix\Disk\Folder->processAdd(array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/folder.php:298
+#7: Bitrix\Disk\Folder->addFile(array, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/disk/lib/uf/integration/diskuploadercontroller.php:85
+#8: Bitrix\Disk\Uf\Integration\DiskUploaderController->onUploadComplete(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/FileUploader/Uploader.php:157
+#9: Bitrix\UI\FileUploader\Uploader->upload(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/ui/lib/controller/fileuploader.php:160
+#10: Bitrix\UI\Controller\FileUploader->uploadAction(object, object, string)
+	
+#11: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#12: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#13: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-14 04:55:42 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Method name must be a string (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:49
+#0: Otus\Tasks\MoveResultFilesToDeal::getFiles(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:38
+#1: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#4: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#5: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#6: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#7: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1670
+#8: CTaskItem->complete()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1751
+#9: TasksTaskComponent->completeAction(integer, array)
+	
+#10: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#11: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#12: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#13: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-14 04:57:59 - Host: b24mybeget.ru - UNKNOWN - [TypeError] 
+Otus\Tasks\MoveResultFilesToDeal::connectToHook(): Return value must be of type array, null returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:124
+#0: Otus\Tasks\MoveResultFilesToDeal::connectToHook(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:49
+#1: Otus\Tasks\MoveResultFilesToDeal::getFiles(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:38
+#2: Otus\Tasks\MoveResultFilesToDeal::MoveFiles(integer, array, array)
+	
+#3: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#4: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#5: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#6: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#7: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#8: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1670
+#9: CTaskItem->complete()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1751
+#10: TasksTaskComponent->completeAction(integer, array)
+	
+#11: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#12: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#13: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#14: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#15: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#16: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#17: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#18: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-14 05:14:05 - Host: b24mybeget.ru - UNKNOWN - [ParseError] 
+Unclosed '{' on line 65 does not match ')' (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Tasks/MoveResultFilesToDeal.php:85
+#0: Composer\Autoload\includeFile(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/vendor/composer/ClassLoader.php:428
+#1: Composer\Autoload\ClassLoader->loadClass(string)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5247
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:971
+#4: Bitrix\Tasks\Control\Task->onUpdate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/control/task.php:431
+#5: Bitrix\Tasks\Control\Task->update(integer, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/task.php:346
+#6: CTasks->Update(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:2624
+#7: CTaskItem->proceedAction(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/classes/general/taskitem.php:1803
+#8: CTaskItem->renew()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/tasks.task/class.php:1629
+#9: TasksTaskComponent->renewAction(integer, array)
+	
+#10: ReflectionMethod->invokeArgs(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:210
+#11: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/action.php:117
+#12: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/component/inlineaction.php:60
+#13: Bitrix\Main\Engine\Component\InlineAction->runWithSourceParametersList()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/engine/controller.php:425
+#14: Bitrix\Main\Engine\Controller->run(string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:141
+#15: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#16: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:29
+#17: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2025-11-15 11:28:55 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Extension" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/init.php:18
+#0: include_once
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#1: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#2: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/public/session.php:8
+#3: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/tools/public_session.php:1
+----------
+
+OTUS: 2025-11-15 11:29:02 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Extension" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/init.php:18
+#0: include_once
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#1: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#2: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#3: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#4: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/crm/deal/index.php:5
+#5: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#6: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-11-17 04:59:00 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Interface "Bitrix\Booking\Interfaces\ProviderInterface" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/integration/booking/provider.php:17
+#0: require_once
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/loader.php:433
+#1: Bitrix\Main\Loader::autoLoad(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/integration/booking/eventhandler.php:21
+#2: Bitrix\Crm\Integration\Booking\EventHandler::onGetProviderEventHandler(object)
+	
+#3: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#4: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#5: Bitrix\Main\EventManager->send(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/event.php:142
+#6: Bitrix\Main\Event->send()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/booking/lib/Integration/Booking/ProviderManager.php:70
+#7: Bitrix\Booking\Integration\Booking\ProviderManager::initProviders()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/booking/lib/Integration/Booking/ProviderManager.php:47
+#8: Bitrix\Booking\Integration\Booking\ProviderManager::getProviderByModuleId(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/booking/lib/Internals/Query/Booking/GetListFilter.php:208
+#9: Bitrix\Booking\Internals\Query\Booking\GetListFilter->prepareFilter()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/booking/lib/Internals/Repository/ORM/ResourceTypeRepository.php:55
+#10: Bitrix\Booking\Internals\Repository\ORM\ResourceTypeRepository->getList(integer, NULL, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/booking/lib/Internals/Repository/ORM/ResourceTypeRepository.php:81
+#11: Bitrix\Booking\Internals\Repository\ORM\ResourceTypeRepository->getById(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/booking/lib/Internals/Repository/ORM/ResourceTypeRepository.php:172
+#12: Bitrix\Booking\Internals\Repository\ORM\ResourceTypeRepository->insert(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/booking/lib/Internals/Repository/ORM/ResourceTypeRepository.php:114
+#13: Bitrix\Booking\Internals\Repository\ORM\ResourceTypeRepository->save(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/booking/install/index.php:300
+#14: booking->installResourceTypes()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/booking/install/index.php:130
+#15: booking->InstallDB()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/updates/update_m1763344740/booking/updater25.0.0/index.php:16
+#16: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/update_client.php:1
+#17: CUpdateClient::RunUpdaterScript(string, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/update_client.php:1
+#18: CUpdateClient::UpdateStepModules(string, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/admin/update_system_call.php:164
+#19: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/admin/update_system_call.php:2
+----------
+
+OTUS: 2025-11-17 05:02:07 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Booking\Service\BookingFeature" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/.top.menu_ext.php:244
+#0: include
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/menu.php:116
+#1: CMenu->Init(string, boolean, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/menu/component.php:71
+#2: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:615
+#3: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:105
+#4: CBitrixComponent->executeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:668
+#5: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/templates/bitrix24/header.php:381
+#7: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_after.php:88
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:11
+#9: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#10: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/stream/index.php:11
+----------
+
+OTUS: 2025-11-17 05:06:36 - Host: b24mybeget.ru - UNKNOWN - [Error] 
+Failed opening required '/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/exception.php' (include_path='.:/usr/share/php') (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/loader.php:369
+#0: Bitrix\Main\Loader::autoLoad(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/exception.php:21
+#1: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/loader.php:433
+#2: Bitrix\Main\Loader::autoLoad(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/tools.php:9
+#3: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/include.php:12
+#4: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/loader.php:187
+#5: Bitrix\Main\Loader::includeModuleInternal(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/loader.php:143
+#6: Bitrix\Main\Loader::includeModule(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/loader.php:173
+#7: Bitrix\Main\Loader::requireModule(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/Messenger/Internals/Config/QueueConfig.php:35
+#8: Bitrix\Main\Messenger\Internals\Config\QueueConfig->createReceiver()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/Messenger/Internals/Worker.php:37
+#9: Bitrix\Main\Messenger\Internals\Worker->process()
+	
+#10: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:845
+#11: Bitrix\Main\Application->runBackgroundJobs()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:380
+#12: Bitrix\Main\Application->terminate(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:332
+#13: Bitrix\Main\Application->end()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:3703
+#14: CAllMain::FinalActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog_admin_after.php:55
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/admin/update_system_call.php:367
+#16: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/admin/update_system_call.php:2
+----------
+
+OTUS: 2025-11-17 05:06:36 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/exception.php' (include_path='.:/usr/share/php') (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/loader.php:369
+#0: Bitrix\Main\Loader::autoLoad(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/exception.php:21
+#1: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/loader.php:433
+#2: Bitrix\Main\Loader::autoLoad(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/tools.php:9
+#3: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/include.php:12
+#4: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/loader.php:187
+#5: Bitrix\Main\Loader::includeModuleInternal(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/loader.php:143
+#6: Bitrix\Main\Loader::includeModule(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/loader.php:173
+#7: Bitrix\Main\Loader::requireModule(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/Messenger/Internals/Config/QueueConfig.php:35
+#8: Bitrix\Main\Messenger\Internals\Config\QueueConfig->createReceiver()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/Messenger/Internals/Worker.php:37
+#9: Bitrix\Main\Messenger\Internals\Worker->process()
+	
+#10: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:845
+#11: Bitrix\Main\Application->runBackgroundJobs()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:380
+#12: Bitrix\Main\Application->terminate(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:332
+#13: Bitrix\Main\Application->end()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:3703
+#14: CAllMain::FinalActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog_admin_after.php:55
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/admin/update_system_call.php:367
+#16: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/admin/update_system_call.php:2
+----------
+
+OTUS: 2025-11-17 05:07:20 - Host: b24mybeget.ru - UNKNOWN - [Bitrix\Main\Config\ConfigurationException] 
+The class "Bitrix\Tasks\V2\Internals\Control\Task\Action\Add\Async\Receiver\AddSearchIndex" does not exist (180)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/Messenger/Internals/Config/QueueConfig.php:39
+#0: Bitrix\Main\Messenger\Internals\Config\QueueConfig->createReceiver()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/Messenger/Internals/Worker.php:37
+#1: Bitrix\Main\Messenger\Internals\Worker->process()
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:845
+#3: Bitrix\Main\Application->runBackgroundJobs()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:380
+#4: Bitrix\Main\Application->terminate(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:332
+#5: Bitrix\Main\Application->end()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:3702
+#6: CAllMain::FinalActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog_after.php:61
+#7: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog.php:3
+#8: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:345
+#9: CAllMain->AuthForm(boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#10: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#11: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#12: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#13: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#14: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-11-17 05:07:20 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\Config\ConfigurationException] 
+The class "Bitrix\Tasks\V2\Internals\Control\Task\Action\Add\Async\Receiver\AddSearchIndex" does not exist (180)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/Messenger/Internals/Config/QueueConfig.php:39
+#0: Bitrix\Main\Messenger\Internals\Config\QueueConfig->createReceiver()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/Messenger/Internals/Worker.php:37
+#1: Bitrix\Main\Messenger\Internals\Worker->process()
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:845
+#3: Bitrix\Main\Application->runBackgroundJobs()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:380
+#4: Bitrix\Main\Application->terminate(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:332
+#5: Bitrix\Main\Application->end()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:3702
+#6: CAllMain::FinalActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog_after.php:61
+#7: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog.php:3
+#8: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:345
+#9: CAllMain->AuthForm(boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#10: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#11: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#12: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#13: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#14: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-11-17 05:07:20 - Host: b24mybeget.ru - UNKNOWN - [Bitrix\Main\Config\ConfigurationException] 
+The class "Bitrix\Tasks\V2\Internals\Control\Task\Action\Add\Async\Receiver\AddSearchIndex" does not exist (180)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/Messenger/Internals/Config/QueueConfig.php:39
+#0: Bitrix\Main\Messenger\Internals\Config\QueueConfig->createReceiver()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/Messenger/Internals/Worker.php:37
+#1: Bitrix\Main\Messenger\Internals\Worker->process()
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:845
+#3: Bitrix\Main\Application->runBackgroundJobs()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:380
+#4: Bitrix\Main\Application->terminate(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:332
+#5: Bitrix\Main\Application->end()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:3702
+#6: CAllMain::FinalActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog_after.php:61
+#7: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog.php:3
+#8: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:345
+#9: CAllMain->AuthForm(boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#10: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#11: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#12: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#13: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#14: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-11-17 05:07:20 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\Config\ConfigurationException] 
+The class "Bitrix\Tasks\V2\Internals\Control\Task\Action\Add\Async\Receiver\AddSearchIndex" does not exist (180)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/Messenger/Internals/Config/QueueConfig.php:39
+#0: Bitrix\Main\Messenger\Internals\Config\QueueConfig->createReceiver()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/Messenger/Internals/Worker.php:37
+#1: Bitrix\Main\Messenger\Internals\Worker->process()
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:845
+#3: Bitrix\Main\Application->runBackgroundJobs()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:380
+#4: Bitrix\Main\Application->terminate(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:332
+#5: Bitrix\Main\Application->end()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:3702
+#6: CAllMain::FinalActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog_after.php:61
+#7: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog.php:3
+#8: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:345
+#9: CAllMain->AuthForm(boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#10: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#11: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#12: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#13: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#14: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-11-17 05:07:38 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\SqlQueryException] 
+Mysql query error: (2006) MySQL server has gone away (400)
+
+				SELECT FROM_MODULE_ID, MESSAGE_ID, SORT, TO_MODULE_ID, TO_PATH,
+					TO_CLASS, TO_METHOD, TO_METHOD_ARG, VERSION
+				FROM b_module_to_module m2m
+					INNER JOIN b_module m ON (m2m.TO_MODULE_ID = m.ID)
+				ORDER BY SORT
+			
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqlcommonconnection.php:415
+#0: Bitrix\Main\DB\MysqlCommonConnection->createQueryException(integer, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+#1: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/connection.php:324
+#2: Bitrix\Main\DB\Connection->query(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:247
+#3: Bitrix\Main\EventManager->loadEventHandlers()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/eventmanager.php:343
+#4: Bitrix\Main\EventManager->findEventHandlers(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5180
+#5: GetModuleEvents(string, string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#6: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#7: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/public/session.php:8
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/tools/public_session.php:1
+----------
+

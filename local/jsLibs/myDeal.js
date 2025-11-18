@@ -1,60 +1,56 @@
 BX.ready(function() {
-    alert('7556765');
+    BX.addCustomEvent('BX.UI.EntityEditorField:onLayout', function(e) {
+        var fieldFiles = ['UF_DOCUMENTS', 'UF_SOME', 'UF_GHGH'];
+        var strFields = '';
+        var arStr = [];
+        $.each(fieldFiles, function(inf, valf){
+            //console.log(inf + ': ' + valf);
+            arStr[inf] = 'div[data-cid="' + valf + '"] .file';
+        })
+        strFields = arStr.join(', ');
+        console.log(strFields);
+        //$('div[data-cid="UF_DOCUMENTS"] label.ui-entity-editor-block-title-text').after('<a href="" class="download">Скачать архив</span>');
+        $('div[data-cid="UF_DOCUMENTS"] .file').append('<a href="" class="download">Скачать архив</span>');
+        $('a.download').click(function(e){
+            e.preventDefault();
+            let elemenetId = window.location.pathname.split('/')[4];
+            const dealData = {
+                id: elemenetId,
+            };
+            console.log(dealData.id);
+            BX.ajax({
+                url: '/local/ajax/downloadArchive.php',
+                method: 'POST',
+                dataType: 'json',
+                data: dealData,
+                onsuccess: function ($data) {
+                    let getData = JSON.parse(JSON.stringify($data));
+                    console.log(getData.message);
+                    const link = document.createElement('a');
+                    link.href = '/local/ajax/download.zip';
+                    link.download = 'documents.zip';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
 
-
-    let originalBxOnCustomEvent = BX.onCustomEvent;
-
-    BX.onCustomEvent = function (eventObject, eventName, eventParams, secureParams)
-    {
-        // onMenuItemHover например выбрасывает в другом порядке
-        let realEventName = BX.type.isString(eventName) ?
-            eventName : BX.type.isString(eventObject) ? eventObject : null;
-
-        if (realEventName) {
-            console.log(
-                '%c' + realEventName,
-                'background: #222; color: #bada55; font-weight: bold; padding: 3px 4px;'
-            );
-        }
-
-        console.dir({
-            eventObject: eventObject,
-            eventParams: eventParams,
-            secureParams: secureParams
-        });
-
-        originalBxOnCustomEvent.apply(
-            null, arguments
-        );
-    };
-
-    // Подписываемся на событие инициализации табов
-    BX.addCustomEvent('BX.Crm.EntityEditorControllerFactory:onInitialize', function(tabs, entity) {
-        console.log('Табы инициализированы:', tabs);
-        console.log('Сущность:', entity);
-
-        // Добавляем кастомный таб
-        addCustomTab(tabs, entity);
-    });
+                    BX.ajax({
+                        url: '/local/ajax/downloadArchive.php',
+                        method: 'POST',
+                        dataType: 'json',
+                        data: {ok: 'ok'},
+                        onsuccess: function ($data) {
+                            let getData = JSON.parse(JSON.stringify($data));
+                            console.log(getData.message);
+                        },
+                        onfailure: function ($data) {
+                            console.error();
+                        }
+                    });
+                },
+                onfailure: function ($data) {
+                    console.error();
+                }
+            });
+        });        
+    });    
 });
-
-function addCustomTab(tabs, entity) {
-    // Создаем новый таб
-    const customTab = {
-        id: 'custom_tab',
-        name: 'Мой кастомный таб',
-        enabled: true,
-        active: false,
-        fields: []
-    };
-
-    // Добавляем таб в коллекцию
-    tabs.add(customTab);
-
-    // Подписываемся на активацию таба
-    BX.addCustomEvent(tabs, 'onTabActivate', function(tab) {
-        if (tab.id === 'custom_tab') {
-            loadCustomTabContent(tab, entity);
-        }
-    });
-}
