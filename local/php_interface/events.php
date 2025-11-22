@@ -92,18 +92,12 @@ $eventManager->addEventHandler('disk', 'onAfterAddFile', function (\Bitrix\Main\
     
     list($file) = $event->getParameters();
     
-    //AddMessage2Log($file->getName(), "fileName");
-    //AddMessage2Log($file->getID(), "fileID");
-    //AddMessage2Log($file->getFile(), "getFile");
-    
     $fileID = $file->getID();
     $arrType = $file->getFile();
     $path = CFile::GetPath($arrType["ID"]);
-    
  
     if ($file) 
     {
-    
         $fileInfo = $file->getFile();
         $fileName = $file->getName();
         $fileNameOne = substr($fileName, 0, -5);
@@ -236,14 +230,12 @@ $eventManager->addEventHandler('disk', 'onAfterAddFile', function (\Bitrix\Main\
             //Удаляем временные файлы
             unlink($_SERVER['DOCUMENT_ROOT']."/upload/mobile_heic/".$fileNameOne.".jpg");
             unlink($_SERVER['DOCUMENT_ROOT']."/upload/mobile_heic/".$fileName);
-            
         }
     }
 });
 
 if (CSite::InDir('/crm/deal/details/')) {
    AddEventHandler("main", "OnEpilog", array("DownloadArchive", "OnEpilogHandler"));
-
     class DownloadArchive
     {
         static function OnEpilogHandler()
@@ -256,7 +248,6 @@ if (CSite::InDir('/crm/deal/details/')) {
                     'rel' => array(),
                     'lang' => '/local/jsLibs/lang/' . LANGUAGE_ID . 'lib.php',
                 ),
-
             );
 
             foreach ($arJsConfig as $ext => $arext) {
@@ -265,5 +256,28 @@ if (CSite::InDir('/crm/deal/details/')) {
 
             CUtil::InitJSCore(array('my_deal'));
         }
+    }
+}
+
+AddEventHandler("main", "OnEpilog", array("StartOfWorkingDay", "OnEpilogHandler"));
+class StartOfWorkingDay
+{
+    static function OnEpilogHandler()
+    {
+        CJSCore::Init(array("jquery3", "popup"));
+        $arJsConfig = array(
+            'workStart' => array(
+                'js' => '/local/jsLibs/workStart/workStart.js',
+                'css' => '/local/jsLibs/workStart/workStart.css',
+                'rel' => array(),
+                'lang' => '/local/jsLibs/lang/' . LANGUAGE_ID . 'lib.php',
+            ),
+        );
+
+        foreach ($arJsConfig as $ext => $arext) {
+            CJSCore::RegisterExt($ext, $arext);
+        }
+
+        CUtil::InitJSCore(array('workStart'));
     }
 }
