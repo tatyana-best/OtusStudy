@@ -1,6 +1,7 @@
 <?php
 
 use Bitrix\Main\Diag\Debug;
+use Bitrix\Main\UI\Extension;
 
 if (file_exists(__DIR__ . '/../vendor/autoload.php')) {
     require_once __DIR__ . '/../vendor/autoload.php';
@@ -13,6 +14,10 @@ if (file_exists(__DIR__ . '/events.php')) {
 if (file_exists(__DIR__ . '/functions.php')) {
     require_once __DIR__ . '/functions.php';
 }
+
+Extension::load([
+    'otus.crm.negative_currency',
+]);
 
 
 /*spl_autoload_register(function($sClassName)

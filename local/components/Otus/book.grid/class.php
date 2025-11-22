@@ -172,6 +172,11 @@ class BookGrid extends \CBitrixComponent implements Controllerable, Errorable
                 'text' => 'Добавить книгу',
                 'color' => Color::PRIMARY_DARK,
             ],
+            [
+                'onclick' => 'showConfirmationBookPopup',
+                'text' => 'Подтвердите согласие на чтение книг',
+                'color' => Color::DANGER,
+            ],
         ];
     }
 
