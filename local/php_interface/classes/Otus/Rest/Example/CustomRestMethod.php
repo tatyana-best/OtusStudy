@@ -18,6 +18,10 @@ class CustomRestMethod
                     'callback' => ['Otus\\Rest\\Example\\GetDealsListOfContact', 'GetDealsOfContact'],
                     'options' => [],
                 ],
+                'crm.productsofsp.list' => [
+                    'callback' => ['Otus\\Rest\\GetProductsOfSP\\GetProductsOfSomeSP', 'GetProducts'],
+                    'options' => [],
+                ],
             ],
         ];
     }

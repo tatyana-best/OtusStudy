@@ -54,8 +54,119 @@ print_r($res);*/
 
 use Bitrix\Disk\File;
 use Bitrix\Main\Loader;
-\Bitrix\Main\Loader::includeModule('disk');
+use Bitrix\Crm\Service\Container;
 
+use Otus\Rest\GetProductsOfSP\GetProductsOfSomeSP;
+
+\Bitrix\Main\Loader::includeModule('crm');
+\Bitrix\Main\Loader::includeModule('iblock');
+// use Rest\CustomRestMethod;
+
+//echo "<pre>".print_r(GetProductsOfSomeSP::get(), true)."</pre>";
+
+//\Bitrix\Main\Loader::includeModule('disk');
+
+// $result = \Bitrix\Crm\ProductRowTable::getList([
+//     'select' => [
+//         'ID',
+//         'PRODUCT_ID',
+//         'PRODUCT_NAME',
+//         'PRICE',
+//         'QUANTITY',
+//         'PROPERTY_93' => 'PROPERTY_93.VALUE'
+//     ],
+//     'filter' => [
+//         '=OWNER_ID' => 1,
+//         '=OWNER_TYPE' => 'T40e'
+//     ],
+//     'runtime' => [
+//         new \Bitrix\Main\Entity\ReferenceField(
+//             'PRODUCT',
+//             Bitrix\Iblock\ElementTable::getEntity(),
+//             [
+//                 '=this.PRODUCT_ID' => 'ref.ID'
+//             ]
+//         )
+//     ]
+// ]);
+
+/*$result = \Bitrix\Crm\ProductRowTable::getList([
+    'select' => [
+        'ID',
+        'PRODUCT_ID',
+        'PRODUCT_NAME',
+        'PROPERTY_93'
+    ],
+    'filter' => [
+        '=OWNER_ID' => 1,
+        '=OWNER_TYPE' => 'T40e'
+    ],
+    'runtime' => [
+        new \Bitrix\Main\Entity\ReferenceField(
+            'PRODUCT',
+            ElementTable::getEntity(),
+            [
+                '=this.PRODUCT_ID' => 'ref.ID'
+            ],
+            ['join_type' => 'LEFT']
+        ),
+        new \Bitrix\Main\Entity\ReferenceField(
+            'PROPERTY_93',
+            ElementPropertyTable::getEntity(),
+            [
+                '=this.PRODUCT_ID' => 'ref.IBLOCK_ELEMENT_ID',
+                '=ref.IBLOCK_PROPERTY_ID' => new \Bitrix\Main\DB\SqlExpression('?', 93)
+            ],
+            ['join_type' => 'LEFT']
+        )
+    ]
+]);*/
+
+\Bitrix\Main\Loader::includeModule('crm');
+            \Bitrix\Main\Loader::includeModule('iblock');
+            
+            $smartTypeId = $query['typeId'];
+            $spId = $query['spId'];           
+            
+            $result = \Bitrix\Crm\ProductRowTable::getList([
+                'select' => [
+                    'ID',
+                    'PRODUCT_ID',
+                    'PRODUCT_NAME',
+                    'PROPERTY_93'
+                ],
+                'filter' => [
+                    '=OWNER_ID' => 1,
+                    '=OWNER_TYPE' => 'T40e'
+                ],
+                'runtime' => [
+                    new \Bitrix\Main\Entity\ReferenceField(
+                        'PRODUCT',
+                        \Bitrix\Iblock\ElementTable::getEntity(),
+                        [
+                            '=this.PRODUCT_ID' => 'ref.ID'
+                        ],
+                        ['join_type' => 'LEFT']
+                    ),
+                    new \Bitrix\Main\Entity\ReferenceField(
+                        'PROPERTY_93',
+                        \Bitrix\Iblock\ElementPropertyTable::getEntity(),
+                        [
+                            '=this.PRODUCT_ID' => 'ref.IBLOCK_ELEMENT_ID',
+                            '=ref.IBLOCK_PROPERTY_ID' => new \Bitrix\Main\DB\SqlExpression('?', 93)
+                        ],
+                        ['join_type' => 'LEFT']
+                    )
+                ]
+            ]);
+
+            $arDate = '';
+            while ($row = $result->fetch()) {
+                $arDate = $row['CRM_PRODUCT_ROW_PROPERTY_93_VALUE'];
+            } 
+
+
+echo "<pre>".print_r($arDate, true)."</pre>";
 
 /*file_put_contents(getcwd() . '/logs/log.txt', $_REQUEST, FILE_APPEND);
 

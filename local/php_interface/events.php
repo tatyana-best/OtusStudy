@@ -7,7 +7,6 @@ $eventManager = EventManager::getInstance();
 
 $eventManager->addEventHandlerCompatible("rest", "OnRestServiceBuildDescription", Array("\\Otus\\Rest\\Example\\CustomRestMethod", "addCustomRestMethods"));
 $eventManager->addEventHandlerCompatible("rest", "OnRestServiceBuildDescription", Array("\\Otus\\Rest\\Example\\MyDeal", "addCustomRestMethods"));
-//$eventManager->addEventHandlerCompatible("rest", "OnRestServiceBuildDescription", Array("\\Otus\\Rest\\GetProductsOfLead\\GetProductsOfLead", "addCustomRestMethods"));
 $eventManager->addEventHandler("crm", "onEntityDetailsTabsInitialized", Array("\\Otus\\Rest\\Example\\MyDeal", "updateTabs"));
 
 if (CSite::InDir('/crm/deal/details/')){
