@@ -3118,3 +3118,31 @@ Mysql connect error [localhost]: (1040) Too many connections (400)
 	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
 ----------
 
+OTUS: 2025-11-29 13:06:01 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Loc" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/activities/getcompanyfromdadataactivity/properties_dialog.php:6
+#0: include
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/runtime.php:673
+#1: CBPRuntime->executeResourceFile(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/activities/getcompanyfromdadataactivity/getcompanyfromdadataactivity.php:215
+#2: CBPGetCompanyFromDadataActivity::GetPropertiesDialog(array, string, array, array, array, array, string, object, string, array)
+	
+#3: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/activity.php:1403
+#4: CBPActivity::callStaticMethod(string, string, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizprocdesigner/admin/bizproc_activity_settings.php:383
+#5: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/tools/bizproc_activity_settings.php:2
+----------
+
+OTUS: 2025-11-29 15:17:48 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "FieldType" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/activities/getcompanyfromdadataactivity/getcompanyfromdadataactivity.php:42
+#0: CBPGetCompanyFromDadataActivity->__construct(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/activity.php:1369
+#1: CBPActivity::createInstance(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizprocdesigner/admin/bizproc_activity_settings.php:233
+#2: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/tools/bizproc_activity_settings.php:2
+----------
+

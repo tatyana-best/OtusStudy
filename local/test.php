@@ -52,11 +52,11 @@ print_r($res);*/
 
 //print_r($_REQUEST);
 
-use Bitrix\Disk\File;
-use Bitrix\Main\Loader;
-use Bitrix\Crm\Service\Container;
-
-use Otus\Rest\GetProductsOfSP\GetProductsOfSomeSP;
+//use Bitrix\Disk\File;
+//use Bitrix\Main\Loader;
+//use Bitrix\Crm\Service\Container;
+//
+//use Otus\Rest\GetProductsOfSP\GetProductsOfSomeSP;
 
 \Bitrix\Main\Loader::includeModule('crm');
 \Bitrix\Main\Loader::includeModule('iblock');
@@ -122,10 +122,10 @@ use Otus\Rest\GetProductsOfSP\GetProductsOfSomeSP;
     ]
 ]);*/
 
-\Bitrix\Main\Loader::includeModule('crm');
-\Bitrix\Main\Loader::includeModule('iblock');
+//\Bitrix\Main\Loader::includeModule('crm');
+//\Bitrix\Main\Loader::includeModule('iblock');
 
-$smartTypeId = $query['typeId'];
+/*$smartTypeId = $query['typeId'];
 $spId = $query['spId'];           
 
 $result = \Bitrix\Crm\ProductRowTable::getList([
@@ -166,7 +166,7 @@ while ($row = $result->fetch()) {
 } 
 
 
-echo "<pre>".print_r($arDate, true)."</pre>";
+echo "<pre>".print_r($arDate, true)."</pre>";*/
 
 /*file_put_contents(getcwd() . '/logs/log.txt', $_REQUEST, FILE_APPEND);
 
@@ -217,10 +217,10 @@ if ($taskResult == true) {
 file_put_contents(getcwd() . '/logs/log.txt', "<pre>".print_r($arFiles, true) . "</pre>", FILE_APPEND); */
 
 
-$data = array(
+/*$data = array(
     'id'  => 218,
     //'commentId' => $_REQUEST['data']['FIELDS_AFTER']['ID']
-);		
+);
 //file_put_contents(getcwd() . '/logs/log.txt', $data, FILE_APPEND);
 
 $ch = curl_init('https://b24mybeget.ru/rest/1/amk6xfu7682d4h6d/disk.file.get');
@@ -235,7 +235,7 @@ curl_close($ch);
 
 $res = json_decode($res, true)['result'];
 file_put_contents(getcwd() . '/logs/log.txt', "<pre>***".print_r($res, true) . "</pre>", FILE_APPEND);
-$arFiles = [];
+$arFiles = [];*/
 //$taskResult = false;
 
 //if ($taskResult == true) {
@@ -259,3 +259,26 @@ $arFiles = [];
 
 
 //require_once $_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php";
+
+$data = array(
+    "query" => "7812014560",
+);
+
+$headers = array(
+    "Content-Type: application/json",
+    "Accept: application/json",
+    "Authorization: Token b10073aafa25d617f46c89ab538dd4693589c7b5",
+);
+
+$ch = curl_init('https://suggestions.dadata.ru/suggestions/api/4_1/rs/findById/party');
+curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data, JSON_UNESCAPED_UNICODE));
+curl_setopt($ch, CURLOPT_HEADER, false);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+$res = curl_exec($ch);
+curl_close($ch);
+
+$res = json_decode($res, JSON_UNESCAPED_UNICODE);
+
+echo "<pre>" . print_r($res, true) . "</pre>";
