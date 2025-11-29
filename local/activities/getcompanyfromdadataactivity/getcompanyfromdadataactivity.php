@@ -10,9 +10,6 @@ use Bitrix\Main\Localization\Loc;
 /** @property-write string|null ErrorMessage */
 class CBPGetCompanyFromDadataActivity extends CBPActivity
 {
-	const EXECUTION_MAX_DEPTH = 1;
-	private static $executionDepth = [];
-
 	public function __construct($name)
 	{
         parent::__construct($name);
