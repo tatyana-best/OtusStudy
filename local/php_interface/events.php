@@ -248,13 +248,19 @@ if (CSite::InDir('/crm/deal/details/')) {
                     'rel' => array(),
                     'lang' => '/local/jsLibs/lang/' . LANGUAGE_ID . 'lib.php',
                 ),
+                'documentButton' => array(
+                    'js' => '/local/jsLibs/documentButton/documentButton.js',
+                    'css' => '/local/jsLibs/documentButton/documentButton.css',
+                    'rel' => array(),
+                    'lang' => '/local/jsLibs/lang/' . LANGUAGE_ID . 'lib.php',
+                ),
             );
 
             foreach ($arJsConfig as $ext => $arext) {
                 CJSCore::RegisterExt($ext, $arext);
             }
 
-            CUtil::InitJSCore(array('my_deal'));
+            CUtil::InitJSCore(array('my_deal', 'documentButton'));
         }
     }
 }

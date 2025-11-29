@@ -1,0 +1,22 @@
+<pre>***Array
+(
+    [ID] => 218
+    [NAME] => Проверка гарантийных случаев по серийным номерам_Логика (6) (1).pdf
+    [CODE] => 
+    [STORAGE_ID] => 1
+    [TYPE] => file
+    [PARENT_ID] => 62
+    [DELETED_TYPE] => 0
+    [GLOBAL_CONTENT_VERSION] => 1
+    [FILE_ID] => 345
+    [SIZE] => 73514
+    [CREATE_TIME] => 2025-11-12T11:52:07+03:00
+    [UPDATE_TIME] => 2025-11-12T11:52:07+03:00
+    [DELETE_TIME] => 
+    [CREATED_BY] => 1
+    [UPDATED_BY] => 1
+    [DELETED_BY] => 0
+    [DOWNLOAD_URL] => https://b24mybeget.ru/rest/1/amk6xfu7682d4h6d/download/?token=disk%7CaWQ9MjE4Jl89c2FNbzBGblpzNmZDb0E0alRYR0I0SkM0ZXVlYTRjWW0%3D%7CImRvd25sb2FkfGRpc2t8YVdROU1qRTRKbDg5YzJGTmJ6QkdibHB6Tm1aRGIwRTBhbFJZUjBJMFNrTTBaWFZsWVRSaldXMD18MXxhbWs2eGZ1NzY4MmQ0aDZkIg%3D%3D.wMIrFBzZUSuyPSiUc1HdlJZP6ObRfbhDXCkCLkvHjTo%3D
+    [DETAIL_URL] => https://b24mybeget.ru/company/personal/user/1/disk/file/Загруженные файлы/Проверка гарантийных случаев по серийным номерам_Логика (6) (1).pdf
+)
+</pre>

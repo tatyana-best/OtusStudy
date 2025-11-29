@@ -2992,3 +2992,129 @@ Mysql query error: (2006) MySQL server has gone away (400)
 	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/tools/public_session.php:1
 ----------
 
+OTUS: 2025-11-25 12:02:33 - Host: b24mybeget.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+Error in agent CSecuritySession::CleanUpAgent();. (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:516
+#0: CAllAgent::ExecuteAgents()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:357
+#1: CAllAgent::CheckAgents()
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:845
+#3: Bitrix\Main\Application->runBackgroundJobs()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:380
+#4: Bitrix\Main\Application->terminate(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:332
+#5: Bitrix\Main\Application->end()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:3702
+#6: CAllMain::FinalActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog_after.php:61
+#7: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog.php:3
+#8: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:345
+#9: CAllMain->AuthForm(boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#10: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#11: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#12: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#13: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#14: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+Previous exception: [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:137
+#1: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/connection.php:324
+#2: Bitrix\Main\DB\Connection->query(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/connection.php:373
+#3: Bitrix\Main\DB\Connection->queryExecute(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/session/handlers/table/usersessiontable.php:174
+#4: Bitrix\Main\Session\Handlers\Table\UserSessionTable::deleteOlderThan(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/security/classes/general/session_db.php:141
+#5: CSecuritySessionDB::gc(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/security/classes/general/session.php:52
+#6: CSecuritySession::CleanUpAgent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+#7: eval
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:508
+#8: CAllAgent::ExecuteAgents()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:357
+#9: CAllAgent::CheckAgents()
+	
+#10: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:845
+#11: Bitrix\Main\Application->runBackgroundJobs()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:380
+#12: Bitrix\Main\Application->terminate(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:332
+#13: Bitrix\Main\Application->end()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:3702
+#14: CAllMain::FinalActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog_after.php:61
+#15: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog.php:3
+#16: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:345
+#17: CAllMain->AuthForm(boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#18: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#19: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#20: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#21: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#22: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-11-25 12:02:41 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#16: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
