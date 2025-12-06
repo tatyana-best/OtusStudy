@@ -1,5 +1,4 @@
 BX.ready(function() {
-    alert('234123');
     BX.addCustomEvent("SidePanel.Slider:onLoad", function(p) {
         let toolbarRight = $('.ui-toolbar-right-buttons');
         if($('.ui-toolbar-right-buttons .loadDoc').length <= 0) {

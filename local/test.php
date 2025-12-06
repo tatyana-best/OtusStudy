@@ -260,7 +260,7 @@ $arFiles = [];*/
 
 //require_once $_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php";
 
-$data = array(
+/*$data = array(
     "query" => "7812014560",
 );
 
@@ -281,4 +281,27 @@ curl_close($ch);
 
 $res = json_decode($res, JSON_UNESCAPED_UNICODE);
 
-echo "<pre>" . print_r($res, true) . "</pre>";
+echo "<pre>" . print_r($res, true) . "</pre>";*/
+
+use \Bitrix\Iblock\Elements\ElementRequestsTable;
+use Bitrix\Crm\Service;
+use \Bitrix\Main\Context;
+use Bitrix\Crm\Item;
+use Bitrix\Main\Loader;
+use Bitrix\Crm\DealTable;
+use Bitrix\Iblock\ElementTable;
+
+Loader::IncludeModule('crm');
+Loader::includeModule('iblock');
+
+$dataClass = \Bitrix\Iblock\Iblock::wakeUp(30)->getEntityDataClass();
+$element = $dataClass::getList([
+    'select' => ['ID'],
+    'filter' => ['DEALC.VALUE' => 9]
+])->fetchAll();
+
+$req = 0;
+foreach ($element as $request){
+    $req = $request['ID'];
+}
+echo "<pre>" . print_r($req, true) . "</pre>";

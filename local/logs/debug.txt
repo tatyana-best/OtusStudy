@@ -3181,3 +3181,667 @@ Mysql connect error [localhost]: (1040) Too many connections (400)
 	/home/b/b92314sp/b24mybeget.ru/public_html/index.php:8
 ----------
 
+OTUS: 2025-12-06 09:26:52 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method Otus\CRM\Deals\UpdateRequestsIblockAfterDealUpdate::updateRequest() cannot be called statically (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#0: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#1: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:52
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->executeEvent(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1112
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:210
+#5: Bitrix\Crm\Service\Operation->launch()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:431
+#6: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:166
+#7: Bitrix\Crm\Entity\Compatibility\Adapter->performUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/classes/general/crm_deal.php:2838
+#8: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1037
+----------
+
+OTUS: 2025-12-06 09:28:34 - Host: b24mybeget.ru - FATAL - [ErrorException] E_COMPILE_ERROR
+Namespace declaration statement has to be the very first statement or after any declare call in the script (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/CRM/Deals/UpdateRequestsIblockAfterDealUpdate.php:4
+----------
+
+OTUS: 2025-12-06 09:29:56 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method Otus\CRM\Deals\UpdateRequestsIblockAfterDealUpdate::updateRequest() cannot be called statically (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#0: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#1: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:52
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->executeEvent(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1112
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:210
+#5: Bitrix\Crm\Service\Operation->launch()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:431
+#6: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:166
+#7: Bitrix\Crm\Entity\Compatibility\Adapter->performUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/classes/general/crm_deal.php:2838
+#8: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1037
+----------
+
+OTUS: 2025-12-06 09:31:55 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method Otus\CRM\Deals\UpdateRequestsIblockAfterDealUpdate::updateRequest() cannot be called statically (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#0: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#1: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:52
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->executeEvent(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1112
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:210
+#5: Bitrix\Crm\Service\Operation->launch()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:431
+#6: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:166
+#7: Bitrix\Crm\Entity\Compatibility\Adapter->performUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/classes/general/crm_deal.php:2838
+#8: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1037
+----------
+
+OTUS: 2025-12-06 09:33:08 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected identifier "define" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/CRM/Deals/UpdateRequestsIblockAfterDealUpdate.php:19
+#0: Composer\Autoload\includeFile(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/vendor/composer/ClassLoader.php:428
+#1: Composer\Autoload\ClassLoader->loadClass(string)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:52
+#4: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->executeEvent(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#5: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1112
+#6: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:210
+#7: Bitrix\Crm\Service\Operation->launch()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:431
+#8: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:166
+#9: Bitrix\Crm\Entity\Compatibility\Adapter->performUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/classes/general/crm_deal.php:2838
+#10: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1037
+----------
+
+OTUS: 2025-12-06 09:38:33 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected identifier "define" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/CRM/Deals/UpdateRequestsIblockAfterDealUpdate.php:19
+#0: Composer\Autoload\includeFile(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/vendor/composer/ClassLoader.php:428
+#1: Composer\Autoload\ClassLoader->loadClass(string)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#4: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#5: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1112
+#6: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1489
+#7: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:135
+#8: Bitrix\Crm\Service\Operation->launch()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:431
+#9: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:166
+#10: Bitrix\Crm\Entity\Compatibility\Adapter->performUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/classes/general/crm_deal.php:2838
+#11: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1037
+----------
+
+OTUS: 2025-12-06 09:47:09 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected identifier "define" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/CRM/Deals/UpdateRequestsIblockAfterDealUpdate.php:19
+#0: Composer\Autoload\includeFile(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/vendor/composer/ClassLoader.php:428
+#1: Composer\Autoload\ClassLoader->loadClass(string)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#4: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#5: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1112
+#6: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1489
+#7: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:135
+#8: Bitrix\Crm\Service\Operation->launch()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:431
+#9: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:166
+#10: Bitrix\Crm\Entity\Compatibility\Adapter->performUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/classes/general/crm_deal.php:2838
+#11: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1037
+----------
+
+OTUS: 2025-12-06 09:48:02 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method Otus\CRM\Deals\UpdateRequestsIblockAfterDealUpdate::updateRequest() cannot be called statically (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#0: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#1: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1112
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1489
+#5: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:135
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:431
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:166
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/classes/general/crm_deal.php:2838
+#9: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1037
+----------
+
+OTUS: 2025-12-06 09:48:59 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Bitrix\Crm\Integration\BizProc\Starter\Dto\RunDataDto::__construct(): Argument #1 ($actualFields) must be of type ?array, string given, called in /home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php on line 1230 (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/integration/bizproc/starter/dto/rundatadto.php:7
+#0: Bitrix\Crm\Integration\BizProc\Starter\Dto\RunDataDto->__construct(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1230
+----------
+
+OTUS: 2025-12-06 10:53:22 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `DEAL` (DEAL) for \Bitrix\Iblock\Elements\ElementRequests Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
+#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+#4: Bitrix\Main\ORM\Query\Query->fetchCollection()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:302
+----------
+
+OTUS: 2025-12-06 10:53:34 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+There is no SQL definition for Entity `DEALC`, please use a scalar field (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chainelement.php:215
+#0: Bitrix\Main\ORM\Query\ChainElement->getSqlDefinition()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:499
+#1: Bitrix\Main\ORM\Query\Chain->getSqlDefinition()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2664
+#2: Bitrix\Main\ORM\Query\Query->getFilterCswFields(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2267
+#3: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#4: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#5: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+#6: Bitrix\Main\ORM\Query\Query->fetchCollection()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:302
+----------
+
+OTUS: 2025-12-06 10:54:01 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `ELEMENT` (DEALC.ELEMENT.ID) for \Bitrix\Iblock\Elements\IblockProperty97 Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
+#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+#4: Bitrix\Main\ORM\Query\Query->fetchCollection()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:302
+----------
+
+OTUS: 2025-12-06 10:59:01 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `ELEMENT` (DEALC.ELEMENT) for \Bitrix\Iblock\Elements\IblockProperty97 Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
+#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+#4: Bitrix\Main\ORM\Query\Query->fetchCollection()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:302
+----------
+
+OTUS: 2025-12-06 10:59:29 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROPERTY_DEALC` (PROPERTY_DEALC) for \Bitrix\Iblock\Elements\ElementRequests Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
+#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+#4: Bitrix\Main\ORM\Query\Query->fetchCollection()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:302
+----------
+
+OTUS: 2025-12-06 11:03:42 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+There is no SQL definition for Entity `DEALC`, please use a scalar field (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chainelement.php:215
+#0: Bitrix\Main\ORM\Query\ChainElement->getSqlDefinition()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:499
+#1: Bitrix\Main\ORM\Query\Chain->getSqlDefinition()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2664
+#2: Bitrix\Main\ORM\Query\Query->getFilterCswFields(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2267
+#3: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#4: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#5: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+#6: Bitrix\Main\ORM\Query\Query->fetchCollection()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:302
+----------
+
+OTUS: 2025-12-06 11:04:04 - Host: b24mybeget.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 803213312 bytes) (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:309
+----------
+
+OTUS: 2025-12-06 11:04:23 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `DEALC_VALUE` (DEALC_VALUE) for \Bitrix\Iblock\Elements\ElementRequests Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
+#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+#4: Bitrix\Main\ORM\Query\Query->fetchCollection()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:302
+----------
+
+OTUS: 2025-12-06 11:04:48 - Host: b24mybeget.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 803213312 bytes) (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:309
+----------
+
+OTUS: 2025-12-06 11:05:49 - Host: b24mybeget.ru - FATAL - [ErrorException] E_ERROR
+Allowed memory size of 1073741824 bytes exhausted (tried to allocate 803213312 bytes) (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:308
+----------
+
+OTUS: 2025-12-06 11:12:52 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Normal fields can be only the last in chain, `ID` Bitrix\Main\ORM\Fields\IntegerField is not the last. (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:257
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
+#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+#4: Bitrix\Main\ORM\Query\Query->fetchCollection()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:301
+----------
+
+OTUS: 2025-12-06 11:13:24 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Normal fields can be only the last in chain, `ID` Bitrix\Main\ORM\Fields\IntegerField is not the last. (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:257
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
+#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
+#4: Bitrix\Main\ORM\Query\Query->fetchCollection()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:301
+----------
+
+OTUS: 2025-12-06 11:21:30 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROPERTY_97` (PROPERTY_97) for \Bitrix\Iblock\Element Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
+#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
+#4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:324
+----------
+
+OTUS: 2025-12-06 11:22:11 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `PROPERTY_97` (PROPERTY_97) for \Bitrix\Iblock\Element Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
+#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
+#4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/test.php:324
+----------
+
+OTUS: 2025-12-06 11:36:02 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function Otus\CRM\Deals\findIblockElementIdByDeal() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/CRM/Deals/UpdateRequestsIblockAfterDealUpdate.php:24
+#0: Otus\CRM\Deals\UpdateRequestsIblockAfterDealUpdate::updateRequest(array)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#2: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:52
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->executeEvent(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#4: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1112
+#5: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:210
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:431
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:166
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/classes/general/crm_deal.php:2838
+#9: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1036
+----------
+
+OTUS: 2025-12-06 11:36:52 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\CRM\Deals\CIBlockElement" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/CRM/Deals/UpdateRequestsIblockAfterDealUpdate.php:39
+#0: Otus\CRM\Deals\UpdateRequestsIblockAfterDealUpdate::updateRequest(array)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#2: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:52
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->executeEvent(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#4: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1112
+#5: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:210
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:431
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:166
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/classes/general/crm_deal.php:2838
+#9: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1036
+----------
+
+OTUS: 2025-12-06 12:17:46 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "\Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#0: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#1: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1851
+#2: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin/iblock_element_edit.php:1184
+#3: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/admin/iblock_element_edit.php:1
+----------
+
+OTUS: 2025-12-06 12:20:19 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "\Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#0: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#1: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1851
+#2: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/admin/iblock_element_edit.php:1184
+#3: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/admin/iblock_element_edit.php:1
+----------
+
+OTUS: 2025-12-06 13:33:29 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "DealTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/CRM/Deals/UpdateRequestsIblockAfterDealUpdate.php:47
+#0: Otus\CRM\Deals\UpdateRequestsIblockAfterDealUpdate::getOldAmount(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/CRM/Deals/UpdateRequestsIblockAfterDealUpdate.php:27
+#1: Otus\CRM\Deals\UpdateRequestsIblockAfterDealUpdate::updateRequest(array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#4: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#5: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1112
+#6: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1489
+#7: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:135
+#8: Bitrix\Crm\Service\Operation->launch()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:431
+#9: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:166
+#10: Bitrix\Crm\Entity\Compatibility\Adapter->performUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/classes/general/crm_deal.php:2838
+#11: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1036
+----------
+
+OTUS: 2025-12-06 13:34:09 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "DealTable" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/CRM/Deals/UpdateRequestsIblockAfterDealUpdate.php:47
+#0: Otus\CRM\Deals\UpdateRequestsIblockAfterDealUpdate::getOldAmount(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/CRM/Deals/UpdateRequestsIblockAfterDealUpdate.php:27
+#1: Otus\CRM\Deals\UpdateRequestsIblockAfterDealUpdate::updateRequest(array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#4: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#5: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1112
+#6: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:1489
+#7: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/Service/Operation.php:135
+#8: Bitrix\Crm\Service\Operation->launch()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:431
+#9: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:166
+#10: Bitrix\Crm\Entity\Compatibility\Adapter->performUpdate(integer, array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/crm/classes/general/crm_deal.php:2838
+#11: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1036
+----------
+
+OTUS: 2025-12-06 14:08:45 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Undefined constant Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::PROPERTY_DEALC_NUM (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:32
+#0: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::updateDeal(array)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#2: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5639
+#3: CAllIBlockElement->CheckFields(array, integer, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1417
+#4: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.element.edit/component.php:778
+#5: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+#9: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#11: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:791
+#12: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:731
+#13: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#14: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#15: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#16: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#17: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#18: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#19: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-06 14:09:32 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function get() on array (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:63
+#0: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::getOldAmount(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:35
+#1: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::updateDeal(array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5639
+#4: CAllIBlockElement->CheckFields(array, integer, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1417
+#5: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.element.edit/component.php:778
+#6: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+#10: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#11: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#12: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:791
+#13: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:731
+#14: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#15: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#16: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#17: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#18: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#19: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#20: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-06 17:11:01 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `RESPONSIBLE` (RESPONSIBLE) for \Bitrix\Iblock\Elements\ElementRequests Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
+#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#3: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#4: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
+#5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:87
+#6: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::getOldResponsible(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:53
+#7: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::updateDeal(array)
+	
+#8: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#9: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5639
+#10: CAllIBlockElement->CheckFields(array, integer, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1417
+#11: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.element.edit/component.php:778
+#12: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#13: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#14: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#15: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+#16: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#17: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#18: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:791
+#19: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:731
+#20: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#21: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#22: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#23: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#24: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#25: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#26: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
