@@ -3146,3 +3146,38 @@ Class "FieldType" not found (0)
 	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/tools/bizproc_activity_settings.php:2
 ----------
 
+OTUS: 2025-12-01 12:25:32 - Host: www.b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/index.php:8
+----------
+
