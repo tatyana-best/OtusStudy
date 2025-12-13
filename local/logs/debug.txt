@@ -3845,3 +3845,650 @@ Unknown field definition `RESPONSIBLE` (RESPONSIBLE) for \Bitrix\Iblock\Elements
 	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
 ----------
 
+OTUS: 2025-12-06 19:27:05 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getValue() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:83
+#0: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::getOldResponsible(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:47
+#1: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::updateDeal(array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5639
+#4: CAllIBlockElement->CheckFields(array, integer, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1417
+#5: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.element.edit/component.php:778
+#6: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+#10: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#11: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#12: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:791
+#13: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:731
+#14: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#15: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#16: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#17: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#18: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#19: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#20: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-06 19:28:25 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getValue() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:83
+#0: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::getOldResponsible(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:47
+#1: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::updateDeal(array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5639
+#4: CAllIBlockElement->CheckFields(array, integer, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1417
+#5: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.element.edit/component.php:778
+#6: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+#10: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#11: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#12: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:791
+#13: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:731
+#14: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#15: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#16: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#17: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#18: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#19: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#20: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-06 19:28:29 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getValue() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:83
+#0: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::getOldResponsible(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:47
+#1: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::updateDeal(array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5639
+#4: CAllIBlockElement->CheckFields(array, integer, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1417
+#5: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.element.edit/component.php:778
+#6: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+#10: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#11: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#12: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:791
+#13: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:731
+#14: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#15: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#16: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#17: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#18: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#19: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#20: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-08 10:19:44 - Host: b24mybeget.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+Error in agent CSecuritySession::CleanUpAgent();. (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:516
+#0: CAllAgent::ExecuteAgents()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:357
+#1: CAllAgent::CheckAgents()
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:845
+#3: Bitrix\Main\Application->runBackgroundJobs()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:380
+#4: Bitrix\Main\Application->terminate(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:332
+#5: Bitrix\Main\Application->end()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:3702
+#6: CAllMain::FinalActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog_after.php:61
+#7: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog.php:3
+#8: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:345
+#9: CAllMain->AuthForm(boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#10: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#11: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#12: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#13: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#14: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+Previous exception: [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:137
+#1: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/connection.php:324
+#2: Bitrix\Main\DB\Connection->query(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/connection.php:373
+#3: Bitrix\Main\DB\Connection->queryExecute(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/session/handlers/table/usersessiontable.php:174
+#4: Bitrix\Main\Session\Handlers\Table\UserSessionTable::deleteOlderThan(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/security/classes/general/session_db.php:141
+#5: CSecuritySessionDB::gc(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/security/classes/general/session.php:52
+#6: CSecuritySession::CleanUpAgent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+#7: eval
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:508
+#8: CAllAgent::ExecuteAgents()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:357
+#9: CAllAgent::CheckAgents()
+	
+#10: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:845
+#11: Bitrix\Main\Application->runBackgroundJobs()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:380
+#12: Bitrix\Main\Application->terminate(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:332
+#13: Bitrix\Main\Application->end()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:3702
+#14: CAllMain::FinalActions(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog_after.php:61
+#15: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/epilog.php:3
+#16: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:345
+#17: CAllMain->AuthForm(boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#18: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#19: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#20: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#21: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#22: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-12-08 13:32:24 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getValue() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:83
+#0: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::getOldResponsible(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:47
+#1: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::updateDeal(array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5639
+#4: CAllIBlockElement->CheckFields(array, integer, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1417
+#5: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.element.edit/component.php:778
+#6: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+#10: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#11: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#12: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:791
+#13: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:731
+#14: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#15: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#16: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#17: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#18: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#19: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#20: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-08 13:34:32 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected token "}" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:86
+#0: Composer\Autoload\includeFile(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/vendor/composer/ClassLoader.php:428
+#1: Composer\Autoload\ClassLoader->loadClass(string)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5639
+#4: CAllIBlockElement->CheckFields(array, integer, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1417
+#5: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.element.edit/component.php:778
+#6: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+#10: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#11: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#12: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:791
+#13: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:731
+#14: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#15: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#16: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#17: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#18: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#19: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#20: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-08 13:34:46 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getValue() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:83
+#0: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::getOldResponsible(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:47
+#1: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::updateDeal(array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5639
+#4: CAllIBlockElement->CheckFields(array, integer, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1417
+#5: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.element.edit/component.php:778
+#6: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+#10: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#11: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#12: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:791
+#13: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:731
+#14: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#15: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#16: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#17: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#18: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#19: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#20: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-08 13:36:46 - Host: b24mybeget.ru - FATAL - [ErrorException] E_ERROR
+ob_start(): Cannot use output buffering in output buffering display handlers (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.toolbar/class.php:58
+----------
+
+OTUS: 2025-12-08 13:38:28 - Host: b24mybeget.ru - FATAL - [ErrorException] E_ERROR
+ob_start(): Cannot use output buffering in output buffering display handlers (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.toolbar/class.php:58
+----------
+
+OTUS: 2025-12-08 13:38:40 - Host: b24mybeget.ru - FATAL - [ErrorException] E_ERROR
+ob_start(): Cannot use output buffering in output buffering display handlers (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.toolbar/class.php:58
+----------
+
+OTUS: 2025-12-08 13:38:56 - Host: b24mybeget.ru - FATAL - [ErrorException] E_ERROR
+ob_start(): Cannot use output buffering in output buffering display handlers (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/ui.toolbar/class.php:58
+----------
+
+OTUS: 2025-12-10 09:38:23 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function get() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:68
+#0: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::getOldAmount(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:33
+#1: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::updateDeal(array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5639
+#4: CAllIBlockElement->CheckFields(array, integer, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1417
+#5: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/lists/lib/bizprocdocument.php:1524
+#6: BizprocDocument::updateDocument(integer, array, NULL)
+	
+#7: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/documentservice.php:134
+#8: CBPDocumentService->updateDocument(array, array, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/activities/bitrix/setfieldactivity/setfieldactivity.php:66
+#9: CBPSetFieldActivity->execute()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:546
+#10: CBPWorkflow->runExecuteActivityOperation(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:514
+#11: CBPWorkflow->runQueuedItem(object, integer, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:492
+#12: CBPWorkflow->runStep()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:473
+#13: CBPWorkflow->runQueue()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:240
+#14: CBPWorkflow->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:208
+#15: CBPWorkflow->start()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/document.php:347
+#16: CBPDocument::startWorkflow(integer, array, array, array, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/lib/Api/Service/WorkflowService.php:62
+#17: Bitrix\Bizproc\Api\Service\WorkflowService->startWorkflow(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.element.edit/component.php:862
+#18: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#19: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#20: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#21: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+#22: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#23: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#24: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:791
+#25: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:731
+#26: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#27: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#28: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#29: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#30: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#31: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#32: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-10 09:39:00 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function get() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:68
+#0: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::getOldAmount(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:33
+#1: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::updateDeal(array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5639
+#4: CAllIBlockElement->CheckFields(array, integer, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1417
+#5: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/lists/lib/bizprocdocument.php:1524
+#6: BizprocDocument::updateDocument(integer, array, NULL)
+	
+#7: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/documentservice.php:134
+#8: CBPDocumentService->updateDocument(array, array, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/activities/bitrix/setfieldactivity/setfieldactivity.php:66
+#9: CBPSetFieldActivity->execute()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:546
+#10: CBPWorkflow->runExecuteActivityOperation(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:514
+#11: CBPWorkflow->runQueuedItem(object, integer, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:492
+#12: CBPWorkflow->runStep()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:473
+#13: CBPWorkflow->runQueue()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:240
+#14: CBPWorkflow->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:208
+#15: CBPWorkflow->start()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/document.php:347
+#16: CBPDocument::startWorkflow(integer, array, array, array, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/lib/Api/Service/WorkflowService.php:62
+#17: Bitrix\Bizproc\Api\Service\WorkflowService->startWorkflow(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.element.edit/component.php:862
+#18: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#19: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#20: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#21: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+#22: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#23: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#24: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:791
+#25: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:731
+#26: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#27: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#28: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#29: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#30: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#31: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#32: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-10 09:39:39 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function get() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:68
+#0: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::getOldAmount(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:33
+#1: Otus\IBLOCK\UpdateDealAfterRequestsIblockUpdate::updateDeal(array)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5639
+#4: CAllIBlockElement->CheckFields(array, integer, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1417
+#5: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/lists/lib/bizprocdocument.php:1524
+#6: BizprocDocument::updateDocument(integer, array, NULL)
+	
+#7: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/documentservice.php:134
+#8: CBPDocumentService->updateDocument(array, array, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/activities/bitrix/setfieldactivity/setfieldactivity.php:66
+#9: CBPSetFieldActivity->execute()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:546
+#10: CBPWorkflow->runExecuteActivityOperation(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:514
+#11: CBPWorkflow->runQueuedItem(object, integer, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:492
+#12: CBPWorkflow->runStep()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:473
+#13: CBPWorkflow->runQueue()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:240
+#14: CBPWorkflow->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/workflow.php:208
+#15: CBPWorkflow->start()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/classes/general/document.php:347
+#16: CBPDocument::startWorkflow(integer, array, array, array, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/bizproc/lib/Api/Service/WorkflowService.php:62
+#17: Bitrix\Bizproc\Api\Service\WorkflowService->startWorkflow(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.element.edit/component.php:862
+#18: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#19: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#20: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#21: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+#22: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#23: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#24: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:791
+#25: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:731
+#26: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#27: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#28: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#29: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#30: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#31: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#32: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-13 05:55:57 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected token "," (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/IBLOCK/UpdateDealAfterRequestsIblockUpdate.php:59
+#0: Composer\Autoload\includeFile(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/vendor/composer/ClassLoader.php:428
+#1: Composer\Autoload\ClassLoader->loadClass(string)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5266
+#3: ExecuteModuleEventEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/general/iblockelement.php:5639
+#4: CAllIBlockElement->CheckFields(array, integer, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/iblock/classes/mysql/iblockelement.php:1417
+#5: CIBlockElement->Update(integer, array, boolean, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists.element.edit/component.php:778
+#6: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
+#10: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#11: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#12: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:791
+#13: CBitrixComponent->showComponentTemplate()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:731
+#14: CBitrixComponent->includeComponentTemplate(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/lists/component.php:355
+#15: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#16: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#17: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#18: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/services/lists/index.php:9
+#19: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#20: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
