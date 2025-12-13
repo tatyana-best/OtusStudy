@@ -1,0 +1,30 @@
+
+------------------------
+2025.12.13 12:11:01
+incoming
+Array
+(
+    [event] => ONCRMACTIVITYADD
+    [event_handler_id] => 2
+    [data] => Array
+        (
+            [FIELDS] => Array
+                (
+                    [ID] => 2
+                )
+
+        )
+
+    [ts] => 1765617061
+    [auth] => Array
+        (
+            [domain] => b24mybeget.ru
+            [client_endpoint] => https://b24mybeget.ru/rest/
+            [server_endpoint] => https://oauth.bitrix24.tech/rest/
+            [member_id] => cbc6fe2d86e0de9755c89024f107ffd2
+            [application_token] => f7qqrs1t1ejzw6yv7yv06m332k0t9o3e
+        )
+
+)
+
+------------------------
