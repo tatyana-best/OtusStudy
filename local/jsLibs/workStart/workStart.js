@@ -24,62 +24,66 @@ BX.ready(function() {
         );
     };
 
-    // События, которые подходят по логике:
-    //onTimeManNeedRebuild, onTimeManDataRecieved, onTaskTimerChange, onTimeManDayOpen
-    // А вот это вообще не ловится: onTimeManWindowOpen
-
-    BX.addCustomEvent("onTimeManDataRecieved", function(p) {
-        //alert(12345678);
-        if ($('.tm-timer__value').length && $('.--play-l').length) {
-           if (p.hasOwnProperty('STATE') && p.STATE == 'OPENED') {
-               $('ul.tm-control-panel__actions-list li').hide();
-                var popup = BX.PopupWindowManager.create("popup-message", BX('element'), {
-                    content: '',
-                    width: 250,
-                    height: 150,
-                    zIndex: 100,
-                    closeIcon: {
-                        opacity: 1
-                    },
-                    titleBar: 'Начать рабочий день?',
-                    closeByEsc: true,
-                    autoHide: true,
-                    resizable: true,
-                    min_height: 100,
-                    min_width: 100,
-                    overlay: {
-                        backgroundColor: 'black',
-                        opacity: 500
-                    },
-                    buttons: [
-                        new BX.PopupWindowButton({
-                            text: 'Да',
-                            id: 'save-btn',
-                            className: 'ui-btn ui-btn-success',
-                            events: {
-                                click: function () {
-
-                                    this.popupWindow.close();
+    BX.addCustomEvent("onTimeManDataRecieved", function (data) {
+        $('.my-start').remove();
+        if ((data.hasOwnProperty('STATE') && data.STATE != 'OPENED')) {
+            console.log(data.STATE);
+            setTimeout(() => {
+                window.opa = function()
+                {
+                    var popupStart = BX.PopupWindowManager.create("popup-message", BX('element'), {
+                        content: '',
+                        width: 250,
+                        height: 150,
+                        zIndex: 100,
+                        closeIcon: {
+                            opacity: 1
+                        },
+                        titleBar: 'Начать рабочий день?',
+                        closeByEsc: true,
+                        autoHide: true,
+                        resizable: true,
+                        min_height: 100,
+                        min_width: 100,
+                        overlay: {
+                            backgroundColor: 'black',
+                            opacity: 500
+                        },
+                        buttons: [
+                            new BX.PopupWindowButton({
+                                text: 'Да',
+                                id: 'save-btn',
+                                className: 'ui-btn ui-btn-success',
+                                events: {
+                                    click: function () {
+                                        $('.ui-btn.--air.tm-control-panel__action.ui-btn-lg.--wide.--style-filled.ui-btn-no-caps.--with-icon').click();
+                                        this.popupWindow.close();
+                                    }
                                 }
-                            }
-                        }),
-                        new BX.PopupWindowButton({
-                            text: 'Отменить',
-                            id: 'copy-btn',
-                            className: 'ui-btn ui-btn-primary',
-                            events: {
-                                click: function () {
-                                    //p.STATE = state;
-                                    //console.log(p.STATE);
-                                    this.popupWindow.close();
+                            }),
+                            new BX.PopupWindowButton({
+                                text: 'Отменить',
+                                id: 'copy-btn',
+                                className: 'ui-btn ui-btn-primary',
+                                events: {
+                                    click: function () {
+                                        this.popupWindow.close();
+                                    }
                                 }
-                            }
-                        })
-                    ],
-                });
-                popup.show();
-                $('#popup-window-content-popup-message').hide();
-            }
+                            })
+                        ],
+                    });
+                    popupStart.show();
+                    $('#popup-window-content-popup-message').hide();
+                }
+                $('.tm-control-panel__actions-list > .tm-control-panel__actions-item').first().hide();
+                let html = '<li class="tm-control-panel__actions-item my-start">';
+                html += '<button onclick="opa()" class="ui-btn --air tm-control-panel__action ui-btn-lg --wide --style-filled ui-btn-no-caps --with-icon">';
+                html += '<div class="ui-icon-set --play-l"></div>';
+                html += '<span class="ui-btn-text"><span class="ui-btn-text-inner">Начать рабочий день</span></span>';
+                html += '</button></li>'
+                $('.tm-control-panel__actions-list').prepend(html);
+            }, 500);
         }
-    })
+    });
 });

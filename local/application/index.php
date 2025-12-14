@@ -39,8 +39,6 @@
                         ASSIGNED_BY_ID: 1,
                         COMPANY_ID: 7,
                         COMPANY_IDS: [2, 3],
-                        //UF_CRM_1720697698689: "Пример нового значения пользовательского поля с типом \"Строка\"",
-                        //PARENT_ID_1224: 14,
                     },
                     params: {
                         REGISTER_SONET_EVENT: "N",
