@@ -7,6 +7,7 @@ $eventManager = EventManager::getInstance();
 
 $eventManager->addEventHandlerCompatible("rest", "OnRestServiceBuildDescription", Array("\\Otus\\Rest\\Example\\CustomRestMethod", "addCustomRestMethods"));
 $eventManager->addEventHandlerCompatible("rest", "OnRestServiceBuildDescription", Array("\\Otus\\Rest\\Example\\MyDeal", "addCustomRestMethods"));
+$eventManager->addEventHandlerCompatible("rest", "OnRestServiceBuildDescription", Array("\\Otus\\Rest\\API\\CRUDMethods", "addCustomRestMethods"));
 $eventManager->addEventHandler("crm", "onEntityDetailsTabsInitialized", Array("\\Otus\\Rest\\Example\\MyDeal", "updateTabs"));
 $eventManager->addEventHandler("crm", "OnBeforeCrmDealUpdate", Array("\\Otus\\CRM\\Deals\\UpdateRequestsIblockAfterDealUpdate", "updateRequest"));
 $eventManager->addEventHandler("iblock", "OnBeforeIBlockElementUpdate", Array("\\Otus\\IBLOCK\\UpdateDealAfterRequestsIblockUpdate", "updateDeal"));

@@ -4492,3 +4492,1357 @@ syntax error, unexpected token "," (0)
 	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
 ----------
 
+OTUS: 2025-12-20 03:19:00 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (2002) No such file or directory (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#16: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-12-21 14:12:20 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Otus\Rest\API\CRUDMethods::AddPatient(): Return value must be of type array, Bitrix\Main\ORM\Data\AddResult returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:80
+#0: Otus\Rest\API\CRUDMethods::AddPatient(array, integer, object)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#2: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#3: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#4: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#5: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#9: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#10: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#11: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#12: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#13: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#14: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#15: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:15:41 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Otus\Rest\API\CRUDMethods::AddPatient(): Return value must be of type array, Bitrix\Main\ORM\Data\AddResult returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:76
+#0: Otus\Rest\API\CRUDMethods::AddPatient(array, integer, object)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#2: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#3: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#4: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#5: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#9: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#10: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#11: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#12: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#13: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#14: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#15: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:30:49 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:32:00 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/index.php:8
+----------
+
+OTUS: 2025-12-21 14:32:01 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#16: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-12-21 14:32:03 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#16: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-12-21 14:32:03 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+Mysql connect error [localhost]: (1040) Too many connections (400)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+#0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/data/connection.php:53
+#1: Bitrix\Main\Data\Connection->getResource()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:311
+#2: CAllDatabase->DoConnect()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/database.php:699
+#3: CAllDatabase->ForSql(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:840
+#4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+#5: CAllSQLWhere->GetQueryEx(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+#6: CAllSQLWhere->GetQuery(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2270
+#7: Bitrix\Main\ORM\Query\Query->buildWhere()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2508
+#8: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#9: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
+#10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/site.php:144
+#11: Bitrix\Main\SiteTable::getByDomain(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpcontext.php:97
+#12: Bitrix\Main\HttpContext->initializeCulture(NULL, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include.php:1
+#13: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog_before.php:19
+#14: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/prolog.php:10
+#15: require_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/header.php:1
+#16: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/404.php:7
+#17: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
+----------
+
+OTUS: 2025-12-21 14:32:07 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:33:29 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:34:49 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:36:32 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:37:41 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:38:25 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:40:19 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:41:01 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:43:56 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:44:14 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:45:22 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:45:44 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:46:09 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:46:29 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:47:24 - Host: b24mybeget.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+Mysql query error: (1048) Column 'BIRTH_DATE' cannot be null (400)
+INSERT INTO `patient`(`FULL_NAME`, `BIRTH_DATE`, `FLAT`, `PLOT_ID`) VALUES ('Юрочкина Валентина Степановна', NULL, 11, 88)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqlcommonconnection.php:415
+#0: Bitrix\Main\DB\MysqlCommonConnection->createQueryException(integer, string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+#1: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/connection.php:324
+#2: Bitrix\Main\DB\Connection->query(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/connection.php:373
+#3: Bitrix\Main\DB\Connection->queryExecute(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/db/connection.php:458
+#4: Bitrix\Main\DB\Connection->add(string, array, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/addstrategy/insert.php:25
+#5: Bitrix\Main\ORM\Data\AddStrategy\Insert->add(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:956
+#6: Bitrix\Main\ORM\Data\DataManager::sysAddInternal(object, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:879
+#7: Bitrix\Main\ORM\Data\DataManager::add(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:68
+#8: Otus\Rest\API\CRUDMethods::AddPatient(array, integer, object)
+	
+#9: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#10: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#11: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#12: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#13: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#14: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#15: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#17: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#18: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#19: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#20: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#21: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#22: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#23: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:47:46 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:48:35 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:48:58 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:56:45 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:57:11 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:57:30 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 14:57:48 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 15:06:33 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function Otus\Rest\API\toString() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:69
+#0: Otus\Rest\API\CRUDMethods::AddPatient(array, integer, object)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#2: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#3: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#4: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#5: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#9: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#10: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#11: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#12: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#13: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#14: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#15: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 15:07:08 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function toString() on string (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:69
+#0: Otus\Rest\API\CRUDMethods::AddPatient(array, integer, object)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#2: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#3: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#4: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#5: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#9: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#10: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#11: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#12: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#13: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#14: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#15: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 15:09:32 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_USER_WARNING
+Неправильное значение для "Дата рождения пациента" (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#0: trigger_error(string, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/result.php:87
+#1: Bitrix\Main\ORM\Data\Result->__destruct()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#2: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#3: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#4: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#8: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#9: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#10: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 15:15:58 - Host: b24mybeget.ru - UNKNOWN - [Bitrix\Main\ObjectException] 
+Incorrect date/time: 12.09.2002 (500)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/type/datetime.php:42
+#0: Bitrix\Main\Type\DateTime->__construct(string, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:69
+#1: Otus\Rest\API\CRUDMethods::AddPatient(array, integer, object)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#3: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#4: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#5: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#6: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#10: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#11: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#14: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 15:47:32 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function toString() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:182
+#0: Otus\Rest\API\CRUDMethods::GetPatient(array, integer, object)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#2: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#3: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#4: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#5: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#9: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#10: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#11: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#12: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#13: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#14: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#15: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 15:50:36 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Otus\Rest\API\DateTime" not found (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:180
+#0: Otus\Rest\API\CRUDMethods::GetPatient(array, integer, object)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#2: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#3: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#4: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#5: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#9: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#10: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#11: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#12: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#13: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#14: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#15: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 16:00:49 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Bitrix\Main\Type\DateTime::createFromPhp(): Argument #1 ($datetime) must be of type DateTime, Bitrix\Main\Type\DateTime given, called in /home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php on line 183 (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/type/datetime.php:232
+#0: Bitrix\Main\Type\DateTime::createFromPhp(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:183
+#1: Otus\Rest\API\CRUDMethods::GetPatient(array, integer, object)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#3: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#4: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#5: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#6: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#10: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#11: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#14: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 16:01:26 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method DateTime::createFromPhp() (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:183
+#0: Otus\Rest\API\CRUDMethods::GetPatient(array, integer, object)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#2: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#3: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#4: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#5: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#9: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#10: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#11: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#12: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#13: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#14: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#15: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 16:10:33 - Host: b24mybeget.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+Unknown field definition `ELEMENT` (PLOT.ELEMENT) for \Bitrix\Iblock\Elements\ElementPlots Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
+#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#3: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#4: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+#5: Bitrix\Main\ORM\Query\Query->fetchAll()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:177
+#6: Otus\Rest\API\CRUDMethods::GetPatient(array, integer, object)
+	
+#7: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#8: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#9: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#10: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#11: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#12: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#13: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#14: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#15: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#16: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#17: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#18: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#19: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#20: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#21: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 16:11:30 - Host: b24mybeget.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+Unknown field definition `ELEMENT` (ELEMENT.PLOT.*) for \Otus\ORM\Patient Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+#4: Bitrix\Main\ORM\Query\Query->fetchAll()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:177
+#5: Otus\Rest\API\CRUDMethods::GetPatient(array, integer, object)
+	
+#6: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#7: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#8: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#9: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#10: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#11: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#12: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#14: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#15: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#16: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#17: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#18: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#19: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#20: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-21 16:11:53 - Host: b24mybeget.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+Unknown field definition `ELEMENT` (PLOT.ELEMENT.*) for \Bitrix\Iblock\Elements\ElementPlots Entity. (100)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
+#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
+#4: Bitrix\Main\ORM\Query\Query->fetchAll()
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:177
+#5: Otus\Rest\API\CRUDMethods::GetPatient(array, integer, object)
+	
+#6: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#7: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#8: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#9: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#10: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#11: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#12: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#14: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#15: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#16: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#17: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#18: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#19: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#20: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
