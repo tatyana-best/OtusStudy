@@ -56,6 +56,11 @@ BX.ready(function() {
                                 className: 'ui-btn ui-btn-success',
                                 events: {
                                     click: function () {
+                                        // кнопка Возобновить
+                                        //'.ui-btn.--air.tm-control-panel__action.ui-btn-lg.--wide  .--style-outline-accent-2  .ui-btn-no-caps.--with-icon
+                                        // кнопка Начать рабочий день
+                                        //'.ui-btn.--air.tm-control-panel__action.ui-btn-lg.--wide  .--style-tinted-alert      .ui-btn-no-caps.--with-icon'
+                                        //
                                         $('.ui-btn.--air.tm-control-panel__action.ui-btn-lg.--wide.--style-filled.ui-btn-no-caps.--with-icon').click();
                                         this.popupWindow.close();
                                     }
@@ -76,13 +81,16 @@ BX.ready(function() {
                     popupStart.show();
                     $('#popup-window-content-popup-message').hide();
                 }
-                $('.tm-control-panel__actions-list > .tm-control-panel__actions-item').first().hide();
+                // .tm-control-panel__actions-list > .tm-control-panel__actions-item > .--style-tinted-alert,
+                $('.tm-control-panel__actions-list > .tm-control-panel__actions-item > .--style-filled').hide();
                 let html = '<li class="tm-control-panel__actions-item my-start">';
-                html += '<button onclick="opa()" class="ui-btn --air tm-control-panel__action ui-btn-lg --wide --style-filled ui-btn-no-caps --with-icon">';
+                html += '<button onclick="opa()" class="ui-btn --air tm-control-panel__action ui-btn-lg --wide ui-btn-no-caps --with-icon start-day">';
                 html += '<div class="ui-icon-set --play-l"></div>';
-                html += '<span class="ui-btn-text"><span class="ui-btn-text-inner">Начать рабочий день</span></span>';
+                html += '<span class="ui-btn-text"><span class="ui-btn-text-inner">Начать рабочий день*</span></span>';
                 html += '</button></li>'
-                $('.tm-control-panel__actions-list').prepend(html);
+                if ($('.my-start').length === 0 && $('.tm-control-panel__actions-item .--style-filled').length > 0) {
+                    $('.tm-control-panel__actions-list').prepend(html);
+                }
             }, 500);
         }
     });
