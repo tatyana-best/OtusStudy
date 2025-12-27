@@ -78,7 +78,12 @@ class CRUDMethods
                 "d.m.Y"
             );
 
-            $arResult = [PatientTable::add($arFields)];
+            $res = PatientTable::add($arFields);
+
+            define("LOG_FILENAME", $_SERVER["DOCUMENT_ROOT"]."/local/logs/log.txt");
+            AddMessage2Log("check1: <pre>".print_r($res->getId(), true)."</pre>", "bizproc");
+
+            $arResult = ['id' => $res->getId(), 'message' => 'Пациент добавлен'];
         } catch (Exception $e) {
             return [
                 'error' => $e->getCode(),
@@ -108,26 +113,6 @@ class CRUDMethods
                 throw new \Bitrix\Rest\RestException( 'ID cannot be empty', 400, \CRestServer::STATUS_WRONG_REQUEST );
             }
 
-            if (!isset($query['FULL_NAME']))
-            {
-                throw new \Bitrix\Rest\RestException( 'FULL_NAME cannot be empty', 400, \CRestServer::STATUS_WRONG_REQUEST );
-            }
-
-            if (!isset($query['BIRTH_DATE']))
-            {
-                throw new \Bitrix\Rest\RestException( 'BIRTH_DATE cannot be empty', 400, \CRestServer::STATUS_WRONG_REQUEST );
-            }
-
-            if (!isset($query['FLAT']))
-            {
-                throw new \Bitrix\Rest\RestException( 'FLAT cannot be empty', 400, \CRestServer::STATUS_WRONG_REQUEST );
-            }
-
-            if (!isset($query['PLOT_ID']))
-            {
-                throw new \Bitrix\Rest\RestException( 'PLOT_ID cannot be empty', 400, \CRestServer::STATUS_WRONG_REQUEST );
-            }
-
             $arFields = [];
             foreach ($query as $field => $value) {
                 if ($field != 'ID') {
@@ -140,7 +125,9 @@ class CRUDMethods
                 "d.m.Y"
             );
 
-            $arResult = [PatientTable::update($query['ID'], $arFields)];
+            PatientTable::update($query['ID'], $arFields);
+
+            $arResult = ['id' => $query['ID'], 'message' => 'Данные пациента изменены'];
         } catch (Exception $e) {
             return [
                 'error' => $e->getCode(),
@@ -169,7 +156,15 @@ class CRUDMethods
                 throw new \Bitrix\Rest\RestException( 'ID cannot be empty', 400, \CRestServer::STATUS_WRONG_REQUEST );
             }
 
-            $arResult = [PatientTable::delete($query['ID'])];
+            $res = self::GetPatientByFilter(['ID' => $query['ID']]);
+
+            if (empty($res)) {
+                $arResult['message'] = 'Таких пациентов нет';
+            } else {
+                PatientTable::delete($query['ID']);
+
+                $arResult = ['id' => $query['ID'], 'message' => 'Пациент удален'];
+            }
         } catch (Exception $e) {
             return [
                 'error' => $e->getCode(),
@@ -192,24 +187,50 @@ class CRUDMethods
                 throw new RestException('Message', 402, \CRestServer::STATUS_PAYMENT_REQUIRED);
             }
 
-            $ar = PatientTable::query()
-                ->setSelect(['ID', 'FULL_NAME', 'BIRTH_DATE', 'FLAT', 'PLOT'])
-                ->fetchAll();
+            $arFilter = [];
+            if (isset($query['ID'])) {
+                $arFilter = ['ID' => $query['ID']];
+            }
+
+            $res = self::GetPatientByFilter($arFilter);
 
             $arResult = [];
-            foreach ($ar as $key => $value) {
-                $arResult[$key]['ID'] = $value['ID'];
-                $arResult[$key]['FULL_NAME'] = $value['FULL_NAME'];
-                $arResult[$key]['FLAT'] = $value['FLAT'];
-                $phpDate = new \Bitrix\Main\Type\Date($value['BIRTH_DATE']);
-                $arResult[$key]['BIRTH_DATE'] = $phpDate->toString();
-                $arResult[$key]['PLOT'] = $value['OTUS_ORM_PATIENT_PLOT_NAME'];
+            if (!$res) {
+                $arResult['message'] = 'Таких пациентов нет';
+            } else {
+                $arResult = $res;
             }
         } catch (Exception $e) {
             return [
                 'error' => $e->getCode(),
                 'error_description' => $e->getMessage()
             ];
+        }
+
+        return $arResult;
+    }
+
+    public static function GetPatientByFilter(array $arFilter = []): array
+    {
+        if ($arFilter) {
+            $ar = PatientTable::query()
+                ->setSelect(['ID', 'FULL_NAME', 'BIRTH_DATE', 'FLAT', 'PLOT'])
+                ->setFilter($arFilter)
+                ->fetchAll();
+        } else {
+            $ar = PatientTable::query()
+                ->setSelect(['ID', 'FULL_NAME', 'BIRTH_DATE', 'FLAT', 'PLOT'])
+                ->fetchAll();
+        }
+
+        $arResult = [];
+        foreach ($ar as $key => $value) {
+            $arResult[$key]['ID'] = $value['ID'];
+            $arResult[$key]['FULL_NAME'] = $value['FULL_NAME'];
+            $arResult[$key]['FLAT'] = $value['FLAT'];
+            $phpDate = new \Bitrix\Main\Type\Date($value['BIRTH_DATE']);
+            $arResult[$key]['BIRTH_DATE'] = $phpDate->toString();
+            $arResult[$key]['PLOT'] = $value['OTUS_ORM_PATIENT_PLOT_NAME'];
         }
 
         return $arResult;

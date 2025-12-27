@@ -1,0 +1,17 @@
+Host: b24mybeget.ru
+Date: 2025-12-27 07:25:18
+Module: bizproc
+check1: <pre>29</pre>
+#0: AddMessage2Log
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:84
+#1: Otus\Rest\API\CRUDMethods::AddPatient
+	
+#2: call_user_func_array
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#3: CRestServer->processCall
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#4: CRestServer->processExecution
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#5: CRestServer->process
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+----------

@@ -5846,3 +5846,116 @@ Unknown field definition `ELEMENT` (PLOT.ELEMENT.*) for \Bitrix\Iblock\Elements\
 	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
 ----------
 
+OTUS: 2025-12-27 07:24:27 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getId() on null (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:84
+#0: Otus\Rest\API\CRUDMethods::AddPatient(array, integer, object)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#2: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#3: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#4: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#5: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#9: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#10: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#11: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#12: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#13: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#14: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#15: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-27 07:38:10 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Otus\Rest\API\CRUDMethods::GetPatientByFilter(): Return value must be of type string, array returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:227
+#0: Otus\Rest\API\CRUDMethods::GetPatientByFilter(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:159
+#1: Otus\Rest\API\CRUDMethods::DeletePatient(array, integer, object)
+	
+#2: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#3: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#4: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#5: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#6: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#10: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#11: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#14: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS: 2025-12-27 07:39:26 - Host: b24mybeget.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Otus\Rest\API\CRUDMethods::GetPatient(): Return value must be of type array, null returned (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/local/php_interface/classes/Otus/Rest/API/CRUDMethods.php:207
+#0: Otus\Rest\API\CRUDMethods::GetPatient(array, integer, object)
+	
+#1: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:243
+#2: CRestServer->processCall()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:840
+#3: CRestServer->processExecution()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/classes/general/rest.php:126
+#4: CRestServer->process()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.server/component.php:107
+#5: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#6: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#7: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/components/bitrix/rest.provider/component.php:8
+#9: include(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:622
+#10: CBitrixComponent->__includeComponent()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/component.php:699
+#11: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/main.php:1188
+#12: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/rest/services/rest/index.php:18
+#13: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/rest/index.php:1
+#14: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#15: include_once(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:2
+----------
+
