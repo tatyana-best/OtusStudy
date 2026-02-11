@@ -8517,3 +8517,133 @@ Event handler error: could not invoke \Diler\Salon\Crm\UserTypeCar::userTypeCarD
 	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/urlrewrite.php:4
 ----------
 
+OTUS: 2026-02-11 15:41:49 - Host: b24mybeget.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+Event handler error: could not invoke \Diler\Salon\Crm\Handlers::userTypeCarDescription. Class or method does not exist. (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5277
+#0: ExecuteModuleEventEx(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/usertypemanager.php:63
+#1: CUserTypeManager->GetUserType(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/usertypemanager.php:2653
+#2: CUserTypeManager->getEntities(string, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/usertypemanager.php:198
+#3: CUserTypeManager->GetUserFields(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/userfield.php:265
+#4: Bitrix\Main\UserFieldTable::attachFields(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:335
+#5: Bitrix\Main\ORM\Entity->postInitialize()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:130
+#6: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:108
+#7: Bitrix\Main\ORM\Entity::getInstance(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:71
+#8: Bitrix\Main\ORM\Data\DataManager::getEntity()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/socialnetwork/lib/Collab/Onboarding/Internals/Model/QueueTable.php:83
+#9: Bitrix\Socialnetwork\Collab\Onboarding\Internals\Model\QueueTable::getMap()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:232
+#10: Bitrix\Main\ORM\Entity->initialize(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:129
+#11: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:108
+#12: Bitrix\Main\ORM\Entity::getInstance(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:71
+#13: Bitrix\Main\ORM\Data\DataManager::getEntity()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:552
+#14: Bitrix\Main\ORM\Data\DataManager::query()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/socialnetwork/lib/Collab/Onboarding/Internals/Repository/JobRepository.php:25
+#15: Bitrix\Socialnetwork\Collab\Onboarding\Internals\Repository\JobRepository->getAll(object, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/socialnetwork/lib/Collab/Onboarding/Provider/QueueProvider.php:35
+#16: Bitrix\Socialnetwork\Collab\Onboarding\Provider\QueueProvider->getAll()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/socialnetwork/lib/Collab/Onboarding/Internals/Agent/QueueAgent.php:42
+#17: Bitrix\Socialnetwork\Collab\Onboarding\Internals\Agent\QueueAgent->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/socialnetwork/lib/Collab/Onboarding/Internals/Agent/QueueAgent.php:37
+#18: Bitrix\Socialnetwork\Collab\Onboarding\Internals\Agent\QueueAgent::execute()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+#19: eval
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:508
+#20: CAllAgent::ExecuteAgents()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:357
+#21: CAllAgent::CheckAgents()
+	
+#22: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:845
+#23: Bitrix\Main\Application->runBackgroundJobs()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:380
+#24: Bitrix\Main\Application->terminate(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:332
+#25: Bitrix\Main\Application->end(integer, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:172
+#26: Bitrix\Main\HttpApplication->finalizeControllerResult(object, NULL, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:150
+#27: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#28: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:35
+#29: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS: 2026-02-11 15:41:49 - Host: b24mybeget.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+Event handler error: could not invoke \Diler\Salon\Crm\UserTypeCar::userTypeCarDescription. Class or method does not exist. (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5277
+#0: ExecuteModuleEventEx(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/usertypemanager.php:63
+#1: CUserTypeManager->GetUserType(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/usertypemanager.php:2653
+#2: CUserTypeManager->getEntities(string, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/usertypemanager.php:198
+#3: CUserTypeManager->GetUserFields(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/userfield.php:265
+#4: Bitrix\Main\UserFieldTable::attachFields(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:335
+#5: Bitrix\Main\ORM\Entity->postInitialize()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:130
+#6: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:108
+#7: Bitrix\Main\ORM\Entity::getInstance(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:71
+#8: Bitrix\Main\ORM\Data\DataManager::getEntity()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/socialnetwork/lib/Collab/Onboarding/Internals/Model/QueueTable.php:83
+#9: Bitrix\Socialnetwork\Collab\Onboarding\Internals\Model\QueueTable::getMap()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:232
+#10: Bitrix\Main\ORM\Entity->initialize(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:129
+#11: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:108
+#12: Bitrix\Main\ORM\Entity::getInstance(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:71
+#13: Bitrix\Main\ORM\Data\DataManager::getEntity()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:552
+#14: Bitrix\Main\ORM\Data\DataManager::query()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/socialnetwork/lib/Collab/Onboarding/Internals/Repository/JobRepository.php:25
+#15: Bitrix\Socialnetwork\Collab\Onboarding\Internals\Repository\JobRepository->getAll(object, integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/socialnetwork/lib/Collab/Onboarding/Provider/QueueProvider.php:35
+#16: Bitrix\Socialnetwork\Collab\Onboarding\Provider\QueueProvider->getAll()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/socialnetwork/lib/Collab/Onboarding/Internals/Agent/QueueAgent.php:42
+#17: Bitrix\Socialnetwork\Collab\Onboarding\Internals\Agent\QueueAgent->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/socialnetwork/lib/Collab/Onboarding/Internals/Agent/QueueAgent.php:37
+#18: Bitrix\Socialnetwork\Collab\Onboarding\Internals\Agent\QueueAgent::execute()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+#19: eval
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:508
+#20: CAllAgent::ExecuteAgents()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:357
+#21: CAllAgent::CheckAgents()
+	
+#22: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:845
+#23: Bitrix\Main\Application->runBackgroundJobs()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:380
+#24: Bitrix\Main\Application->terminate(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:332
+#25: Bitrix\Main\Application->end(integer, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:172
+#26: Bitrix\Main\HttpApplication->finalizeControllerResult(object, NULL, object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:150
+#27: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#28: Bitrix\Main\HttpApplication->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/services/ajax.php:35
+#29: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/services/main/ajax.php:1
+----------
+
