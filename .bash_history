@@ -220,3 +220,5 @@ git checkout main
 git merge create-prop-type
 git status
 git push
+exit
+exit

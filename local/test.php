@@ -58,8 +58,8 @@ print_r($res);*/
 //
 //use Otus\Rest\GetProductsOfSP\GetProductsOfSomeSP;
 
-\Bitrix\Main\Loader::includeModule('crm');
-\Bitrix\Main\Loader::includeModule('iblock');
+//\Bitrix\Main\Loader::includeModule('crm');
+//\Bitrix\Main\Loader::includeModule('iblock');
 // use Rest\CustomRestMethod;
 
 //echo "<pre>".print_r(GetProductsOfSomeSP::get(), true)."</pre>";
@@ -286,15 +286,19 @@ echo "<pre>" . print_r($res, true) . "</pre>";*/
 use \Bitrix\Iblock\Elements\ElementRequestsTable;
 use Bitrix\Crm\Service;
 use \Bitrix\Main\Context;
-use Bitrix\Crm\Item;
-use Bitrix\Main\Loader;
-use Bitrix\Crm\DealTable;
+use \Bitrix\Crm\Item;
+use \Bitrix\Main\Loader;
+use \Bitrix\Crm\DealTable;
 use Bitrix\Iblock\ElementTable;
+use \Bitrix\Crm\ProductRowTable;
 
-Loader::IncludeModule('crm');
-Loader::includeModule('iblock');
+//\Bitrix\Main\Loader::includeModule("crm");
 
-$dataClass = \Bitrix\Iblock\Iblock::wakeUp(30)->getEntityDataClass();
+\Bitrix\Main\Loader::includeModule('crm');
+\Bitrix\Main\Loader::includeModule('iblock');
+\Bitrix\Main\Loader::includeModule('catalog');
+
+/*$dataClass = \Bitrix\Iblock\Iblock::wakeUp(30)->getEntityDataClass();
 $element = $dataClass::getList([
     'select' => ['ID'],
     'filter' => ['DEALC.VALUE' => 9]
@@ -303,5 +307,145 @@ $element = $dataClass::getList([
 $req = 0;
 foreach ($element as $request){
     $req = $request['ID'];
+}*/
+//echo "<pre>" . print_r(\CCrmOwnerType::Deal, true) . "</pre>";
+//$dealId = 16;
+//$productRows = \Bitrix\Crm\ProductRowTable::getList([
+//    'select' => ['PRODUCT_ID', 'PRODUCT_NAME', 'PRICE', 'QUANTITY', 'DISCOUNT_SUM'],
+//    'filter' => [
+//        '=OWNER_ID' => $dealId,
+//        '=OWNER_TYPE' => \CCrmOwnerType::Deal,
+//    ]
+//]);
+
+/*$productRows = \Bitrix\Crm\ProductRowTable::getList([
+    'select' => [
+        'ID',
+        'QUANTITY',
+        'PRODUCT_NAME',
+        'PRICE',
+        'QUANTITY',
+        'DISCOUNT_SUM'
+    ],
+    'filter' => [
+        '=OWNER_ID' => intval($dealId),
+        '=OWNER_TYPE' => 'D'
+    ],
+]);
+
+$totalSum = 0;
+$totalDiscount = 0;
+$totalQuantity = 0;
+
+while ($product = $productRows->fetch()) {
+//foreach ($productRows as $product) {
+    echo "check";
+    $quantity = (float)$product['QUANTITY'];
+    $price = (float)$product['PRICE'];
+    $discount = (float)$product['DISCOUNT_SUM'];
+
+    $productSum = $price * $quantity;
+    $totalSum += $productSum;
+    $totalDiscount += $discount;
+    $totalQuantity += $quantity;
+
+    $productSumWithDiscount = $productSum - $discount;
+
+    echo "Товар: " . $product['QUANTITY'] . "<br>";
+    echo "Товар: " . $product['ID'] . "<br>";
+    echo "Цена: " . $price . "<br>";
+    echo "Количество: " . $quantity . "<br>";
+    echo "Сумма: " . $productSum . "<br>";
+    echo "Скидка: " . $discount . "<br>";
+    echo "Итого по товару: " . $productSumWithDiscount  . "<br><br>";
 }
-echo "<pre>" . print_r($req, true) . "</pre>";
+
+
+$dbItems = \Bitrix\Iblock\ElementTable::getList(array(
+    'select' => array('ID', 'NAME', 'IBLOCK_ID'),
+    'filter' => array('IBLOCK_ID' => 15)
+));
+$items = [];
+while ($arItem = $dbItems->fetch()){
+    echo "<pre>" . print_r($arItem, true) . "</pre>";
+
+    $dbPrice = \CPrice::GetBasePrice($arItem['ID']);
+    if ($dbPrice) {
+        echo "Цена: " . $dbPrice["PRICE"] . " " . $dbPrice["CURRENCY"] . "<br>";
+    }
+
+    $rsProduct = \CCatalogProduct::GetByID($arItem['ID']);
+    if ($rsProduct) {
+        echo "Количество: " . $rsProduct["QUANTITY"]  . "<br>";
+    }
+
+    $items [] = $arItem;
+}
+
+$PRODUCT_ID = 178;
+$quantity = 50;
+
+$arFields = array(
+    'QUANTITY' => $quantity,
+);
+
+$rsProduct = new \CCatalogProduct();
+if ($rsProduct->Update($PRODUCT_ID, $arFields)) {
+    echo "Количество товара обновлено";
+} else {
+    echo "Ошибка обновления: " . $rsProduct->LAST_ERROR;
+}*/
+
+//$dbItems = \Bitrix\Iblock\ElementTable::getList(array(
+//    'select' => array('ID', 'NAME',),
+//    'filter' => array('IBLOCK_ID' => 15)
+//));
+//$items = [];
+//while ($arItem = $dbItems->fetch()){
+//    $name = $arItem['NAME'];
+//    $dbPrice = \CPrice::GetBasePrice($arItem['ID']);
+//    if ($dbPrice) {
+//        $price = $dbPrice["PRICE"] . " " . $dbPrice["CURRENCY"];
+//    }
+//    $items[] = $name . ' (' . $price . ')';
+//}
+//
+//echo "<pre>" . print_r($items, true) . "</pre>";
+//echo "<pre>" . print_r(json_encode(['spare_id' => 175, 'count' => 10]), true) . "</pre>";
+//$container = Service\Container::getInstance();
+//$factory = $container->getFactory(1042);
+//$initialFields = [
+//    'TITLE' => 'Закупка запчасти ',
+//    'UF_IS_AUTO' => true,
+//    'UF_SPARES' => json_encode(['spare_id' => 175, 'count' => 10]),
+//];
+//$item = $factory->createItem($initialFields);
+//$saveOperation = $factory->getAddOperation($item);
+//$operationResult = $saveOperation->launch();
+//if ($operationResult->isSuccess())
+//{
+//    echo "Добавлена заявка на установку количества запчасти 10";
+//}
+//else
+//{
+//    echo "Заявка на установку количества запчасти 10 не добавлена. Что-то пошло не так.";
+//}
+
+use Bitrix\Main\UserGroupTable;
+
+$groupId = 20;
+$rsUsers = UserGroupTable::getList([
+    'filter' => [
+        '=GROUP_ID' => $groupId,
+    ],
+    'select' => ['USER_ID']
+]);
+
+$arBuyers = [];
+while ($user = $rsUsers->fetch()) {
+    $arBuyers[] = $user['USER_ID'];
+}
+
+echo "<pre>" . print_r($arBuyers, true) . "</pre>";
+
+
