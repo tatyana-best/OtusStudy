@@ -8721,3 +8721,117 @@ Event handler error: could not invoke \Diler\Salon\Crm\UserTypeCar::userTypeCarD
 	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/admin/fileman_admin.php:3
 ----------
 
+OTUS: 2026-02-11 15:48:46 - Host: b24mybeget.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+Event handler error: could not invoke \Diler\Salon\Crm\Handlers::userTypeCarDescription. Class or method does not exist. (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5277
+#0: ExecuteModuleEventEx(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/usertypemanager.php:63
+#1: CUserTypeManager->GetUserType(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/usertypemanager.php:2653
+#2: CUserTypeManager->getEntities(string, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/usertypemanager.php:198
+#3: CUserTypeManager->GetUserFields(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/userfield.php:265
+#4: Bitrix\Main\UserFieldTable::attachFields(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:335
+#5: Bitrix\Main\ORM\Entity->postInitialize()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:130
+#6: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:108
+#7: Bitrix\Main\ORM\Entity::getInstance(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:71
+#8: Bitrix\Main\ORM\Data\DataManager::getEntity()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/internals/task/reminder.php:102
+#9: Bitrix\Tasks\Internals\Task\ReminderTable::getMap()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:232
+#10: Bitrix\Main\ORM\Entity->initialize(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:129
+#11: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:108
+#12: Bitrix\Main\ORM\Entity::getInstance(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:71
+#13: Bitrix\Main\ORM\Data\DataManager::getEntity()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:552
+#14: Bitrix\Main\ORM\Data\DataManager::query()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/V2/Internal/Repository/ReminderReadRepository.php:57
+#15: Bitrix\Tasks\V2\Internal\Repository\ReminderReadRepository->getByDate(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/V2/Infrastructure/Agent/Reminder.php:42
+#16: Bitrix\Tasks\V2\Infrastructure\Agent\Reminder->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/V2/Infrastructure/Agent/Reminder.php:33
+#17: Bitrix\Tasks\V2\Infrastructure\Agent\Reminder::execute()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+#18: eval
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:508
+#19: CAllAgent::ExecuteAgents()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:357
+#20: CAllAgent::CheckAgents()
+	
+#21: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:845
+#22: Bitrix\Main\Application->runBackgroundJobs()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:380
+#23: Bitrix\Main\Application->terminate(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:332
+#24: Bitrix\Main\Application->end()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/public/session.php:35
+#25: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/tools/public_session.php:1
+----------
+
+OTUS: 2026-02-11 15:48:46 - Host: b24mybeget.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+Event handler error: could not invoke \Diler\Salon\Crm\UserTypeCar::userTypeCarDescription. Class or method does not exist. (0)
+/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/tools.php:5277
+#0: ExecuteModuleEventEx(array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/usertypemanager.php:63
+#1: CUserTypeManager->GetUserType(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/usertypemanager.php:2653
+#2: CUserTypeManager->getEntities(string, boolean, boolean)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/usertypemanager.php:198
+#3: CUserTypeManager->GetUserFields(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/userfield.php:265
+#4: Bitrix\Main\UserFieldTable::attachFields(object, string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:335
+#5: Bitrix\Main\ORM\Entity->postInitialize()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:130
+#6: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:108
+#7: Bitrix\Main\ORM\Entity::getInstance(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:71
+#8: Bitrix\Main\ORM\Data\DataManager::getEntity()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/internals/task/reminder.php:102
+#9: Bitrix\Tasks\Internals\Task\ReminderTable::getMap()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:232
+#10: Bitrix\Main\ORM\Entity->initialize(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:129
+#11: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/entity.php:108
+#12: Bitrix\Main\ORM\Entity::getInstance(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:71
+#13: Bitrix\Main\ORM\Data\DataManager::getEntity()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:552
+#14: Bitrix\Main\ORM\Data\DataManager::query()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/V2/Internal/Repository/ReminderReadRepository.php:57
+#15: Bitrix\Tasks\V2\Internal\Repository\ReminderReadRepository->getByDate(object)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/V2/Infrastructure/Agent/Reminder.php:42
+#16: Bitrix\Tasks\V2\Infrastructure\Agent\Reminder->run()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/tasks/lib/V2/Infrastructure/Agent/Reminder.php:33
+#17: Bitrix\Tasks\V2\Infrastructure\Agent\Reminder::execute()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+#18: eval
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:508
+#19: CAllAgent::ExecuteAgents()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/classes/general/agent.php:357
+#20: CAllAgent::CheckAgents()
+	
+#21: call_user_func_array(array, array)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:845
+#22: Bitrix\Main\Application->runBackgroundJobs()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:380
+#23: Bitrix\Main\Application->terminate(integer)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/lib/application.php:332
+#24: Bitrix\Main\Application->end()
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/modules/main/public/session.php:35
+#25: require(string)
+	/home/b/b92314sp/b24mybeget.ru/public_html/bitrix/tools/public_session.php:1
+----------
+
