@@ -1,0 +1,9 @@
+.deal-table {
+    font-family:system-ui;
+    font-size:14px;
+}
+
+.deal-table td {
+    border: 1px solid white;
+    padding:5px;
+}

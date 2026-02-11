@@ -1,5 +1,5 @@
 BX.ready(function() {
-    let originalBxOnCustomEvent = BX.onCustomEvent;
+    /*let originalBxOnCustomEvent = BX.onCustomEvent;
 
     BX.onCustomEvent = function (eventObject, eventName, eventParams, secureParams)
     {
@@ -22,7 +22,7 @@ BX.ready(function() {
         originalBxOnCustomEvent.apply(
             null, arguments
         );
-    };
+    };*/
 
     BX.addCustomEvent("onTimeManDataRecieved", function (data) {
         $('.my-start').remove();
