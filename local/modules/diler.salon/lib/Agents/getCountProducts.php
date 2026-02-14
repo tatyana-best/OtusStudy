@@ -67,18 +67,20 @@ class getCountProducts
 
             if ($countNew == 0) {
                 $items[$arItem['ID']]['MESSAGE'] = self::createQueryOfBuyingSpare($arItem['ID'], $arItem['NAME']);
-            } else {
-                $arFields = array(
-                    'QUANTITY' => $countNew,
-                );
-
-                $rsProduct = new \CCatalogProduct();
-                if ($rsProduct->Update($arItem['ID'], $arFields)) {
-                    $items[$arItem['ID']]['COUNT_NOW'] = $countNew;
-                } else {
-                    $items[$arItem['ID']]['MESSAGE'] = Loc::getMessage('ERROR_UPDATING');
-                }
+				$countNew = 10;
             }
+
+			$arFields = array(
+				'QUANTITY' => $countNew,
+			);
+
+			$rsProduct = new \CCatalogProduct();
+			if ($rsProduct->Update($arItem['ID'], $arFields)) {
+				$items[$arItem['ID']]['COUNT_NOW'] = $countNew;
+			} else {
+				$items[$arItem['ID']]['MESSAGE'] = Loc::getMessage('ERROR_UPDATING');
+			}
+
         }
 
         return $items;
@@ -107,6 +109,7 @@ class getCountProducts
         $operation = $factory->getAddOperation($item, $context);
         $operation->disableAllChecks();
         $operationResult = $operation->launch();
+
         if ($operationResult->isSuccess())
         {
             $message = Loc::getMessage('CONFIRM_MESSAGE', ["#PROD_NAME#" => $productName, "#PROD_ID#" => $productId]);
@@ -125,9 +128,14 @@ class getCountProducts
         }
         else
         {
-			$errors = $operationResult->getErrorMessages();
+			@operationResult->getErrors();
+			$errors = @operationResult->getErrorMessages();
+			if (is_array($errors)) {
+				$message = Loc::getMessage('ERROR_MESSAGE', ["#ERROR_SYSTEM#" => implode(", ", $errors)]);
+			} else {
+				$message = Loc::getMessage('ERROR_MESSAGE', ["#ERROR_SYSTEM#" => $errors]);
+			}
 
-            $message = Loc::getMessage('ERROR_MESSAGE', ["#ERROR_SYSTEM#" => implode(", ", $errors)]);
             \CEventLog::Add(array(
                 "SEVERITY" => "SECURITY",
                 "AUDIT_TYPE_ID" => "MY_OWN_TYPE",

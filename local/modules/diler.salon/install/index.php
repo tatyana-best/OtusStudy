@@ -168,6 +168,7 @@ class diler_salon extends CModule
     public function UnInstallEvents(): void
     {
         $eventManager = EventManager::getInstance();
+
         $eventManager->unRegisterEventHandler(
             'crm',
             'onEntityDetailsTabsInitialized',
@@ -182,6 +183,30 @@ class diler_salon extends CModule
             $this->MODULE_ID,
             '\\Diler\\Salon\\Crm\\UserTypeCar',
             'GetUserTypeDescription'
+        );
+
+        $eventManager->unRegisterEventHandler(
+            'main',
+            'onUserTypeBuildList',
+            $this->MODULE_ID,
+            '\\Diler\\Salon\\Crm\\UserTypeSpares',
+            'GetUserTypeDescription',
+        );
+
+        $eventManager->unRegisterEventHandler(
+            'crm',
+            'OnBeforeCrmDealAdd',
+            $this->MODULE_ID,
+            '\\Diler\\Salon\\Crm\\Handlers',
+            'OnBeforeCrmDealAddHandler'
+        );
+
+        $eventManager->unRegisterEventHandler(
+            'rest',
+            'OnRestServiceBuildDescription',
+            $this->MODULE_ID,
+            '\\Diler\\Salon\\Rest\\CRUDMethods',
+            'CRUDForCar',
         );
     }
 
